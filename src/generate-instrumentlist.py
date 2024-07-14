@@ -27,8 +27,8 @@ def read_elements(filename):
             msb = int(parts[1])
             lsb = int(parts[2])
             pc = int(parts[3])
-            bank_name_en = parts[4]
-            bank_name_ja = parts[5]
+            bank_name_en = parts[4].replace("_", " ")
+            bank_name_ja = parts[5].replace("_", " ")
             elements.append((index, msb, lsb, pc, bank_name_en, bank_name_ja))
     return elements
 
@@ -37,6 +37,7 @@ def create_xml(maps, elements):
     """マップと要素をXMLに変換"""
     root = ET.Element("InstrumentList")
 
+    # To-do: 余裕があれば効率化 & PC 周りの前処理
     for map_start, map_end, map_jp, map_en in maps:
         map_elem = ET.SubElement(root, "Map", Name=map_jp)
 
@@ -51,10 +52,12 @@ def create_xml(maps, elements):
 
                 if not pc_elem:
                     pc_elem = ET.SubElement(
-                        map_elem, "PC", Name=bank_name_ja.replace("_", " "), PC=str(pc))
+                        map_elem, "PC", Name=bank_name_ja, PC=str(pc)
+                    )
 
-                ET.SubElement(pc_elem, "Bank", Name=bank_name_en.replace(
-                    "_", " "), MSB=str(msb), LSB=str(lsb))
+                ET.SubElement(
+                    pc_elem, "Bank", Name=bank_name_en, MSB=str(msb), LSB=str(lsb)
+                )
 
     return root
 

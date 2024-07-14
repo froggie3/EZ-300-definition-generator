@@ -29,6 +29,7 @@ pushd original > /dev/null
 popd > /dev/null
 
 # 日本語のみ変なのでクリーニング
+# Using Perl regex over multiple lines
 # https://superuser.com/questions/887578/using-perl-regex-over-multiple-lines
 perl -i -0pe 's/スタンダードキット 1\n\+ インド/スタンダードキット 1 + インド/g' $WORKDIR/ja.txt
 
@@ -73,11 +74,13 @@ for f in *.txt; do
 
 done
 
-# join ./*.txt | sed -E 's/@/ /g' | tee $SCRIPT_DIR/../dist/elementsfile.txt
-join ./*.txt | \
-sort -n -k1,1 -k2,2 -k3,3 -k4,4 | \
-sed -E 's/@/ /g' \
-> $SCRIPT_DIR/../dist/elementsfile.txt
+# '@' で圧縮していたフィールドを展開
+# join -t'\t' とすると join: multi-character tab '\\t' と怒られる
+# Is it a bug for join with -t\t?
+# https://unix.stackexchange.com/questions/46910/is-it-a-bug-for-join-with-t-t
+join -t $'\t' ./*.txt | \
+sed -E 's/@/\t/g' | \
+sort -n -k1 > $SCRIPT_DIR/../dist/elementsfile.txt
 
 popd > /dev/null
 
