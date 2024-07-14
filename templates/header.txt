@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<ModuleData Name="EZ-J210" Folder="" Priority="1" FileCreator="ShimaRin" FileVersion="1.0" >
+    <RhythmTrackDefault Gate="1" />

@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<ModuleData Name="EZ-J210" Folder="" Priority="1" FileCreator="ShimaRin" FileVersion="1.0" >
+    <RhythmTrackDefault Gate="1" />
+        <InstrumentList>
+            <Map Name="ピアノ">
+                <PC Name="Live! Concert Grand Piano" PC="1">
+                    <Bank Name="ライブ！コンサートグランドピアノ" MSB="115" LSB="0"/>
+                    <Bank Name="グランドピアノ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Bright Piano" PC="2">
+                    <Bank Name="ブライトピアノ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Harpsichord" PC="7">
+                    <Bank Name="ハープシコード" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Honky Tonk Piano" PC="4">
+                    <Bank Name="ホンキートンクピアノ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="MIDI Grand Piano" PC="3">
+                    <Bank Name="ミディグランドピアノ" MSB="112" LSB="0"/>
+                    <Bank Name="CP80" MSB="113" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="エレピ">
+                <PC Name="Cool! SuitcaseEP" PC="5">
+                    <Bank Name="クール！スーツケースエレクトリックピアノ" MSB="118" LSB="0"/>
+                    <Bank Name="フェーズエレクトリックピアノ" MSB="120" LSB="0"/>
+                    <Bank Name="クール！トレモロエレクトリックピアノ" MSB="119" LSB="0"/>
+                    <Bank Name="クール！エレクトリックピアノ" MSB="121" LSB="0"/>
+                    <Bank Name="ステージエレクトリックピアノ" MSB="117" LSB="0"/>
+                    <Bank Name="クール！ギャラクシーエレクトリックピアノ" MSB="114" LSB="0"/>
+                </PC>
+                <PC Name="JazzChorusEP" PC="6">
+                    <Bank Name="ジャズコーラスエレクトリックピアノ" MSB="118" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="オルガン">
+                <PC Name="Cool! Organ" PC="19">
+                    <Bank Name="クール！オルガン" MSB="118" LSB="0"/>
+                    <Bank Name="クール！ローターオルガン" MSB="117" LSB="0"/>
+                    <Bank Name="ロックオルガン" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Jazz Organ 1" PC="17">
+                    <Bank Name="ジャズオルガン 1" MSB="112" LSB="0"/>
+                    <Bank Name="ジャズオルガン 1 + ロータリーファスト" MSB="49" LSB="104"/>
+                    <Bank Name="ジャズオルガン 2" MSB="113" LSB="0"/>
+                    <Bank Name="ジャズオルガン 2 + ロータリーファスト" MSB="50" LSB="104"/>
+                </PC>
+            </Map>
+            <Map Name="アコーディオン">
+                <PC Name="Musette Accordion" PC="22">
+                    <Bank Name="ミュゼットアコーディオン" MSB="112" LSB="0"/>
+                    <Bank Name="トラディショナルアコーディオン" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Bandoneon" PC="24">
+                    <Bank Name="バンドネオン" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Modern Harp" PC="23">
+                    <Bank Name="モダンハープ" MSB="113" LSB="0"/>
+                    <Bank Name="ブルースハープ" MSB="114" LSB="0"/>
+                    <Bank Name="ハーモニカ" MSB="115" LSB="0"/>
+                </PC>
+                <PC Name="S.Art Lite Nylon Guitar Harmonics" PC="1">
+                    <Bank Name="S.Art Lite ナイロン弦ギター ハーモニクス" MSB="96" LSB="8"/>
+                </PC>
+            </Map>
+            <Map Name="ギター">
+                <PC Name="S.Art Lite Nylon Guitar Harmonics" PC="1">
+                    <Bank Name="S.Art Lite ナイロン弦ギター ハーモニクス" MSB="96" LSB="8"/>
+                    <Bank Name="S.Art Lite ナイロン弦ギター スライド" MSB="97" LSB="8"/>
+                </PC>
+                <PC Name="S.Art Lite Steel Guitar Harmonics" PC="2">
+                    <Bank Name="S.Art Lite スチール弦ギター ハーモニクス" MSB="96" LSB="8"/>
+                    <Bank Name="S.Art Lite スチール弦ギター スライド" MSB="97" LSB="8"/>
+                </PC>
+                <PC Name="S.Art Lite Distortion Guitar" PC="6">
+                    <Bank Name="S.Art Lite ディストーションギター" MSB="96" LSB="8"/>
+                </PC>
+                <PC Name="Dynamic Nylon Guitar" PC="25">
+                    <Bank Name="ダイナミックナイロン弦ギター" MSB="116" LSB="0"/>
+                </PC>
+                <PC Name="Dynamic Overdriven" PC="30">
+                    <Bank Name="ダイナミックオーバードライブギター" MSB="118" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="ベース">
+                <PC Name="S.Art Lite Slap Bass" PC="18">
+                    <Bank Name="S.Art Lite スラップベース" MSB="96" LSB="8"/>
+                </PC>
+                <PC Name="Dynamic Electric Bass" PC="34">
+                    <Bank Name="ダイナミックエレクトリックベース" MSB="116" LSB="0"/>
+                    <Bank Name="フィンガーベース" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Acoustic Bass" PC="33">
+                    <Bank Name="アコースティックベース" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Pick Bass" PC="35">
+                    <Bank Name="ピックベース" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Fretless Bass" PC="36">
+                    <Bank Name="フレットレスベース" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Slap Bass" PC="37">
+                    <Bank Name="スラップベース" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="ストリングス">
+                <PC Name="S.Art Lite Strings" PC="50">
+                    <Bank Name="S.Art Lite ストリングス" MSB="96" LSB="8"/>
+                    <Bank Name="ライブ！ストリングス" MSB="117" LSB="0"/>
+                    <Bank Name="チェンバーストリングス" MSB="112" LSB="0"/>
+                    <Bank Name="マルカートストリングス" MSB="115" LSB="0"/>
+                    <Bank Name="スローストリングス" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Studio Strings" PC="49">
+                    <Bank Name="スタジオストリングス" MSB="23" LSB="104"/>
+                    <Bank Name="ストリングス" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="コーラス">
+                <PC Name="S.Art Lite Gospel Choir" PC="55">
+                    <Bank Name="S.Art Lite ゴスペルコーラス" MSB="96" LSB="8"/>
+                    <Bank Name="エアコーラス" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Choir" PC="53">
+                    <Bank Name="コーラス" MSB="112" LSB="0"/>
+                    <Bank Name="ボーカルアンサンブル" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Gospel Hmm" PC="54">
+                    <Bank Name="ゴスペル Hmm" MSB="12" LSB="104"/>
+                    <Bank Name="ゴスペル Wow" MSB="13" LSB="104"/>
+                    <Bank Name="ボックスフマーナ" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="サックス">
+                <PC Name="S.Art Lite Tenor Sax" PC="83">
+                    <Bank Name="S.Art Lite テナーサックス" MSB="96" LSB="8"/>
+                </PC>
+                <PC Name="Sax Section" PC="67">
+                    <Bank Name="サックスセクション" MSB="122" LSB="0"/>
+                    <Bank Name="スイート！テナーサックス" MSB="117" LSB="0"/>
+                    <Bank Name="テナーサックス" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Alto Sax" PC="66">
+                    <Bank Name="アルトサックス" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Soprano Sax" PC="65">
+                    <Bank Name="ソプラノサックス" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Baritone Sax" PC="68">
+                    <Bank Name="バリトンサックス" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="トランペット">
+                <PC Name="Trumpet" PC="57">
+                    <Bank Name="トランペット" MSB="112" LSB="0"/>
+                    <Bank Name="ディストーショントランペット" MSB="127" LSB="0"/>
+                </PC>
+                <PC Name="Trombone" PC="58">
+                    <Bank Name="トロンボーン" MSB="112" LSB="0"/>
+                    <Bank Name="トロンボーンセクション" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Muted Trumpet" PC="60">
+                    <Bank Name="ミュートトランペット" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="French Horn" PC="61">
+                    <Bank Name="フレンチホルン" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Tuba" PC="59">
+                    <Bank Name="チューバ" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="ブラス">
+                <PC Name="S.Art Lite Brass Section" PC="57">
+                    <Bank Name="S.Art Lite ブラスセクション" MSB="96" LSB="8"/>
+                </PC>
+                <PC Name="Live! Brass" PC="63">
+                    <Bank Name="ライブ！ブラス" MSB="117" LSB="0"/>
+                    <Bank Name="80年代風ブラス" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Brass Section" PC="62">
+                    <Bank Name="ブラスセクション" MSB="112" LSB="0"/>
+                    <Bank Name="ビッグバンドブラス" MSB="113" LSB="0"/>
+                    <Bank Name="オクターブブラス" MSB="116" LSB="0"/>
+                    <Bank Name="メローホーン" MSB="119" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="フルート">
+                <PC Name="S.Art Lite Flute" PC="74">
+                    <Bank Name="S.Art Lite フルート" MSB="96" LSB="8"/>
+                    <Bank Name="スイート！フルート" MSB="114" LSB="0"/>
+                    <Bank Name="スイート！クラシカルフルート" MSB="115" LSB="0"/>
+                    <Bank Name="フルート" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Piccolo" PC="73">
+                    <Bank Name="ピッコロ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Pan Flute" PC="76">
+                    <Bank Name="パンフルート" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Recorder" PC="75">
+                    <Bank Name="リコーダー" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="シンセ">
+                <PC Name="Gemini" PC="91">
+                    <Bank Name="ジェミニ" MSB="20" LSB="104"/>
+                    <Bank Name="ハンズアップ！" MSB="21" LSB="104"/>
+                </PC>
+                <PC Name="Square Lead" PC="81">
+                    <Bank Name="スクエアリード" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Sawtooth Lead" PC="82">
+                    <Bank Name="ソートゥースリード" MSB="112" LSB="0"/>
+                    <Bank Name="RSテクノソーリード" MSB="108" LSB="0"/>
+                </PC>
+                <PC Name="Under Heim" PC="88">
+                    <Bank Name="アンダーハイム" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Portatone" PC="85">
+                    <Bank Name="ポータトーン" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="パーカッション">
+                <PC Name="Vibraphone" PC="12">
+                    <Bank Name="ビブラフォン" MSB="112" LSB="0"/>
+                    <Bank Name="ジャズバイブス" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="Marimba" PC="13">
+                    <Bank Name="マリンバ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Xylophone" PC="14">
+                    <Bank Name="シロフォン" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Steel Drums" PC="115">
+                    <Bank Name="スチールドラム" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Celesta" PC="9">
+                    <Bank Name="チェレスタ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Music Box" PC="11">
+                    <Bank Name="オルゴール" MSB="112" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="ワールド">
+                <PC Name="Banjo" PC="106">
+                    <Bank Name="バンジョー" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="Fiddle" PC="111">
+                    <Bank Name="フィドル" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Bagpipe" PC="110">
+                    <Bank Name="バグパイプ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Dulcimer 1" PC="16">
+                    <Bank Name="ダルシマー 1" MSB="0" LSB="0"/>
+                    <Bank Name="ダルシマー 2" MSB="35" LSB="0"/>
+                    <Bank Name="ツィンバロン" MSB="96" LSB="0"/>
+                    <Bank Name="サントゥール" MSB="121" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="サウンドエフェクト">
+                <PC Name="Fret Noise" PC="121">
+                    <Bank Name="フレットノイズ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Breath Noise" PC="122">
+                    <Bank Name="ブレスノイズ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Seashore" PC="123">
+                    <Bank Name="海辺" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Bird Tweet" PC="124">
+                    <Bank Name="鳥のさえずり" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Telephone Ring" PC="125">
+                    <Bank Name="電話" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Helicopter" PC="126">
+                    <Bank Name="ヘリコプター" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Applause" PC="127">
+                    <Bank Name="拍手" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="ドラムキット">
+                <PC Name="Power Kit" PC="88">
+                    <Bank Name="パワーキット" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="Standard Kit 1" PC="1">
+                    <Bank Name="スタンダードキット 1" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="Standard Kit 2" PC="2">
+                    <Bank Name="スタンダードキット 2" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="Room Kit" PC="9">
+                    <Bank Name="ルームキット" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="Rock Kit" PC="17">
+                    <Bank Name="ロックキット" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="Electronic Kit" PC="25">
+                    <Bank Name="エレクトロニックキット" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="Analog Kit" PC="26">
+                    <Bank Name="アナログキット" MSB="0" LSB="127"/>
+                </PC>
+            </Map>
+            <Map Name="XGピアノ">
+                <PC Name="Grand Piano" PC="1">
+                    <Bank Name="グランドピアノ" MSB="0" LSB="0"/>
+                    <Bank Name="グランドピアノ KSP" MSB="1" LSB="0"/>
+                    <Bank Name="ピアノストリングス" MSB="40" LSB="0"/>
+                    <Bank Name="ドリーム" MSB="41" LSB="0"/>
+                </PC>
+                <PC Name="Bright Piano" PC="2">
+                    <Bank Name="ブライトピアノ" MSB="0" LSB="0"/>
+                    <Bank Name="ブライトピアノ KSP" MSB="1" LSB="0"/>
+                </PC>
+                <PC Name="Electric Grand Piano" PC="3">
+                    <Bank Name="エレクトリックグランドピアノ" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGクロマティック">
+                <PC Name="Celesta" PC="9">
+                    <Bank Name="チェレスタ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Glockenspiel" PC="10">
+                    <Bank Name="グロッケンシュピール" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Music Box 1" PC="11">
+                    <Bank Name="オルゴール 1" MSB="0" LSB="0"/>
+                    <Bank Name="オルゴール 2" MSB="64" LSB="0"/>
+                </PC>
+                <PC Name="Vibraphone" PC="12">
+                    <Bank Name="ビブラフォン" MSB="0" LSB="0"/>
+                    <Bank Name="ビブラフォン KSP" MSB="1" LSB="0"/>
+                </PC>
+                <PC Name="Marimba" PC="13">
+                    <Bank Name="マリンバ" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGオルガン">
+                <PC Name="Drawbar Organ 1" PC="17">
+                    <Bank Name="ドローバーオルガン 1" MSB="0" LSB="0"/>
+                    <Bank Name="デチューンドドローバーオルガン" MSB="32" LSB="0"/>
+                    <Bank Name="60sドローバーオルガン 1" MSB="33" LSB="0"/>
+                    <Bank Name="60sドローバーオルガン 2" MSB="34" LSB="0"/>
+                    <Bank Name="70sドローバーオルガン 1" MSB="35" LSB="0"/>
+                    <Bank Name="60sドローバーオルガン 3" MSB="37" LSB="0"/>
+                    <Bank Name="16+2'2/3オルガン" MSB="40" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGギター">
+                <PC Name="Nylon Guitar 1" PC="25">
+                    <Bank Name="ナイロン弦ギター 1" MSB="0" LSB="0"/>
+                    <Bank Name="ナイロン弦ギター 3" MSB="25" LSB="0"/>
+                    <Bank Name="ベロシティーギターハーモニクス" MSB="43" LSB="0"/>
+                    <Bank Name="ウクレレ" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="Steel Guitar" PC="26">
+                    <Bank Name="スチール弦ギター" MSB="0" LSB="0"/>
+                    <Bank Name="12弦ギター" MSB="35" LSB="0"/>
+                    <Bank Name="ナイロン弦&amp;スチール弦ギター" MSB="40" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGベース">
+                <PC Name="Acoustic Bass" PC="33">
+                    <Bank Name="アコースティックベース" MSB="0" LSB="0"/>
+                    <Bank Name="ジャズリズム" MSB="40" LSB="0"/>
+                    <Bank Name="ベロシティークロスフェードアップライトベース" MSB="45" LSB="0"/>
+                </PC>
+                <PC Name="Finger Bass 1" PC="34">
+                    <Bank Name="フィンガーベース 1" MSB="0" LSB="0"/>
+                    <Bank Name="フィンガーベースダーク" MSB="18" LSB="0"/>
+                    <Bank Name="ベース＆ディストーションギター" MSB="40" LSB="0"/>
+                    <Bank Name="フィンガースラップベース" MSB="43" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGストリングス">
+                <PC Name="Violin" PC="41">
+                    <Bank Name="バイオリン" MSB="0" LSB="0"/>
+                    <Bank Name="スローバイオリン" MSB="8" LSB="0"/>
+                </PC>
+                <PC Name="Viola" PC="42">
+                    <Bank Name="ビオラ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Cello" PC="43">
+                    <Bank Name="チェロ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Contrabass" PC="44">
+                    <Bank Name="コントラバス" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Tremolo Strings" PC="45">
+                    <Bank Name="トレモロストリングス" MSB="0" LSB="0"/>
+                    <Bank Name="スロートレモロストリングス" MSB="8" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGアンサンブル">
+                <PC Name="Strings 1" PC="49">
+                    <Bank Name="ストリングス 1" MSB="0" LSB="0"/>
+                    <Bank Name="ステレオストリングス" MSB="3" LSB="0"/>
+                    <Bank Name="スローストリングス" MSB="8" LSB="0"/>
+                    <Bank Name="60sストリングス" MSB="35" LSB="0"/>
+                    <Bank Name="オーケストラ 1" MSB="40" LSB="0"/>
+                    <Bank Name="オーケストラ 2" MSB="41" LSB="0"/>
+                    <Bank Name="トレモロオーケストラ" MSB="42" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGブラス">
+                <PC Name="Trumpet" PC="57">
+                    <Bank Name="トランペット" MSB="0" LSB="0"/>
+                    <Bank Name="ウォームトランペット" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="Trombone 1" PC="58">
+                    <Bank Name="トロンボーン 1" MSB="0" LSB="0"/>
+                    <Bank Name="トロンボーン 2" MSB="18" LSB="0"/>
+                </PC>
+                <PC Name="Tuba" PC="59">
+                    <Bank Name="チューバ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Muted Trumpet" PC="60">
+                    <Bank Name="ミュートトランペット" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="French Horn 1" PC="61">
+                    <Bank Name="フレンチホルン 1" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGリード">
+                <PC Name="Soprano Sax" PC="65">
+                    <Bank Name="ソプラノサックス" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Alto Sax" PC="66">
+                    <Bank Name="アルトサックス" MSB="0" LSB="0"/>
+                    <Bank Name="サックスセクション" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="Tenor Sax" PC="67">
+                    <Bank Name="テナーサックス" MSB="0" LSB="0"/>
+                    <Bank Name="ブレッシーテナーサックス" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="Baritone Sax" PC="68">
+                    <Bank Name="バリトンサックス" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Oboe" PC="69">
+                    <Bank Name="オーボエ" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGパイプ">
+                <PC Name="Piccolo" PC="73">
+                    <Bank Name="ピッコロ" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Flute" PC="74">
+                    <Bank Name="フルート" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Recorder" PC="75">
+                    <Bank Name="リコーダー" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Pan Flute" PC="76">
+                    <Bank Name="パンフルート" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Blown Bottle" PC="77">
+                    <Bank Name="ボトル" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Whistle" PC="79">
+                    <Bank Name="口笛" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Ocarina" PC="80">
+                    <Bank Name="オカリナ" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGシンセリード">
+                <PC Name="Square Lead 1" PC="81">
+                    <Bank Name="スクエアリード 1" MSB="0" LSB="0"/>
+                    <Bank Name="スクエアリード 2" MSB="6" LSB="0"/>
+                    <Bank Name="LMスクエア" MSB="8" LSB="0"/>
+                    <Bank Name="ハロー" MSB="18" LSB="0"/>
+                    <Bank Name="シュラウド" MSB="19" LSB="0"/>
+                    <Bank Name="メロー" MSB="64" LSB="0"/>
+                    <Bank Name="ソロサイン" MSB="65" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGシンセパッド">
+                <PC Name="New Age Pad" PC="89">
+                    <Bank Name="ニューエイジパッド" MSB="0" LSB="0"/>
+                    <Bank Name="ファンタジー" MSB="64" LSB="0"/>
+                </PC>
+                <PC Name="Warm Pad" PC="90">
+                    <Bank Name="ウォームパッド" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Poly Synth Pad" PC="91">
+                    <Bank Name="ポリシンセパッド" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Choir Pad" PC="92">
+                    <Bank Name="クワイアパッド" MSB="0" LSB="0"/>
+                    <Bank Name="アイトピア" MSB="66" LSB="0"/>
+                </PC>
+                <PC Name="Bowed Pad" PC="93">
+                    <Bank Name="ボウドパッド" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGシンセエフェクト">
+                <PC Name="Rain" PC="97">
+                    <Bank Name="レイン" MSB="0" LSB="0"/>
+                    <Bank Name="ハーモレイン" MSB="64" LSB="0"/>
+                    <Bank Name="アフリカンウィンド" MSB="65" LSB="0"/>
+                    <Bank Name="カリブ" MSB="66" LSB="0"/>
+                </PC>
+                <PC Name="Sound Track" PC="98">
+                    <Bank Name="サウンドトラック" MSB="0" LSB="0"/>
+                    <Bank Name="プロローグ" MSB="27" LSB="0"/>
+                </PC>
+                <PC Name="Crystal" PC="99">
+                    <Bank Name="クリスタル" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGワールド">
+                <PC Name="Shakuhachi" PC="78">
+                    <Bank Name="尺八" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="Tamboura" PC="105">
+                    <Bank Name="タンブーラ" MSB="97" LSB="0"/>
+                </PC>
+                <PC Name="Banjo" PC="106">
+                    <Bank Name="バンジョー" MSB="0" LSB="0"/>
+                    <Bank Name="ミュートバンジョー" MSB="28" LSB="0"/>
+                </PC>
+                <PC Name="Tinkle Bell" PC="113">
+                    <Bank Name="ティンクルベル" MSB="0" LSB="0"/>
+                    <Bank Name="ボナン" MSB="96" LSB="0"/>
+                    <Bank Name="アルタイル" MSB="97" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGパーカッシブ">
+                <PC Name="Tinkle Bell" PC="113">
+                    <Bank Name="ティンクルベル" MSB="0" LSB="0"/>
+                    <Bank Name="ボナン" MSB="96" LSB="0"/>
+                    <Bank Name="アルタイル" MSB="97" LSB="0"/>
+                    <Bank Name="ガムラン" MSB="98" LSB="0"/>
+                    <Bank Name="ステレオガムラン" MSB="99" LSB="0"/>
+                    <Bank Name="ラマシンバル" MSB="100" LSB="0"/>
+                </PC>
+                <PC Name="Agogo" PC="114">
+                    <Bank Name="アゴゴ" MSB="0" LSB="0"/>
+                </PC>
+            </Map>
+            <Map Name="XGサウンドエフェクト">
+                <PC Name="Cutting Noise 1" PC="1">
+                    <Bank Name="カッティングノイズ 1" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="Cutting Noise 2" PC="2">
+                    <Bank Name="カッティングノイズ 2" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="String Slap" PC="4">
+                    <Bank Name="ストリングスラップ" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="Flute Key Click" PC="17">
+                    <Bank Name="フルートキークリック" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="Shower" PC="33">
+                    <Bank Name="雨" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="Thunder" PC="34">
+                    <Bank Name="雷" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="Wind" PC="35">
+                    <Bank Name="風" MSB="0" LSB="64"/>
+                </PC>
+            </Map>
+        </InstrumentList>
+        
+
+    <ControlChangeMacroList>
+        <Folder Name="PerformEdit">
+            <CCM ID="130" Name="PitchBend" Color="#0fa806" Sync="Last">
+                <Value Min="-8192" Max="8191" Offset="8192" />
+                <Memo>音程を変化させます。</Memo>
+                <Data>@PB #VH #VL</Data>
+            </CCM>
+        
+            <CCM ID="140" Name="PitchBend Range" Sync="Last">
+                <Value Default="2" Min="0" Max="24" />
+                <Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
+                <Data>@RPN 00H 00H #VL #NONE</Data>
+            </CCM>
+            
+            <CCM ID="1" Name="Modulation" Color="#1c1cfb" Sync="Last">
+                <Value />
+                <Memo>音の揺らぐ深さを設定します。</Memo>
+                <Data>@CC 1 #VL</Data>
+            </CCM>
+            
+            <CCM ID="11" Name="Expression" Color="#CA0000" Sync="Last">
+                <Value />
+                <Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
+                <Data>@CC 11 #VL</Data>
+            </CCM>
+            
+            <CCM ID="64" Name="Hold1">
+                <Value>
+                    <Entry Label="Off" Value="0" />
+                    <Entry Label="On" Value="127" />
+                </Value>
+                <Memo>音を持続させるかどうかを設定します。</Memo>
+                <Data>@CC 64 #VL</Data>
+            </CCM>
+            
+        </Folder>
+        
+        <Folder Name="PartEdit">
+            <CCM ID="7" Name="Part Level" Color="#CA0000" Sync="Last">
+                <Value Default="100" />
+                <Memo>パートの音量バランスを設定します。</Memo>
+                <Data>@CC 7 #VL</Data>
+            </CCM>
+            
+            <CCM ID="10" Name="Part Panpot" Color="#008080" Sync="Last">
+                <Value Min="-64" Max="63" Offset="64" />
+                <Memo>音の定位を設定します。</Memo>
+                <Data>@CC 10 #VL</Data>
+            </CCM>
+
+            <CCM ID="141" Name="MasterFineTuning">
+                <Value Min="-8192" Max="8191" Offset="8192" />
+                <Memo></Memo>
+                <Data>@RPN 00H 01H #VH #VL</Data>
+            </CCM>
+            
+            <CCM ID="142" Name="MasterCoarseTuning">
+                <Value Min="-24" Max="24" Offset="64" />
+                <Memo></Memo>
+                <Data>@RPN 00H 02H #VL #NONE</Data>
+            </CCM>
+            
+        </Folder>
+
+        <Folder Name="Other">
+                
+            <CCM ID="6" Name="DataEntryMSB">
+                <Value />
+                <Memo>データエントリMSBを設定します。</Memo>
+                <Data>@CC 6 #VL</Data>
+            </CCM>
+            
+            <CCM ID="38" Name="DataEntryLSB">
+                <Value />
+                <Memo>データエントリLSBを設定します。</Memo>
+                <Data>@CC 38 #VL</Data>
+            </CCM>
+            
+            <CCM ID="100" Name="RPN LSB">
+                <Value />
+                <Memo></Memo>
+                <Data>@CC 100 #VL</Data>
+            </CCM>
+            
+            <CCM ID="101" Name="RPN MSB">
+                <Value />
+                <Memo></Memo>
+                <Data>@CC 101 #VL</Data>
+            </CCM>
+        
+            <CCM ID="121" Name="ResetAllController">
+                <Memo></Memo>
+                <Data>@CC 121 0</Data>
+            </CCM>
+            
+            <CCM ID="123" Name="AllNoteOff">
+                <Memo></Memo>
+                <Data>@CC 123 0</Data>
+            </CCM>
+            
+            <CCM ID="132" Name="ChannelPressure">
+                <Value />
+                <Memo></Memo>
+                <Data>@CP #VL</Data>
+            </CCM>
+            
+            <CCM ID="200" Name="GM System ON">
+                <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
+                <Memo>GM音源を初期化します。</Memo>
+            </CCM>
+
+            <CCM ID="128" Name="Rest" Color="#aaaaaa">
+                <Memo>休符です。</Memo>
+            </CCM>
+        </Folder>
+
+    </ControlChangeMacroList>
+
+    <TemplateList>
+        <Template ID="0" Name="トラック初期化">
+            <Memo>トラック初期化用テンプレートです。</Memo>
+            <CC ID="7" Value="100" />
+            <CC ID="10" Value="0" />
+            <PC Mode="Auto" />
+            <CC ID="130" Value="0" />
+            <CC ID="1" Value="0" />
+            <CC ID="11" Value="127" />        
+        </Template>
+    </TemplateList>
+
+    <DefaultData>
+        <Track Mode="Conductor">
+            <Mark Tick="0" Name="Setup" />
+            <Tempo Tick="0" Tempo="120.0" />
+            <Mark Tick="1920" Name="Start" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Name="Setup" Ch="1">
+            <CC Tick="0" ID="200" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="1" Current="1">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="2">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="3">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="4">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="5">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="6">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="7">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="8">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="9">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Name="Rhythm" Ch="10" Mode="Rhythm">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="11">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="12">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="13">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="14">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="15">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+        <Track Ch="16">
+            <Template ID="0" Tick="480" />
+            <EOT Tick="1920" />
+        </Track>
+    </DefaultData>
+</ModuleData>
