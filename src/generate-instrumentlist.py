@@ -24,12 +24,12 @@ def read_elements(filename):
         for line in file:
             parts = line.strip().split()
             index = int(parts[0])
-            lsb = int(parts[1])
-            msb = int(parts[2])
+            msb = int(parts[1])
+            lsb = int(parts[2])
             pc = int(parts[3])
             bank_name_en = parts[4]
             bank_name_ja = parts[5]
-            elements.append((index, lsb, msb, pc, bank_name_en, bank_name_ja))
+            elements.append((index, msb, lsb, pc, bank_name_en, bank_name_ja))
     return elements
 
 
@@ -41,7 +41,7 @@ def create_xml(maps, elements):
         map_elem = ET.SubElement(root, "Map", Name=map_jp)
 
         for elem in elements:
-            index, lsb, msb, pc, bank_name_en, bank_name_ja = elem
+            index, msb, lsb, pc, bank_name_en, bank_name_ja = elem
             if map_start <= index < map_end:
                 pc_elem = None
                 for child in map_elem:
