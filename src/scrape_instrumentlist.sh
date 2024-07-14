@@ -28,7 +28,7 @@ pushd original > /dev/null
     done
 popd > /dev/null
 
-# （日本語のみ）
+# 日本語のみ変なのでクリーニング
 # https://superuser.com/questions/887578/using-perl-regex-over-multiple-lines
 perl -i -0pe 's/スタンダードキット 1\n\+ インド/スタンダードキット 1 + インド/g' $WORKDIR/ja.txt
 
@@ -46,18 +46,23 @@ paste \
 TMPFILE=`mktemp`
 tail -1 ./en.txt | awk '{ print $1"\tNil\tNil" }' >> $SCRIPT_DIR/../dist/mapfile.txt
 cat $SCRIPT_DIR/../dist/mapfile.txt > $TMPFILE
+
+# 各マップの始点と終点を計算する自作スクリプト + 合体
 cat $TMPFILE | $SCRIPT_DIR/../src/calculate-range.py > $SCRIPT_DIR/../dist/mapfile.txt
 
 for f in *.txt; do
     cat $f > $TMPFILE 
 
-    # データ行以外の行を削除し、ソートしてユニーク化
+    # データが存在しない行を削除し、ソートしてユニーク化
+    # E.PIANO <---- これ
+    # 8 0 118 5 Cool! SuitcaseEP
     cat $TMPFILE | \
     perl -pe 's/^[^0-9]+//g' | \
     sort -nk1 | \
     uniq \
     > $f
 
+    # 日本語と英語で同じフィールドを結合
     # Joining multiple fields in text files on Unix
     # https://stackoverflow.com/questions/2619562/
     cat $f > $TMPFILE 
@@ -69,7 +74,10 @@ for f in *.txt; do
 done
 
 # join ./*.txt | sed -E 's/@/ /g' | tee $SCRIPT_DIR/../dist/elementsfile.txt
-join ./*.txt | sort -n -k1,1 -k2,2 -k3,3 -k4,4 | sed -E 's/@/ /g' > $SCRIPT_DIR/../dist/elementsfile.txt
+join ./*.txt | \
+sort -n -k1,1 -k2,2 -k3,3 -k4,4 | \
+sed -E 's/@/ /g' \
+> $SCRIPT_DIR/../dist/elementsfile.txt
 
 popd > /dev/null
 
