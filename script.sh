@@ -12,4 +12,5 @@ cat \
         tail -n +2 | \
         sed -E 's/^/        /g') \
     ./templates//footer.txt | \
+iconv -f utf-8 -t shift-jis | \
 tee ./dist/EZ-J210_export.xml
