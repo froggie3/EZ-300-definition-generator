@@ -30,9 +30,17 @@
                     <Bank Name="Cool! ElectricPiano" MSB="121" LSB="0"/>
                     <Bank Name="StageEP" MSB="117" LSB="0"/>
                     <Bank Name="Cool! Galaxy Electric Piano" MSB="114" LSB="0"/>
+                    <Bank Name="Funky Electric Piano" MSB="112" LSB="0"/>
                 </PC>
                 <PC Name="ジャズコーラスエレクトリックピアノ" PC="6">
                     <Bank Name="JazzChorusEP" MSB="118" LSB="0"/>
+                    <Bank Name="Hyper Tines" MSB="113" LSB="0"/>
+                    <Bank Name="DX Modern Electric Piano" MSB="112" LSB="0"/>
+                    <Bank Name="Venus Electric Piano" MSB="114" LSB="0"/>
+                </PC>
+                <PC Name="クラビ" PC="8">
+                    <Bank Name="Clavi" MSB="112" LSB="0"/>
+                    <Bank Name="WahClavi" MSB="113" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="オルガン">
@@ -40,12 +48,28 @@
                     <Bank Name="Cool! Organ" MSB="118" LSB="0"/>
                     <Bank Name="Cool! Rotor Organ" MSB="117" LSB="0"/>
                     <Bank Name="Rock Organ" MSB="112" LSB="0"/>
+                    <Bank Name="Octave Shift Organ" MSB="120" LSB="0"/>
+                    <Bank Name="Purple Organ" MSB="114" LSB="0"/>
+                    <Bank Name="Theater Organ" MSB="127" LSB="0"/>
                 </PC>
                 <PC Name="ジャズオルガン 1" PC="17">
                     <Bank Name="Jazz Organ 1" MSB="112" LSB="0"/>
                     <Bank Name="Jazz Organ 1+RotaryFast" MSB="49" LSB="104"/>
                     <Bank Name="Jazz Organ 2" MSB="113" LSB="0"/>
                     <Bank Name="Jazz Organ 2+RotaryFast" MSB="50" LSB="104"/>
+                    <Bank Name="Bright Organ" MSB="116" LSB="0"/>
+                </PC>
+                <PC Name="クリックオルガン" PC="18">
+                    <Bank Name="Click Organ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="16'+2'オルガン" PC="20">
+                    <Bank Name="16'+2' Organ" MSB="121" LSB="0"/>
+                    <Bank Name="16'+4' Organ" MSB="120" LSB="0"/>
+                    <Bank Name="Chapel Organ" MSB="113" LSB="0"/>
+                    <Bank Name="Pipe Organ" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="リードオルガン" PC="21">
+                    <Bank Name="Reed Organ" MSB="112" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="アコーディオン">
@@ -60,9 +84,6 @@
                     <Bank Name="Modern Harp" MSB="113" LSB="0"/>
                     <Bank Name="Blues Harp" MSB="114" LSB="0"/>
                     <Bank Name="Harmonica" MSB="115" LSB="0"/>
-                </PC>
-                <PC Name="S.Art Lite ナイロン弦ギター ハーモニクス" PC="1">
-                    <Bank Name="S.Art Lite Nylon Guitar Harmonics" MSB="96" LSB="8"/>
                 </PC>
             </Map>
             <Map Name="ギター">
@@ -79,9 +100,34 @@
                 </PC>
                 <PC Name="ダイナミックナイロン弦ギター" PC="25">
                     <Bank Name="Dynamic Nylon Guitar" MSB="116" LSB="0"/>
+                    <Bank Name="Nylon Guitar" MSB="122" LSB="0"/>
+                    <Bank Name="Classical Guitar" MSB="112" LSB="0"/>
                 </PC>
                 <PC Name="ダイナミックオーバードライブギター" PC="30">
                     <Bank Name="Dynamic Overdriven" MSB="118" LSB="0"/>
+                    <Bank Name="Overdriven Guitar" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ダイナミックディストーションギター" PC="31">
+                    <Bank Name="Dynamic Distortion Guitar" MSB="121" LSB="0"/>
+                    <Bank Name="Distortion Guitar" MSB="112" LSB="0"/>
+                    <Bank Name="Wah Distortion Guitar" MSB="127" LSB="0"/>
+                </PC>
+                <PC Name="スチール弦ギター" PC="26">
+                    <Bank Name="Steel Guitar" MSB="25" LSB="104"/>
+                    <Bank Name="Folk Guitar" MSB="112" LSB="0"/>
+                    <Bank Name="12Strings Guitar" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="ジャズギター" PC="27">
+                    <Bank Name="Jazz Guitar" MSB="112" LSB="0"/>
+                    <Bank Name="Octave Guitar" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="60sクリーンギター" PC="28">
+                    <Bank Name="60s Clean Guitar" MSB="117" LSB="0"/>
+                    <Bank Name="Clean Guitar" MSB="112" LSB="0"/>
+                    <Bank Name="Wah Guitar" MSB="127" LSB="0"/>
+                </PC>
+                <PC Name="ミュートギター" PC="29">
+                    <Bank Name="Muted Guitar" MSB="112" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="ベース">
@@ -104,6 +150,14 @@
                 <PC Name="スラップベース" PC="37">
                     <Bank Name="Slap Bass" MSB="112" LSB="0"/>
                 </PC>
+                <PC Name="ファンクベース" PC="40">
+                    <Bank Name="Funk Bass" MSB="121" LSB="0"/>
+                    <Bank Name="Dance Bass" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="シンセベース" PC="39">
+                    <Bank Name="Synth Bass" MSB="112" LSB="0"/>
+                    <Bank Name="Hi-Q Bass" MSB="113" LSB="0"/>
+                </PC>
             </Map>
             <Map Name="ストリングス">
                 <PC Name="S.Art Lite ストリングス" PC="50">
@@ -116,6 +170,32 @@
                 <PC Name="スタジオストリングス" PC="49">
                     <Bank Name="Studio Strings" MSB="23" LSB="104"/>
                     <Bank Name="Strings" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="トレモロストリングス" PC="45">
+                    <Bank Name="Tremolo Strings" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="シンセストリングス" PC="51">
+                    <Bank Name="Synth Strings" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ピチカートストリングス" PC="46">
+                    <Bank Name="Pizzicato Strings" MSB="112" LSB="0"/>
+                    <Bank Name="Orchestra Pizzicato Strings" MSB="116" LSB="0"/>
+                </PC>
+                <PC Name="スイート！バイオリン" PC="41">
+                    <Bank Name="Sweet! Violin" MSB="113" LSB="0"/>
+                    <Bank Name="Violin" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="チェロ" PC="43">
+                    <Bank Name="Cello" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="コントラバス" PC="44">
+                    <Bank Name="Contrabass" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ハープ" PC="47">
+                    <Bank Name="Harp" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="オーケストラヒット" PC="56">
+                    <Bank Name="Orchestra Hit" MSB="112" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="コーラス">
@@ -141,15 +221,29 @@
                     <Bank Name="Sax Section" MSB="122" LSB="0"/>
                     <Bank Name="Sweet! Tenor Sax" MSB="117" LSB="0"/>
                     <Bank Name="Tenor Sax" MSB="112" LSB="0"/>
+                    <Bank Name="Breathy Tenor Sax" MSB="114" LSB="0"/>
                 </PC>
                 <PC Name="アルトサックス" PC="66">
                     <Bank Name="Alto Sax" MSB="112" LSB="0"/>
+                    <Bank Name="Small Sax Section" MSB="116" LSB="0"/>
                 </PC>
                 <PC Name="ソプラノサックス" PC="65">
                     <Bank Name="Soprano Sax" MSB="112" LSB="0"/>
                 </PC>
                 <PC Name="バリトンサックス" PC="68">
                     <Bank Name="Baritone Sax" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="クラリネット" PC="72">
+                    <Bank Name="Clarinet" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="オーボエ" PC="69">
+                    <Bank Name="Oboe" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="イングリッシュホルン" PC="70">
+                    <Bank Name="English Horn" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="バスーン" PC="71">
+                    <Bank Name="Bassoon" MSB="112" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="トランペット">
@@ -178,6 +272,9 @@
                 <PC Name="ライブ！ブラス" PC="63">
                     <Bank Name="Live! Brass" MSB="117" LSB="0"/>
                     <Bank Name="80s Brass" MSB="113" LSB="0"/>
+                    <Bank Name="Funky Brass" MSB="115" LSB="0"/>
+                    <Bank Name="Techno Brass" MSB="114" LSB="0"/>
+                    <Bank Name="Synth Brass" MSB="112" LSB="0"/>
                 </PC>
                 <PC Name="ブラスセクション" PC="62">
                     <Bank Name="Brass Section" MSB="112" LSB="0"/>
@@ -202,11 +299,15 @@
                 <PC Name="リコーダー" PC="75">
                     <Bank Name="Recorder" MSB="112" LSB="0"/>
                 </PC>
+                <PC Name="オカリナ" PC="80">
+                    <Bank Name="Ocarina" MSB="112" LSB="0"/>
+                </PC>
             </Map>
             <Map Name="シンセ">
                 <PC Name="ジェミニ" PC="91">
                     <Bank Name="Gemini" MSB="20" LSB="104"/>
                     <Bank Name="Hands Up!" MSB="21" LSB="104"/>
+                    <Bank Name="RS Short Resonance" MSB="116" LSB="0"/>
                 </PC>
                 <PC Name="スクエアリード" PC="81">
                     <Bank Name="Square Lead" MSB="112" LSB="0"/>
@@ -214,12 +315,43 @@
                 <PC Name="ソートゥースリード" PC="82">
                     <Bank Name="Sawtooth Lead" MSB="112" LSB="0"/>
                     <Bank Name="RS Tech Saw" MSB="108" LSB="0"/>
+                    <Bank Name="Analogon 1" MSB="115" LSB="0"/>
+                    <Bank Name="Fargo 1" MSB="119" LSB="0"/>
+                    <Bank Name="Analogon 2" MSB="53" LSB="104"/>
+                    <Bank Name="Fargo 2" MSB="54" LSB="104"/>
+                    <Bank Name="Funky Lead" MSB="121" LSB="0"/>
                 </PC>
                 <PC Name="アンダーハイム" PC="88">
                     <Bank Name="Under Heim" MSB="112" LSB="0"/>
                 </PC>
                 <PC Name="ポータトーン" PC="85">
                     <Bank Name="Portatone" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ボイスリード" PC="86">
+                    <Bank Name="Voice Lead" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="スイートヘブン" PC="89">
+                    <Bank Name="Sweet Heaven" MSB="118" LSB="0"/>
+                    <Bank Name="Dream Heaven" MSB="121" LSB="0"/>
+                    <Bank Name="Symbiont" MSB="113" LSB="0"/>
+                    <Bank Name="Fantasia" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="スターダスト" PC="99">
+                    <Bank Name="Stardust" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ブライトネス" PC="101">
+                    <Bank Name="Brightness" MSB="112" LSB="0"/>
+                    <Bank Name="Bell Pad" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="ゼノンパッド" PC="92">
+                    <Bank Name="Xenon Pad" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="イクイノックス" PC="95">
+                    <Bank Name="Equinox" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ダークムーン" PC="90">
+                    <Bank Name="Dark Moon" MSB="113" LSB="0"/>
+                    <Bank Name="RS Analog Pad" MSB="126" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="パーカッション">
@@ -242,13 +374,25 @@
                 <PC Name="オルゴール" PC="11">
                     <Bank Name="Music Box" MSB="112" LSB="0"/>
                 </PC>
+                <PC Name="チューブラーベル" PC="15">
+                    <Bank Name="Tubular Bells" MSB="112" LSB="0"/>
+                </PC>
+                <PC Name="ティンパニ" PC="48">
+                    <Bank Name="Timpani" MSB="112" LSB="0"/>
+                </PC>
             </Map>
             <Map Name="ワールド">
                 <PC Name="バンジョー" PC="106">
                     <Bank Name="Banjo" MSB="112" LSB="0"/>
+                    <Bank Name="Oud" MSB="98" LSB="0"/>
+                    <Bank Name="Rabab" MSB="96" LSB="0"/>
+                    <Bank Name="Gopichant" MSB="97" LSB="0"/>
+                    <Bank Name="Pi Pa" MSB="116" LSB="0"/>
                 </PC>
                 <PC Name="フィドル" PC="111">
                     <Bank Name="Fiddle" MSB="0" LSB="0"/>
+                    <Bank Name="Er Hu" MSB="115" LSB="0"/>
+                    <Bank Name="Morin Khuur" MSB="120" LSB="0"/>
                 </PC>
                 <PC Name="バグパイプ" PC="110">
                     <Bank Name="Bagpipe" MSB="0" LSB="0"/>
@@ -258,6 +402,44 @@
                     <Bank Name="Dulcimer 2" MSB="35" LSB="0"/>
                     <Bank Name="Cimbalom" MSB="96" LSB="0"/>
                     <Bank Name="Santur" MSB="121" LSB="0"/>
+                </PC>
+                <PC Name="カヌーン" PC="108">
+                    <Bank Name="Kanoon" MSB="97" LSB="0"/>
+                    <Bank Name="Gu Zheng" MSB="113" LSB="0"/>
+                    <Bank Name="Koto" MSB="0" LSB="0"/>
+                    <Bank Name="Taisho-kin" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="カリンバ" PC="109">
+                    <Bank Name="Kalimba" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="ハルモニウム 1（単音）" PC="21">
+                    <Bank Name="Harmonium 1 (Single Reed)" MSB="113" LSB="0"/>
+                    <Bank Name="Harmonium 2 (Double Reed)" MSB="114" LSB="0"/>
+                    <Bank Name="Harmonium 3 (Triple Reed)" MSB="115" LSB="0"/>
+                </PC>
+                <PC Name="タンプーラ" PC="105">
+                    <Bank Name="Tanpura" MSB="114" LSB="0"/>
+                    <Bank Name="Sitar 1" MSB="0" LSB="0"/>
+                    <Bank Name="Detuned Sitar" MSB="32" LSB="0"/>
+                    <Bank Name="Sitar 2" MSB="35" LSB="0"/>
+                </PC>
+                <PC Name="プーンギ" PC="112">
+                    <Bank Name="Pungi" MSB="96" LSB="0"/>
+                    <Bank Name="Shehnai" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="バンスリ" PC="74">
+                    <Bank Name="Bansuri" MSB="117" LSB="0"/>
+                    <Bank Name="Di Zi" MSB="118" LSB="0"/>
+                    <Bank Name="Suling" MSB="124" LSB="0"/>
+                </PC>
+                <PC Name="タブラ" PC="117">
+                    <Bank Name="Tabla" MSB="116" LSB="0"/>
+                </PC>
+                <PC Name="楊琴（ヤンチン）" PC="47">
+                    <Bank Name="Yang Qin" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="三味線" PC="107">
+                    <Bank Name="Shamisen" MSB="0" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="サウンドエフェクト">
@@ -282,6 +464,12 @@
                 <PC Name="拍手" PC="127">
                     <Bank Name="Applause" MSB="0" LSB="0"/>
                 </PC>
+                <PC Name="手拍子" PC="116">
+                    <Bank Name="Hand Clap" MSB="113" LSB="0"/>
+                </PC>
+                <PC Name="銃声" PC="128">
+                    <Bank Name="Gunshot" MSB="0" LSB="0"/>
+                </PC>
             </Map>
             <Map Name="ドラムキット">
                 <PC Name="パワーキット" PC="88">
@@ -289,9 +477,11 @@
                 </PC>
                 <PC Name="スタンダードキット 1" PC="1">
                     <Bank Name="Standard Kit 1" MSB="0" LSB="127"/>
+                    <Bank Name="SFX Kit 1" MSB="0" LSB="126"/>
                 </PC>
                 <PC Name="スタンダードキット 2" PC="2">
                     <Bank Name="Standard Kit 2" MSB="0" LSB="127"/>
+                    <Bank Name="SFX Kit 2" MSB="0" LSB="126"/>
                 </PC>
                 <PC Name="ルームキット" PC="9">
                     <Bank Name="Room Kit" MSB="0" LSB="127"/>
@@ -304,6 +494,41 @@
                 </PC>
                 <PC Name="アナログキット" PC="26">
                     <Bank Name="Analog Kit" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="ダンスキット" PC="113">
+                    <Bank Name="Dance Kit" MSB="0" LSB="127"/>
+                    <Bank Name="Sound Effect Kit" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="ジャズキット" PC="33">
+                    <Bank Name="Jazz Kit" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="ブラッシュキット" PC="41">
+                    <Bank Name="Brush Kit" MSB="0" LSB="127"/>
+                    <Bank Name="Cuban Kit" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="シンフォニーキット" PC="49">
+                    <Bank Name="Symphony Kit" MSB="0" LSB="127"/>
+                </PC>
+                <PC Name="スタンダードキット 1 + 中国打楽器" PC="128">
+                    <Bank Name="StdKit 1 + Chinese Perc." MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="インドキット 1" PC="40">
+                    <Bank Name="Indian Kit 1" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="インドキット 2" PC="115">
+                    <Bank Name="Indian Kit 2" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="スタンダードキット 1 + インドネシア打楽器 1" PC="55">
+                    <Bank Name="StdKit 1 + Indonesian Perc. 1" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="スタンダードキット 1 + インドネシア打楽器 2" PC="56">
+                    <Bank Name="StdKit 1 + Indonesian Perc. 2" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="スタンダードキット 1 + インドネシア打楽器 3" PC="57">
+                    <Bank Name="StdKit 1 + Indonesian Perc. 3" MSB="0" LSB="126"/>
+                </PC>
+                <PC Name="アラビックキット" PC="37">
+                    <Bank Name="Arabic Kit" MSB="0" LSB="126"/>
                 </PC>
             </Map>
             <Map Name="XGピアノ">
@@ -319,6 +544,32 @@
                 </PC>
                 <PC Name="エレクトリックグランドピアノ" PC="3">
                     <Bank Name="Electric Grand Piano" MSB="0" LSB="0"/>
+                    <Bank Name="Electric Grand Piano KSP" MSB="1" LSB="0"/>
+                    <Bank Name="Detuned CP80" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="ホンキートンクピアノ" PC="4">
+                    <Bank Name="Honky Tonk Piano" MSB="0" LSB="0"/>
+                    <Bank Name="Honky Tonk Piano KSP" MSB="1" LSB="0"/>
+                </PC>
+                <PC Name="エレクトリックピアノ 1" PC="5">
+                    <Bank Name="Electric Piano 1" MSB="0" LSB="0"/>
+                    <Bank Name="Electric Piano 1 KSP" MSB="1" LSB="0"/>
+                    <Bank Name="Chorus Electric Piano 1" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="エレクトリックピアノ 2" PC="6">
+                    <Bank Name="Electric Piano 2" MSB="0" LSB="0"/>
+                    <Bank Name="Electric Piano 2 KSP" MSB="1" LSB="0"/>
+                    <Bank Name="Chorus Electric Piano 2" MSB="32" LSB="0"/>
+                    <Bank Name="DX + Analog Electric Piano" MSB="41" LSB="0"/>
+                </PC>
+                <PC Name="ハープシコード 1" PC="7">
+                    <Bank Name="Harpsichord 1" MSB="0" LSB="0"/>
+                    <Bank Name="Harpsichord KSP" MSB="1" LSB="0"/>
+                    <Bank Name="Harpsichord 2" MSB="35" LSB="0"/>
+                </PC>
+                <PC Name="クラビ" PC="8">
+                    <Bank Name="Clavi" MSB="0" LSB="0"/>
+                    <Bank Name="Clavi KSP" MSB="1" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGクロマティック">
@@ -338,6 +589,18 @@
                 </PC>
                 <PC Name="マリンバ" PC="13">
                     <Bank Name="Marimba" MSB="0" LSB="0"/>
+                    <Bank Name="Marimba KSP" MSB="1" LSB="0"/>
+                    <Bank Name="Sine Marimba" MSB="64" LSB="0"/>
+                    <Bank Name="Balimba" MSB="97" LSB="0"/>
+                    <Bank Name="Log Drums" MSB="98" LSB="0"/>
+                </PC>
+                <PC Name="シロフォン" PC="14">
+                    <Bank Name="Xylophone" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="チューブラーベル" PC="15">
+                    <Bank Name="Tubular Bells" MSB="0" LSB="0"/>
+                    <Bank Name="Church Bells" MSB="96" LSB="0"/>
+                    <Bank Name="Carillon" MSB="97" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGオルガン">
@@ -349,6 +612,46 @@
                     <Bank Name="70s Drawbar Organ 1" MSB="35" LSB="0"/>
                     <Bank Name="60s Drawbar Organ 3" MSB="37" LSB="0"/>
                     <Bank Name="16+2'2/3 Organ" MSB="40" LSB="0"/>
+                    <Bank Name="Organ Bass" MSB="64" LSB="0"/>
+                    <Bank Name="70s Drawbar Organ 2" MSB="65" LSB="0"/>
+                    <Bank Name="Cheezy Organ" MSB="66" LSB="0"/>
+                    <Bank Name="Drawbar Organ 2" MSB="67" LSB="0"/>
+                </PC>
+                <PC Name="パーカッシブオルガン 1" PC="18">
+                    <Bank Name="Percussive Organ 1" MSB="0" LSB="0"/>
+                    <Bank Name="70s Percussive Organ" MSB="24" LSB="0"/>
+                    <Bank Name="Detuned Percussive Organ" MSB="32" LSB="0"/>
+                    <Bank Name="Light Organ" MSB="33" LSB="0"/>
+                    <Bank Name="Percussive Organ 2" MSB="37" LSB="0"/>
+                </PC>
+                <PC Name="ロックオルガン" PC="19">
+                    <Bank Name="Rock Organ" MSB="0" LSB="0"/>
+                    <Bank Name="Rotary Organ" MSB="64" LSB="0"/>
+                    <Bank Name="Slow Rotary Organ" MSB="65" LSB="0"/>
+                    <Bank Name="Fast Rotary Organ" MSB="66" LSB="0"/>
+                </PC>
+                <PC Name="チャーチオルガン 1" PC="20">
+                    <Bank Name="Church Organ 1" MSB="0" LSB="0"/>
+                    <Bank Name="Church Organ 3" MSB="32" LSB="0"/>
+                    <Bank Name="Church Organ 2" MSB="35" LSB="0"/>
+                    <Bank Name="Notre Dame" MSB="40" LSB="0"/>
+                    <Bank Name="Organ Flute" MSB="64" LSB="0"/>
+                    <Bank Name="Tremolo Organ Flute" MSB="65" LSB="0"/>
+                </PC>
+                <PC Name="リードオルガン" PC="21">
+                    <Bank Name="Reed Organ" MSB="0" LSB="0"/>
+                    <Bank Name="Puff Organ" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="アコーディオン" PC="22">
+                    <Bank Name="Accordion" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="ハーモニカ 1" PC="23">
+                    <Bank Name="Harmonica 1" MSB="0" LSB="0"/>
+                    <Bank Name="Harmonica 2" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="タンゴアコーディオン 1" PC="24">
+                    <Bank Name="Tango Accordion 1" MSB="0" LSB="0"/>
+                    <Bank Name="Tango Accordion 2" MSB="64" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGギター">
@@ -362,6 +665,36 @@
                     <Bank Name="Steel Guitar" MSB="0" LSB="0"/>
                     <Bank Name="12-string Guitar" MSB="35" LSB="0"/>
                     <Bank Name="Nylon &amp; Steel Guitar" MSB="40" LSB="0"/>
+                    <Bank Name="Steel Guitar with Body Sound" MSB="41" LSB="0"/>
+                    <Bank Name="Mandolin" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="ジャズギター" PC="27">
+                    <Bank Name="Jazz Guitar" MSB="0" LSB="0"/>
+                    <Bank Name="Jazz Amp" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="クリーンギター" PC="28">
+                    <Bank Name="Clean Guitar" MSB="0" LSB="0"/>
+                    <Bank Name="Chorus Guitar" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="ミュートギター" PC="29">
+                    <Bank Name="Muted Guitar" MSB="0" LSB="0"/>
+                    <Bank Name="Funk Guitar" MSB="40" LSB="0"/>
+                    <Bank Name="Muted Steel Guitar" MSB="41" LSB="0"/>
+                    <Bank Name="Jazz Man" MSB="45" LSB="0"/>
+                </PC>
+                <PC Name="オーバードライブギター" PC="30">
+                    <Bank Name="Overdriven Guitar" MSB="0" LSB="0"/>
+                    <Bank Name="Guitar Pinch" MSB="43" LSB="0"/>
+                </PC>
+                <PC Name="ディストーションギター" PC="31">
+                    <Bank Name="Distortion Guitar" MSB="0" LSB="0"/>
+                    <Bank Name="Feedback Guitar 1" MSB="40" LSB="0"/>
+                    <Bank Name="Feedback Guitar 2" MSB="41" LSB="0"/>
+                </PC>
+                <PC Name="ギターハーモニクス 1" PC="32">
+                    <Bank Name="Guitar Harmonics 1" MSB="0" LSB="0"/>
+                    <Bank Name="Guitar Feedback" MSB="65" LSB="0"/>
+                    <Bank Name="Guitar Harmonics 2" MSB="66" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGベース">
@@ -375,6 +708,39 @@
                     <Bank Name="Finger Bass Dark" MSB="18" LSB="0"/>
                     <Bank Name="Bass &amp; Distorted Electric Guitar" MSB="40" LSB="0"/>
                     <Bank Name="Finger Slap Bass" MSB="43" LSB="0"/>
+                    <Bank Name="Finger Bass 2" MSB="45" LSB="0"/>
+                    <Bank Name="Modulated Bass" MSB="65" LSB="0"/>
+                </PC>
+                <PC Name="ピックベース" PC="35">
+                    <Bank Name="Pick Bass" MSB="0" LSB="0"/>
+                    <Bank Name="Muted Pick Bass" MSB="28" LSB="0"/>
+                </PC>
+                <PC Name="フレットレスベース 1" PC="36">
+                    <Bank Name="Fretless Bass 1" MSB="0" LSB="0"/>
+                    <Bank Name="Fretless Bass 2" MSB="32" LSB="0"/>
+                    <Bank Name="Fretless Bass 3" MSB="33" LSB="0"/>
+                    <Bank Name="Fretless Bass 4" MSB="34" LSB="0"/>
+                </PC>
+                <PC Name="スラップベース 1" PC="37">
+                    <Bank Name="Slap Bass 1" MSB="0" LSB="0"/>
+                    <Bank Name="Punch Thumb Bass" MSB="32" LSB="0"/>
+                </PC>
+                <PC Name="スラップベース 2" PC="38">
+                    <Bank Name="Slap Bass 2" MSB="0" LSB="0"/>
+                    <Bank Name="Velocity Switch Slap" MSB="43" LSB="0"/>
+                </PC>
+                <PC Name="シンセベース 1" PC="39">
+                    <Bank Name="Synth Bass 1" MSB="0" LSB="0"/>
+                    <Bank Name="Techno Synth Bass" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="シンセベース 2" PC="40">
+                    <Bank Name="Synth Bass 2" MSB="0" LSB="0"/>
+                    <Bank Name="Mellow Synth Bass" MSB="6" LSB="0"/>
+                    <Bank Name="Sequenced Bass" MSB="12" LSB="0"/>
+                    <Bank Name="Click Synth Bass" MSB="18" LSB="0"/>
+                    <Bank Name="Synth Bass 2 Dark" MSB="19" LSB="0"/>
+                    <Bank Name="Modular Synth Bass" MSB="40" LSB="0"/>
+                    <Bank Name="DX Bass" MSB="41" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGストリングス">
@@ -394,6 +760,16 @@
                 <PC Name="トレモロストリングス" PC="45">
                     <Bank Name="Tremolo Strings" MSB="0" LSB="0"/>
                     <Bank Name="Slow Tremolo Strings" MSB="8" LSB="0"/>
+                    <Bank Name="Suspense Strings" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="ピチカートストリングス" PC="46">
+                    <Bank Name="Pizzicato Strings" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="オーケストラルハープ" PC="47">
+                    <Bank Name="Orchestral Harp" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="ティンパニ" PC="48">
+                    <Bank Name="Timpani" MSB="0" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGアンサンブル">
@@ -405,6 +781,41 @@
                     <Bank Name="Orchestra 1" MSB="40" LSB="0"/>
                     <Bank Name="Orchestra 2" MSB="41" LSB="0"/>
                     <Bank Name="Tremolo Orchestra" MSB="42" LSB="0"/>
+                    <Bank Name="Velocity Strings" MSB="45" LSB="0"/>
+                </PC>
+                <PC Name="ストリングス 2" PC="50">
+                    <Bank Name="Strings 2" MSB="0" LSB="0"/>
+                    <Bank Name="Stereo Slow Strings" MSB="3" LSB="0"/>
+                    <Bank Name="Legato Strings" MSB="8" LSB="0"/>
+                    <Bank Name="Warm Strings" MSB="40" LSB="0"/>
+                    <Bank Name="Kingdom" MSB="41" LSB="0"/>
+                </PC>
+                <PC Name="シンセストリングス 1" PC="51">
+                    <Bank Name="Synth Strings 1" MSB="0" LSB="0"/>
+                    <Bank Name="Synth Strings 4" MSB="64" LSB="0"/>
+                </PC>
+                <PC Name="シンセストリングス 2" PC="52">
+                    <Bank Name="Synth Strings 2" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="クワイアアー" PC="53">
+                    <Bank Name="Choir Aahs" MSB="0" LSB="0"/>
+                    <Bank Name="Stereo Choir" MSB="3" LSB="0"/>
+                    <Bank Name="Mellow Choir" MSB="32" LSB="0"/>
+                    <Bank Name="Choir Strings" MSB="40" LSB="0"/>
+                </PC>
+                <PC Name="ボイスウー" PC="54">
+                    <Bank Name="Voice Oohs" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="シンセボイス 1" PC="55">
+                    <Bank Name="Synth Voice 1" MSB="0" LSB="0"/>
+                    <Bank Name="Synth Voice 2" MSB="40" LSB="0"/>
+                    <Bank Name="Choral" MSB="41" LSB="0"/>
+                    <Bank Name="Analog Voice" MSB="64" LSB="0"/>
+                </PC>
+                <PC Name="オーケストラヒット 1" PC="56">
+                    <Bank Name="Orchestra Hit 1" MSB="0" LSB="0"/>
+                    <Bank Name="Orchestra Hit 2" MSB="35" LSB="0"/>
+                    <Bank Name="Impact" MSB="64" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGブラス">
@@ -424,6 +835,22 @@
                 </PC>
                 <PC Name="フレンチホルン 1" PC="61">
                     <Bank Name="French Horn 1" MSB="0" LSB="0"/>
+                    <Bank Name="French Horn Solo" MSB="6" LSB="0"/>
+                    <Bank Name="French Horn 2" MSB="32" LSB="0"/>
+                    <Bank Name="Horn Orchestra" MSB="37" LSB="0"/>
+                </PC>
+                <PC Name="ブラスセクション" PC="62">
+                    <Bank Name="Brass Section" MSB="0" LSB="0"/>
+                    <Bank Name="Trumpet &amp; Trombone Section" MSB="35" LSB="0"/>
+                </PC>
+                <PC Name="シンセブラス 1" PC="63">
+                    <Bank Name="Synth Brass 1" MSB="0" LSB="0"/>
+                    <Bank Name="Resonant Synth Brass" MSB="20" LSB="0"/>
+                </PC>
+                <PC Name="シンセブラス 2" PC="64">
+                    <Bank Name="Synth Brass 2" MSB="0" LSB="0"/>
+                    <Bank Name="Soft Brass" MSB="18" LSB="0"/>
+                    <Bank Name="Choir Brass" MSB="41" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGリード">
@@ -443,6 +870,15 @@
                 </PC>
                 <PC Name="オーボエ" PC="69">
                     <Bank Name="Oboe" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="イングリッシュホルン" PC="70">
+                    <Bank Name="English Horn" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="バスーン" PC="71">
+                    <Bank Name="Bassoon" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="クラリネット" PC="72">
+                    <Bank Name="Clarinet" MSB="0" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGパイプ">
@@ -477,6 +913,41 @@
                     <Bank Name="Shroud" MSB="19" LSB="0"/>
                     <Bank Name="Mellow" MSB="64" LSB="0"/>
                     <Bank Name="Solo Sine" MSB="65" LSB="0"/>
+                    <Bank Name="Sine Lead" MSB="66" LSB="0"/>
+                </PC>
+                <PC Name="ソートゥースリード 1" PC="82">
+                    <Bank Name="Sawtooth Lead 1" MSB="0" LSB="0"/>
+                    <Bank Name="Sawtooth Lead 2" MSB="6" LSB="0"/>
+                    <Bank Name="Thick Sawtooth" MSB="8" LSB="0"/>
+                    <Bank Name="Dynamic Sawtooth" MSB="18" LSB="0"/>
+                    <Bank Name="Digital Sawtooth" MSB="19" LSB="0"/>
+                    <Bank Name="Big Lead" MSB="20" LSB="0"/>
+                    <Bank Name="Heavy Synth" MSB="24" LSB="0"/>
+                    <Bank Name="Sequenced Analog" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="カリオペリード" PC="83">
+                    <Bank Name="Calliope Lead" MSB="0" LSB="0"/>
+                    <Bank Name="Pure Lead" MSB="65" LSB="0"/>
+                </PC>
+                <PC Name="チフリード" PC="84">
+                    <Bank Name="Chiff Lead" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="チャランリード" PC="85">
+                    <Bank Name="Charang Lead" MSB="0" LSB="0"/>
+                    <Bank Name="Distorted Lead" MSB="64" LSB="0"/>
+                </PC>
+                <PC Name="ボイスリード" PC="86">
+                    <Bank Name="Voice Lead" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="5度リード" PC="87">
+                    <Bank Name="Fifths Lead" MSB="0" LSB="0"/>
+                    <Bank Name="Big Five" MSB="35" LSB="0"/>
+                </PC>
+                <PC Name="ベース＆リード" PC="88">
+                    <Bank Name="Bass &amp; Lead" MSB="0" LSB="0"/>
+                    <Bank Name="Big &amp; Low" MSB="16" LSB="0"/>
+                    <Bank Name="Fat &amp; Perky" MSB="64" LSB="0"/>
+                    <Bank Name="Soft Whirl" MSB="65" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGシンセパッド">
@@ -497,6 +968,15 @@
                 <PC Name="ボウドパッド" PC="93">
                     <Bank Name="Bowed Pad" MSB="0" LSB="0"/>
                 </PC>
+                <PC Name="メタリックパッド" PC="94">
+                    <Bank Name="Metallic Pad" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="ハローパッド" PC="95">
+                    <Bank Name="Halo Pad" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="スイープパッド" PC="96">
+                    <Bank Name="Sweep Pad" MSB="0" LSB="0"/>
+                </PC>
             </Map>
             <Map Name="XGシンセエフェクト">
                 <PC Name="レイン" PC="97">
@@ -511,6 +991,46 @@
                 </PC>
                 <PC Name="クリスタル" PC="99">
                     <Bank Name="Crystal" MSB="0" LSB="0"/>
+                    <Bank Name="Synth Drum Comp" MSB="12" LSB="0"/>
+                    <Bank Name="Popcorn" MSB="14" LSB="0"/>
+                    <Bank Name="Tiny Bells" MSB="18" LSB="0"/>
+                    <Bank Name="Round Glockenspiel" MSB="35" LSB="0"/>
+                    <Bank Name="Glockenspiel Chimes" MSB="40" LSB="0"/>
+                    <Bank Name="Clear Bells" MSB="41" LSB="0"/>
+                    <Bank Name="Chorus Bells" MSB="42" LSB="0"/>
+                    <Bank Name="Soft Crystal" MSB="65" LSB="0"/>
+                    <Bank Name="Air Bells" MSB="70" LSB="0"/>
+                    <Bank Name="Bell Harp" MSB="71" LSB="0"/>
+                    <Bank Name="Gamelimba" MSB="72" LSB="0"/>
+                </PC>
+                <PC Name="アトモスフィア" PC="100">
+                    <Bank Name="Atmosphere" MSB="0" LSB="0"/>
+                    <Bank Name="Warm Atmosphere" MSB="18" LSB="0"/>
+                    <Bank Name="Hollow Release" MSB="19" LSB="0"/>
+                    <Bank Name="Nylon Electric Piano" MSB="40" LSB="0"/>
+                    <Bank Name="Nylon Harp" MSB="64" LSB="0"/>
+                    <Bank Name="Harp Vox" MSB="65" LSB="0"/>
+                    <Bank Name="Atmosphere Pad" MSB="66" LSB="0"/>
+                </PC>
+                <PC Name="ブライトネス" PC="101">
+                    <Bank Name="Brightness" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="ゴブリン" PC="102">
+                    <Bank Name="Goblins" MSB="0" LSB="0"/>
+                    <Bank Name="Goblins Synth" MSB="64" LSB="0"/>
+                    <Bank Name="Creeper" MSB="65" LSB="0"/>
+                    <Bank Name="Ritual" MSB="67" LSB="0"/>
+                    <Bank Name="To Heaven" MSB="68" LSB="0"/>
+                    <Bank Name="Night" MSB="70" LSB="0"/>
+                    <Bank Name="Glisten" MSB="71" LSB="0"/>
+                    <Bank Name="Bell Choir" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="エコー" PC="103">
+                    <Bank Name="Echoes" MSB="0" LSB="0"/>
+                    <Bank Name="Big Pan" MSB="65" LSB="0"/>
+                </PC>
+                <PC Name="サイエンスフィクション" PC="104">
+                    <Bank Name="Sci-Fi" MSB="0" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGワールド">
@@ -524,11 +1044,6 @@
                     <Bank Name="Banjo" MSB="0" LSB="0"/>
                     <Bank Name="Muted Banjo" MSB="28" LSB="0"/>
                 </PC>
-                <PC Name="ティンクルベル" PC="113">
-                    <Bank Name="Tinkle Bell" MSB="0" LSB="0"/>
-                    <Bank Name="Bonang" MSB="96" LSB="0"/>
-                    <Bank Name="Altair" MSB="97" LSB="0"/>
-                </PC>
             </Map>
             <Map Name="XGパーカッシブ">
                 <PC Name="ティンクルベル" PC="113">
@@ -541,6 +1056,33 @@
                 </PC>
                 <PC Name="アゴゴ" PC="114">
                     <Bank Name="Agogo" MSB="0" LSB="0"/>
+                </PC>
+                <PC Name="スチールドラム" PC="115">
+                    <Bank Name="Steel Drums" MSB="0" LSB="0"/>
+                    <Bank Name="Glass Percussion" MSB="97" LSB="0"/>
+                    <Bank Name="Thai Bells" MSB="98" LSB="0"/>
+                </PC>
+                <PC Name="ウッドブロック" PC="116">
+                    <Bank Name="Woodblock" MSB="0" LSB="0"/>
+                    <Bank Name="Castanets" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="和太鼓" PC="117">
+                    <Bank Name="Taiko Drum" MSB="0" LSB="0"/>
+                    <Bank Name="Gran Cassa" MSB="96" LSB="0"/>
+                </PC>
+                <PC Name="メロディックタム 1" PC="118">
+                    <Bank Name="Melodic Tom 1" MSB="0" LSB="0"/>
+                    <Bank Name="Melodic Tom 2" MSB="64" LSB="0"/>
+                    <Bank Name="Real Tom" MSB="65" LSB="0"/>
+                    <Bank Name="Rock Tom" MSB="66" LSB="0"/>
+                </PC>
+                <PC Name="シンセドラム" PC="119">
+                    <Bank Name="Synth Drum" MSB="0" LSB="0"/>
+                    <Bank Name="Analog Tom" MSB="64" LSB="0"/>
+                    <Bank Name="Electronic Percussion" MSB="65" LSB="0"/>
+                </PC>
+                <PC Name="リバースシンバル" PC="120">
+                    <Bank Name="Reverse Cymbal" MSB="0" LSB="0"/>
                 </PC>
             </Map>
             <Map Name="XGサウンドエフェクト">
@@ -564,6 +1106,105 @@
                 </PC>
                 <PC Name="風" PC="35">
                     <Bank Name="Wind" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="せせらぎ" PC="36">
+                    <Bank Name="Stream" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="泡" PC="37">
+                    <Bank Name="Bubble" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="フィード" PC="38">
+                    <Bank Name="Feed" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="犬" PC="49">
+                    <Bank Name="Dog" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="馬" PC="50">
+                    <Bank Name="Horse" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="鳥のさえずり 2" PC="51">
+                    <Bank Name="Bird Tweet 2" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="マオウ" PC="56">
+                    <Bank Name="Maou" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="フォーンコール" PC="65">
+                    <Bank Name="Phone Call" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="ドアのきしみ" PC="66">
+                    <Bank Name="Door Squeak" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="ドアを閉める" PC="67">
+                    <Bank Name="Door Slam" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="スクラッチカット" PC="68">
+                    <Bank Name="Scratch Cut" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="スクラッチスプリット" PC="69">
+                    <Bank Name="Scratch Split" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="ウィンドチャイム" PC="70">
+                    <Bank Name="Wind Chime" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="電話 2" PC="71">
+                    <Bank Name="Telephone Ring 2" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="イグニッション" PC="81">
+                    <Bank Name="Car Engine Ignition" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="タイヤ" PC="82">
+                    <Bank Name="Car Tires Squeal" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="レーシングカー" PC="83">
+                    <Bank Name="Car Passing" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="衝突" PC="84">
+                    <Bank Name="Car Crash" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="サイレン" PC="85">
+                    <Bank Name="Siren" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="列車" PC="86">
+                    <Bank Name="Train" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="ジェット機" PC="87">
+                    <Bank Name="Jet Plane" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="スターシップ" PC="88">
+                    <Bank Name="Starship" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="バースト" PC="89">
+                    <Bank Name="Burst" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="ローラーコースター" PC="90">
+                    <Bank Name="Roller Coaster" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="サブマリン" PC="91">
+                    <Bank Name="Submarine" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="笑い声" PC="97">
+                    <Bank Name="Laugh" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="悲鳴" PC="98">
+                    <Bank Name="Scream" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="パンチ" PC="99">
+                    <Bank Name="Punch" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="心音" PC="100">
+                    <Bank Name="Heartbeat" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="足音" PC="101">
+                    <Bank Name="Footsteps" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="マシンガン" PC="113">
+                    <Bank Name="Machine Gun" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="レーザーガン" PC="114">
+                    <Bank Name="Laser Gun" MSB="0" LSB="64"/>
+                </PC>
+                <PC Name="爆発" PC="115">
+                    <Bank Name="Explosion" MSB="0" LSB="64"/>
                 </PC>
             </Map>
         </InstrumentList>

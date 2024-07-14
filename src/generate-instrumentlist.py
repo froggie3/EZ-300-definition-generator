@@ -4,22 +4,21 @@ import argparse
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import sys
-
-# マップデータの読み込み
+from dataclasses import dataclass
 
 
 def read_mapfile(filename):
+    """マップデータの読み込み"""
     maps = []
     with open(filename, 'r', encoding='utf-8') as file:
         for line in file:
             parts = line.strip().split('\t')
-            maps.append((int(parts[0]), parts[1], parts[2]))
+            maps.append((int(parts[0]), int(parts[1]), parts[2], parts[3]))
     return maps
-
-# 要素データの読み込み
 
 
 def read_elements(filename):
+    """要素データの読み込み"""
     elements = []
     with open(filename, 'r', encoding='utf-8') as file:
         for line in file:
@@ -33,18 +32,17 @@ def read_elements(filename):
             elements.append((index, lsb, msb, pc, bank_name_en, bank_name_ja))
     return elements
 
-# マップと要素をXMLに変換
-
 
 def create_xml(maps, elements):
+    """マップと要素をXMLに変換"""
     root = ET.Element("InstrumentList")
 
-    for map_start, map_jp, map_en in maps:
+    for map_start, map_end, map_jp, map_en in maps:
         map_elem = ET.SubElement(root, "Map", Name=map_jp)
 
         for elem in elements:
             index, lsb, msb, pc, bank_name_en, bank_name_ja = elem
-            if map_start <= index < map_start + 7:
+            if map_start <= index < map_end:
                 pc_elem = None
                 for child in map_elem:
                     if child.attrib['PC'] == str(pc):
@@ -60,19 +58,17 @@ def create_xml(maps, elements):
 
     return root
 
-# XMLを整形して標準出力に出力
-
 
 def print_xml(root):
+    """XMLを整形して標準出力に出力"""
     rough_string = ET.tostring(root, 'utf-8')
     reparsed = minidom.parseString(rough_string)
     pretty_string = reparsed.toprettyxml(indent="    ")
     print(pretty_string)
 
-# メイン処理
-
 
 def main():
+    """メイン処理"""
     parser = argparse.ArgumentParser(description='Mapと要素のデータからXMLを生成します。')
     parser.add_argument('mapfile', type=str, help='マップファイルのパス')
     parser.add_argument('elementsfile', type=str, help='要素ファイルのパス')
