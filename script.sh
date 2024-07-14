@@ -7,9 +7,9 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 ./src/scrape_instrumentlist.sh
 
 cat \
-    .example/header.txt \
+    ./templates/header.txt \
     <(./src/generate-instrumentlist.py ./dist/mapfile.txt ./dist/elementsfile.txt | \
         tail -n +2 | \
         sed -E 's/^/        /g') \
-    .example/footer.txt | \
-tee dist/EZ-J210_export.xml
+    ./templates//footer.txt | \
+tee ./dist/EZ-J210_export.xml

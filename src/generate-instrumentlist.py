@@ -6,6 +6,8 @@ from xml.dom import minidom
 import sys
 
 # マップデータの読み込み
+
+
 def read_mapfile(filename):
     maps = []
     with open(filename, 'r', encoding='utf-8') as file:
@@ -15,6 +17,8 @@ def read_mapfile(filename):
     return maps
 
 # 要素データの読み込み
+
+
 def read_elements(filename):
     elements = []
     with open(filename, 'r', encoding='utf-8') as file:
@@ -24,12 +28,14 @@ def read_elements(filename):
             lsb = int(parts[1])
             msb = int(parts[2])
             pc = int(parts[3])
-            pc_name = parts[4]
-            bank_name = parts[5]
-            elements.append((index, lsb, msb, pc, pc_name, bank_name))
+            bank_name_en = parts[4]
+            bank_name_ja = parts[5]
+            elements.append((index, lsb, msb, pc, bank_name_en, bank_name_ja))
     return elements
 
 # マップと要素をXMLに変換
+
+
 def create_xml(maps, elements):
     root = ET.Element("InstrumentList")
 
@@ -37,22 +43,26 @@ def create_xml(maps, elements):
         map_elem = ET.SubElement(root, "Map", Name=map_jp)
 
         for elem in elements:
-            index, lsb, msb, pc, pc_name, bank_name = elem
+            index, lsb, msb, pc, bank_name_en, bank_name_ja = elem
             if map_start <= index < map_start + 7:
                 pc_elem = None
                 for child in map_elem:
                     if child.attrib['PC'] == str(pc):
                         pc_elem = child
                         break
-                
+
                 if not pc_elem:
-                    pc_elem = ET.SubElement(map_elem, "PC", Name=pc_name.replace("_", " "), PC=str(pc))
-                
-                ET.SubElement(pc_elem, "Bank", Name=bank_name.replace("_", " "), MSB=str(msb), LSB=str(lsb))
+                    pc_elem = ET.SubElement(
+                        map_elem, "PC", Name=bank_name_ja.replace("_", " "), PC=str(pc))
+
+                ET.SubElement(pc_elem, "Bank", Name=bank_name_en.replace(
+                    "_", " "), MSB=str(msb), LSB=str(lsb))
 
     return root
 
 # XMLを整形して標準出力に出力
+
+
 def print_xml(root):
     rough_string = ET.tostring(root, 'utf-8')
     reparsed = minidom.parseString(rough_string)
@@ -60,6 +70,8 @@ def print_xml(root):
     print(pretty_string)
 
 # メイン処理
+
+
 def main():
     parser = argparse.ArgumentParser(description='Mapと要素のデータからXMLを生成します。')
     parser.add_argument('mapfile', type=str, help='マップファイルのパス')
@@ -70,6 +82,7 @@ def main():
     elements = read_elements(args.elementsfile)
     xml_root = create_xml(maps, elements)
     print_xml(xml_root)
+
 
 if __name__ == '__main__':
     main()
