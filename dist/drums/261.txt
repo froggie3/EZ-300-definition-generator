@@ -1,0 +1,79 @@
+13	__MUTE__
+14	__MUTE__
+15	__MUTE__
+16	__MUTE__
+17	__MUTE__
+18	__MUTE__
+19	__MUTE__
+20	__MUTE__
+21	__MUTE__
+22	Conga H Tip
+23	Conga H Heel
+24	Conga H Open
+25	Conga H Mute
+26	Conga H Slap Open
+27	Conga H Slap
+28	Conga H Slap Mute
+29	Conga L Tip
+30	Conga L Heel
+31	Conga L Open
+32	Conga L Mute
+33	Conga L Slap Open
+34	Conga L Slap
+35	Conga L Slide
+36	Bongo H Open 1 finger
+37	Bongo H Open 3 finger
+38	Bongo H Rim
+39	Bongo H Tip
+40	Bongo H Heel
+41	Bongo H Slap
+42	Bongo L Open 1 finger
+43	Bongo L Open 3 finger
+44	Bongo L Rim
+45	Bongo L Tip
+46	Bongo L Heel
+47	Bongo L Slap
+48	Timbale L Open
+49	__MUTE__
+50	__MUTE__
+51	__MUTE__
+52	__MUTE__
+53	Paila L
+54	Timbale H Open
+55	__MUTE__
+56	__MUTE__
+57	__MUTE__
+58	__MUTE__
+59	Paila H
+60	Cowbell Top
+61	__MUTE__
+62	__MUTE__
+63	__MUTE__
+64	Guiro Short
+65	Guiro Long
+66	__MUTE__
+67	__MUTE__
+68	Tambourine
+69	__MUTE__
+70	__MUTE__
+71	__MUTE__
+72	Maracas
+73	Shaker
+74	Cabasa
+75	__MUTE__
+76	__MUTE__
+77	__MUTE__
+78	__MUTE__
+79	__MUTE__
+80	__MUTE__
+81	__MUTE__
+82	__MUTE__
+83	__MUTE__
+84	__MUTE__
+85	__MUTE__
+86	__MUTE__
+87	__MUTE__
+88	__MUTE__
+89	__MUTE__
+90	__MUTE__
+91	__MUTE__

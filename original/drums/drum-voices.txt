@@ -1,0 +1,22 @@
+242	Power Kit
+243	Standard Kit 1
+244	Standard Kit 2
+245	Room Kit
+246	Rock Kit
+247	Electronic Kit
+248	Analog Kit
+249	Dance Kit
+250	Jazz Kit
+251	Brush Kit
+252	Symphony Kit
+253	StdKit 1 + Chinese Perc.
+254	Indian Kit 1
+255	Indian Kit 2
+256	StdKit 1 + Indonesian Perc. 1
+257	StdKit 1 + Indonesian Perc. 2
+258	StdKit 1 + Indonesian Perc. 3
+259	Arabic Kit
+260	Cuban Kit
+261	SFX Kit 1
+262	SFX Kit 2
+263	Sound Effect Kit

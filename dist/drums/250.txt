@@ -1,0 +1,79 @@
+13	Surdo Mute
+14	Surdo Open
+15	Hi Q
+16	Whip Slap
+17	Scratch H
+18	Scratch L
+19	Finger Snap
+20	Click Noise
+21	Metronome Click
+22	Metronome Bell
+23	Seq Click L
+24	Seq Click H
+25	Brush Tap
+26	Brush Swirl
+27	Brush Slap
+28	Reverse Cymbal
+29	Snare Roll
+30	Hi Q 2
+31	Snare Techno
+32	Sticks
+33	Kick Techno Q
+34	Rim Gate
+35	Kick Techno L
+36	Kick Techno
+37	Side Stick Analog
+38	Snare Clap
+39	Hand Clap
+40	Snare Dry
+41	Tom Analog 1
+42	Hi-Hat Closed Analog 3
+43	Tom Analog 2
+44	Hi-Hat Closed Analog 4
+45	Tom Analog 3
+46	Hi-Hat Open Analog 2
+47	Tom Analog 4
+48	Tom Analog 5
+49	Crash Analog
+50	Tom Analog 6
+51	Ride Cymbal 1
+52	Chinese Cymbal
+53	Ride Cymbal Cup
+54	Tambourine
+55	Splash Cymbal
+56	Cowbell Analog
+57	Crash Cymbal 2
+58	Vibraslap
+59	Ride Cymbal 2
+60	Bongo H
+61	Bongo L
+62	Conga Analog H
+63	Conga Analog M
+64	Conga Analog L
+65	Timbale H
+66	Timbale L
+67	Agogo H
+68	Agogo L
+69	Cabasa
+70	Maracas 2
+71	Samba Whistle H
+72	Samba Whistle L
+73	Guiro Short
+74	Guiro Long
+75	Claves 2
+76	Wood Block H
+77	Wood Block L
+78	Scratch H
+79	Scratch L
+80	Triangle Mute
+81	Triangle Open
+82	Shaker
+83	Jingle Bells
+84	Bell Tree
+85	__MUTE__
+86	__MUTE__
+87	__MUTE__
+88	__MUTE__
+89	__MUTE__
+90	__MUTE__
+91	__MUTE__

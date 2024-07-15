@@ -1,0 +1,79 @@
+13	__MUTE__
+14	__MUTE__
+15	__MUTE__
+16	__MUTE__
+17	__MUTE__
+18	__MUTE__
+19	__MUTE__
+20	__MUTE__
+21	__MUTE__
+22	Hateli Long
+23	Hateli Short
+24	Baya ge
+25	Baya ke
+26	Baya ghe
+27	Baya ka
+28	Tabla na
+29	Tabla tin
+30	Tablabaya dha
+31	Tabla tun
+32	Tablabaya dhin
+33	Tabla di
+34	Tablabaya dhe
+35	Tabla ti
+36	Tabla ne
+37	Tabla taran
+38	Tabla tak
+39	Chipri
+40	Kanjira Open
+41	Kanjira Slap
+42	Kanjira Mute
+43	Kanjira Bend up
+44	Kanjira Bend down
+45	Dholak Open
+46	Dholak Mute
+47	Dholak Slap
+48	Dhol Open
+49	Dhol Mute
+50	Dhol Slap
+51	Dhol Slide
+52	Mridangam Normal
+53	Mridangam Open
+54	Mridangam Mute
+55	Mridangam Slap
+56	Mridangam Rim
+57	Chimta Open
+58	Chimta Normal
+59	Chimta Ring
+60	Dholki Open
+61	Dholki Mute
+62	Dholki Slap
+63	Dholki Slide
+64	Dholki Rim
+65	Khol Open
+66	Khol Slide
+67	Khol Mute
+68	Manjira Open
+69	Manjira Close
+70	Jhanji Open
+71	Jhanji Close
+72	Mondira Open
+73	Mondira Close
+74	Mridang Open
+75	Mridang Mute
+76	Mridang Rim
+77	Mridang Slide
+78	Khomokh Normal
+79	Khomokh Mute
+80	Khomokh Mltatk
+81	Madal-A2
+82	Madal-A#2
+83	Madal-B2
+84	Madal-C3
+85	Madal-C#3
+86	Madal-D3
+87	Madal-D#3
+88	Madal-E3
+89	Madal-F3
+90	Madal-F#3
+91	Madal-G3

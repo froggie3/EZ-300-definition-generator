@@ -1,0 +1,79 @@
+13	Surdo Mute
+14	Surdo Open
+15	Hi Q
+16	Whip Slap
+17	Scratch H
+18	Scratch L
+19	Finger Snap
+20	Click Noise
+21	Metronome Click
+22	Metronome Bell
+23	Seq Click L
+24	Seq Click H
+25	Brush Tap
+26	Brush Swirl
+27	Brush Slap
+28	Brush Tap Swirl
+29	Snare Roll
+30	Castanet
+31	Snare Soft Power
+32	Sticks
+33	Kick Amb+
+34	Open Rim Power
+35	Kick Power Open
+36	Kick Power Closed
+37	Side Stick Power
+38	Snare Power
+39	Hand Clap Power
+40	Snare Rough
+41	Tom Power 1
+42	Hi-Hat Closed Power
+43	Tom Power 2
+44	Hi-Hat Pedal Power
+45	Tom Power 3
+46	Hi-Hat Open Power
+47	Tom Power 4
+48	Tom Power 5
+49	Crash Cymbal Acoustic 1
+50	Tom Power 6
+51	Ride Cymbal Acoustic 1
+52	Chinese Cymbal Acoustic
+53	Ride Cymbal Cup Acoustic
+54	Tambourine
+55	Splash Cymbal Acoustic
+56	Cowbell
+57	Crash Cymbal Acoustic 2
+58	Vibraslap
+59	Ride Cymbal Acoustic 2
+60	Bongo H
+61	Bongo L
+62	Conga H Mute
+63	Conga H Open
+64	Conga L
+65	Timbale H
+66	Timbale L
+67	Agogo H
+68	Agogo L
+69	Cabasa
+70	Maracas
+71	Samba Whistle H
+72	Samba Whistle L
+73	Guiro Short
+74	Guiro Long
+75	Claves
+76	Wood Block H
+77	Wood Block L
+78	Cuica Mute
+79	Cuica Open
+80	Triangle Mute
+81	Triangle Open
+82	Shaker
+83	Jingle Bells
+84	Wind Chime
+85	__MUTE__
+86	__MUTE__
+87	__MUTE__
+88	__MUTE__
+89	__MUTE__
+90	__MUTE__
+91	__MUTE__

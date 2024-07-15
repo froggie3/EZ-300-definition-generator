@@ -13,15 +13,18 @@ pushd "$SCRIPT_DIR/.." > /dev/null
 
 # 作業用ディレクトリを構築
 WORKDIR=`mktemp -d`
+ORIGINAL_DIR="$SCRIPT_DIR/../original/voices"
+DIST_DIR="$SCRIPT_DIR/../dist"
+
 
 # 出力先ディレクトリ
-mkdir -p ./dist
+mkdir -p $DIST_DIR 
 
 # 大事な元ファイルをバックアップ
-find "./original" -type f -exec cp -f {} $WORKDIR \;
+find "$ORIGINAL_DIR" -type f -exec cp -f {} $WORKDIR \;
 
 # データをクリーニング
-pushd original > /dev/null
+pushd "$ORIGINAL_DIR" > /dev/null
     for f in *.txt; do
         sed -E 's/ \*+//g' $f | \
         perl -pe 's/S\.Art Lite\n/S.Art Lite /g' > "$WORKDIR/$f"
@@ -37,19 +40,19 @@ pushd $WORKDIR > /dev/null
 
 # マップファイルを作成
 paste \
-    <(grep -A 1 -E '^[^0-9]*$' ja.txt | grep -E '[0-9]+' | awk '{ print $1 }') \
-    <(grep -E '^[^0-9]*$' ja.txt) \
-    <(grep -E '^[^0-9]*$' en.txt | tr ' ' '_') \
-    > $SCRIPT_DIR/../dist/mapfile.txt
+    <(grep -A 1 -E '^[^0-9]*$' ./ja.txt | grep -E '[0-9]+' | awk '{ print $1 }') \
+    <(grep -E '^[^0-9]*$' ./ja.txt) \
+    <(grep -E '^[^0-9]*$' ./en.txt | tr ' ' '_') \
+    > $DIST_DIR/mapfile.txt
 
 
 # 各マップの始点と終点を適切に計算させるため、番兵を置く
 TMPFILE=`mktemp`
-tail -1 ./en.txt | awk '{ print $1"\tNil\tNil" }' >> $SCRIPT_DIR/../dist/mapfile.txt
-cat $SCRIPT_DIR/../dist/mapfile.txt > $TMPFILE
+tail -1 ./en.txt | awk '{ print $1"\tNil\tNil" }' >> $DIST_DIR/mapfile.txt
+cat $DIST_DIR/mapfile.txt > $TMPFILE
 
 # 各マップの始点と終点を計算する自作スクリプト + 合体
-cat $TMPFILE | $SCRIPT_DIR/../src/calculate-range.py > $SCRIPT_DIR/../dist/mapfile.txt
+cat $TMPFILE | $SCRIPT_DIR/../src/calculate-range.py > $DIST_DIR/mapfile.txt
 
 for f in *.txt; do
     cat $f > $TMPFILE 
@@ -80,7 +83,7 @@ done
 # https://unix.stackexchange.com/questions/46910/is-it-a-bug-for-join-with-t-t
 join -t $'\t' ./*.txt | \
 sed -E 's/@/\t/g' | \
-sort -n -k1 > $SCRIPT_DIR/../dist/elementsfile.txt
+sort -n -k1 > $DIST_DIR/elementsfile.txt
 
 popd > /dev/null
 
