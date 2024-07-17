@@ -37,7 +37,7 @@ def main():
         root = ET.Element("DrumSetList")
         root.append(parsed)
 
-        print(ET.tostring(root))
+        common.print_pretty_xml(root)
 
 
 if __name__ == '__main__':
