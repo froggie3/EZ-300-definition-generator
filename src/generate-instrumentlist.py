@@ -2,6 +2,7 @@
 
 import argparse
 import xml.etree.ElementTree as ET
+
 from library import common
 
 
@@ -70,7 +71,7 @@ def main():
     maps = read_mapfile(args.mapfile)
     elements = read_elements(args.elementsfile)
     xml_root = create_xml(maps, elements)
-    common.print_xml(xml_root)
+    common.print_pretty_xml(xml_root)
 
 
 if __name__ == '__main__':
