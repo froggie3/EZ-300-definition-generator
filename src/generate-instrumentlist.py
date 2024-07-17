@@ -2,9 +2,7 @@
 
 import argparse
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
-import sys
-from dataclasses import dataclass
+from library import common
 
 
 def read_mapfile(filename):
@@ -62,14 +60,6 @@ def create_xml(maps, elements):
     return root
 
 
-def print_xml(root):
-    """XMLを整形して標準出力に出力"""
-    rough_string = ET.tostring(root, 'utf-8')
-    reparsed = minidom.parseString(rough_string)
-    pretty_string = reparsed.toprettyxml(indent="    ")
-    print(pretty_string)
-
-
 def main():
     """メイン処理"""
     parser = argparse.ArgumentParser(description='Mapと要素のデータからXMLを生成します。')
@@ -80,7 +70,7 @@ def main():
     maps = read_mapfile(args.mapfile)
     elements = read_elements(args.elementsfile)
     xml_root = create_xml(maps, elements)
-    print_xml(xml_root)
+    common.print_xml(xml_root)
 
 
 if __name__ == '__main__':

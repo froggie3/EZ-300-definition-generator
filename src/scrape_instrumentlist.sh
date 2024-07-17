@@ -40,9 +40,9 @@ pushd $WORKDIR > /dev/null
 
 # マップファイルを作成
 paste \
-    <(grep -A 1 -E '^[^0-9]*$' ./ja.txt | grep -E '[0-9]+' | awk '{ print $1 }') \
-    <(grep -E '^[^0-9]*$' ./ja.txt) \
-    <(grep -E '^[^0-9]*$' ./en.txt | tr ' ' '_') \
+    <( grep -A 1 -E '^[^0-9]*$' ./ja.txt | grep -E '[0-9]+' | awk '{ print $1 }' ) \
+    <( grep -E '^[^0-9]*$' ./ja.txt ) \
+    <( grep -E '^[^0-9]*$' ./en.txt | tr ' ' '_' ) \
     > $DIST_DIR/mapfile.txt
 
 
@@ -71,8 +71,8 @@ for f in *.txt; do
     # https://stackoverflow.com/questions/2619562/
     cat $f > $TMPFILE 
     paste \
-        <(awk '{ print $1"@"$2"@"$3"@"$4 }' $TMPFILE) \
-        <(cut -d ' ' -f 5- $TMPFILE | sed -E 's/ /_/g') \
+        <( awk '{ print $1"@"$2"@"$3"@"$4 }' $TMPFILE ) \
+        <( cut -d ' ' -f 5- $TMPFILE | sed -E 's/ /_/g' ) \
         > $f
 
 done
