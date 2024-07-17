@@ -1,3 +1,4 @@
 .Trash/
 EZ-J210.xml
 src/effecient-generate-instrumentlist.py
+*/**/__pycache__
