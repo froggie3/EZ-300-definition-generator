@@ -179,6 +179,7 @@ cat \
     $TEMPLATES_DIR/header.txt \
     $INSERT_XML_FILE \
     $TEMPLATES_DIR/footer.txt | \
+    sed '/^ *$/d' | \
     iconv -f utf-8 -t shift-jis \
     > $DIST_DIR/EZ-J210_export.xml
     # tee $DIST_DIR/EZ-J210_export.xml

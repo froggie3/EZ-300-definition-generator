@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="Shift_JIS"?>
-
 <ModuleData Name="EZ-J210" Folder="" Priority="1" FileCreator="ShimaRin" FileVersion="1.0" >
     <RhythmTrackDefault Gate="1" />
         <InstrumentList>
@@ -1208,7 +1207,6 @@
                 </PC>
             </Map>
         </InstrumentList>
-        
         <DrumSetList>
             <Map Name="XG Lite">
                 <PC Name="Power Kit" PC="88">
@@ -1287,8 +1285,6 @@
                         <Tone Name="Wind Chime" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Standard Kit 1" PC="1">
                     <Bank Name="Standard Kit 1" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1365,8 +1361,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Standard Kit 2" PC="2">
                     <Bank Name="Standard Kit 2" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1443,8 +1437,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Room Kit" PC="9">
                     <Bank Name="Room Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1521,8 +1513,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Rock Kit" PC="17">
                     <Bank Name="Rock Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1599,8 +1589,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Electronic Kit" PC="25">
                     <Bank Name="Electronic Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1677,8 +1665,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Analog Kit" PC="26">
                     <Bank Name="Analog Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1755,8 +1741,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Dance Kit" PC="113">
                     <Bank Name="Dance Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1833,8 +1817,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Jazz Kit" PC="33">
                     <Bank Name="Jazz Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1911,8 +1893,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Brush Kit" PC="41">
                     <Bank Name="Brush Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -1989,8 +1969,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Symphony Kit" PC="49">
                     <Bank Name="Symphony Kit" MSB="127" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -2067,8 +2045,6 @@
                         <Tone Name="Bell Tree" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="StdKit 1 + Chinese Perc." PC="128">
                     <Bank Name="StdKit 1 + Chinese Perc." MSB="126" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -2145,8 +2121,6 @@
                         <Tone Name="Triangle Open" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Indian Kit 1" PC="40">
                     <Bank Name="Indian Kit 1" MSB="126" LSB="0">
                         <Tone Name="Hateli Long" Key="22"/>
@@ -2221,8 +2195,6 @@
                         <Tone Name="Madal-G3" Key="91"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Indian Kit 2" PC="115">
                     <Bank Name="Indian Kit 2" MSB="126" LSB="0">
                         <Tone Name="Indian Hand Clap" Key="15"/>
@@ -2303,8 +2275,6 @@
                         <Tone Name="Dholak 2 Slap" Key="90"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="StdKit 1 + Indonesian Perc. 1" PC="55">
                     <Bank Name="StdKit 1 + Indonesian Perc. 1" MSB="126" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -2380,8 +2350,6 @@
                         <Tone Name="Plak 2 Ring Open" Key="83"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="StdKit 1 + Indonesian Perc. 2" PC="56">
                     <Bank Name="StdKit 1 + Indonesian Perc. 2" MSB="126" LSB="0">
                         <Tone Name="Surdo Mute" Key="13"/>
@@ -2461,8 +2429,6 @@
                         <Tone Name="Plak 2 Open" Key="87"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="StdKit 1 + Indonesian Perc. 3" PC="57">
                     <Bank Name="StdKit 1 + Indonesian Perc. 3" MSB="126" LSB="0">
                         <Tone Name="Low Dut Slide 1" Key="13"/>
@@ -2545,8 +2511,6 @@
                         <Tone Name="Low Dut Mute 4" Key="90"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Arabic Kit" PC="37">
                     <Bank Name="Arabic Kit" MSB="126" LSB="0">
                         <Tone Name="Zarb Back mf" Key="13"/>
@@ -2623,8 +2587,6 @@
                         <Tone Name="Tablah Dom 1" Key="84"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Cuban Kit" PC="41">
                     <Bank Name="Cuban Kit" MSB="126" LSB="0">
                         <Tone Name="Conga H Tip" Key="22"/>
@@ -2666,8 +2628,6 @@
                         <Tone Name="Cabasa" Key="74"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="SFX Kit 1" PC="1">
                     <Bank Name="SFX Kit 1" MSB="126" LSB="0">
                         <Tone Name="Cutting Noise 1" Key="36"/>
@@ -2686,8 +2646,6 @@
                         <Tone Name="Maou" Key="91"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="SFX Kit 2" PC="2">
                     <Bank Name="SFX Kit 2" MSB="126" LSB="0">
                         <Tone Name="Phone Call" Key="36"/>
@@ -2719,8 +2677,6 @@
                         <Tone Name="Firework" Key="87"/>
                     </Bank>
                 </PC>
-                
-        
                 <PC Name="Sound Effect Kit" PC="113">
                     <Bank Name="Sound Effect Kit" MSB="126" LSB="0">
                         <Tone Name="Drum Loop" Key="24"/>
@@ -2790,12 +2746,8 @@
                         <Tone Name="Applause 4" Key="88"/>
                     </Bank>
                 </PC>
-                
-        
             </Map>
         </DrumSetList>
-        
-
     <ControlChangeMacroList>
         <Folder Name="PerformEdit">
             <CCM ID="130" Name="PitchBend" Color="#0fa806" Sync="Last">
@@ -2803,25 +2755,21 @@
                 <Memo>音程を変化させます。</Memo>
                 <Data>@PB #VH #VL</Data>
             </CCM>
-        
             <CCM ID="140" Name="PitchBend Range" Sync="Last">
                 <Value Default="2" Min="0" Max="24" />
                 <Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
                 <Data>@RPN 00H 00H #VL #NONE</Data>
             </CCM>
-            
             <CCM ID="1" Name="Modulation" Color="#1c1cfb" Sync="Last">
                 <Value />
                 <Memo>音の揺らぐ深さを設定します。</Memo>
                 <Data>@CC 1 #VL</Data>
             </CCM>
-            
             <CCM ID="11" Name="Expression" Color="#CA0000" Sync="Last">
                 <Value />
                 <Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
                 <Data>@CC 11 #VL</Data>
             </CCM>
-            
             <CCM ID="64" Name="Hold1">
                 <Value>
                     <Entry Label="Off" Value="0" />
@@ -2830,90 +2778,72 @@
                 <Memo>音を持続させるかどうかを設定します。</Memo>
                 <Data>@CC 64 #VL</Data>
             </CCM>
-            
         </Folder>
-        
         <Folder Name="PartEdit">
             <CCM ID="7" Name="Part Level" Color="#CA0000" Sync="Last">
                 <Value Default="100" />
                 <Memo>パートの音量バランスを設定します。</Memo>
                 <Data>@CC 7 #VL</Data>
             </CCM>
-            
             <CCM ID="10" Name="Part Panpot" Color="#008080" Sync="Last">
                 <Value Min="-64" Max="63" Offset="64" />
                 <Memo>音の定位を設定します。</Memo>
                 <Data>@CC 10 #VL</Data>
             </CCM>
-
             <CCM ID="141" Name="MasterFineTuning">
                 <Value Min="-8192" Max="8191" Offset="8192" />
                 <Memo></Memo>
                 <Data>@RPN 00H 01H #VH #VL</Data>
             </CCM>
-            
             <CCM ID="142" Name="MasterCoarseTuning">
                 <Value Min="-24" Max="24" Offset="64" />
                 <Memo></Memo>
                 <Data>@RPN 00H 02H #VL #NONE</Data>
             </CCM>
-            
         </Folder>
-
         <Folder Name="Other">
-                
             <CCM ID="6" Name="DataEntryMSB">
                 <Value />
                 <Memo>データエントリMSBを設定します。</Memo>
                 <Data>@CC 6 #VL</Data>
             </CCM>
-            
             <CCM ID="38" Name="DataEntryLSB">
                 <Value />
                 <Memo>データエントリLSBを設定します。</Memo>
                 <Data>@CC 38 #VL</Data>
             </CCM>
-            
             <CCM ID="100" Name="RPN LSB">
                 <Value />
                 <Memo></Memo>
                 <Data>@CC 100 #VL</Data>
             </CCM>
-            
             <CCM ID="101" Name="RPN MSB">
                 <Value />
                 <Memo></Memo>
                 <Data>@CC 101 #VL</Data>
             </CCM>
-        
             <CCM ID="121" Name="ResetAllController">
                 <Memo></Memo>
                 <Data>@CC 121 0</Data>
             </CCM>
-            
             <CCM ID="123" Name="AllNoteOff">
                 <Memo></Memo>
                 <Data>@CC 123 0</Data>
             </CCM>
-            
             <CCM ID="132" Name="ChannelPressure">
                 <Value />
                 <Memo></Memo>
                 <Data>@CP #VL</Data>
             </CCM>
-            
             <CCM ID="200" Name="GM System ON">
                 <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
                 <Memo>GM音源を初期化します。</Memo>
             </CCM>
-
             <CCM ID="128" Name="Rest" Color="#aaaaaa">
                 <Memo>休符です。</Memo>
             </CCM>
         </Folder>
-
     </ControlChangeMacroList>
-
     <TemplateList>
         <Template ID="0" Name="トラック初期化">
             <Memo>トラック初期化用テンプレートです。</Memo>
@@ -2925,7 +2855,6 @@
             <CC ID="11" Value="127" />        
         </Template>
     </TemplateList>
-
     <DefaultData>
         <Track Mode="Conductor">
             <Mark Tick="0" Name="Setup" />
