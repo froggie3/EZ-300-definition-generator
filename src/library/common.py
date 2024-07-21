@@ -12,14 +12,16 @@ def print_pretty_xml(root):
     )
     print(
         pretty_string,
-        file=sys.stdout  # sys.stderr
+        file=sys.stdout,  # sys.stderr
+        end=""
     )
 
 def print_xml(root):
     rough_string = ET.tostring(root, 'utf-8').decode()
     print(
         rough_string,
-        file=sys.stdout  # sys.stderr
+        file=sys.stdout,  # sys.stderr
+        end=""
     )
 
 
