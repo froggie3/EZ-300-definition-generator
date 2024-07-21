@@ -1,4 +1,3 @@
-
     <ControlChangeMacroList>
         <Folder Name="PerformEdit">
             <CCM ID="130" Name="PitchBend" Color="#0fa806" Sync="Last">
@@ -6,25 +5,21 @@
                 <Memo>音程を変化させます。</Memo>
                 <Data>@PB #VH #VL</Data>
             </CCM>
-        
             <CCM ID="140" Name="PitchBend Range" Sync="Last">
                 <Value Default="2" Min="0" Max="24" />
                 <Memo>ピッチベンドで変わる音程の最大値を設定します。12で1オクターブです。</Memo>
                 <Data>@RPN 00H 00H #VL #NONE</Data>
             </CCM>
-            
             <CCM ID="1" Name="Modulation" Color="#1c1cfb" Sync="Last">
                 <Value />
                 <Memo>音の揺らぐ深さを設定します。</Memo>
                 <Data>@CC 1 #VL</Data>
             </CCM>
-            
             <CCM ID="11" Name="Expression" Color="#CA0000" Sync="Last">
                 <Value />
                 <Memo>パートの音量を設定します。主に演奏中の抑揚表現に使用します。</Memo>
                 <Data>@CC 11 #VL</Data>
             </CCM>
-            
             <CCM ID="64" Name="Hold1">
                 <Value>
                     <Entry Label="Off" Value="0" />
@@ -33,90 +28,72 @@
                 <Memo>音を持続させるかどうかを設定します。</Memo>
                 <Data>@CC 64 #VL</Data>
             </CCM>
-            
         </Folder>
-        
         <Folder Name="PartEdit">
             <CCM ID="7" Name="Part Level" Color="#CA0000" Sync="Last">
                 <Value Default="100" />
                 <Memo>パートの音量バランスを設定します。</Memo>
                 <Data>@CC 7 #VL</Data>
             </CCM>
-            
             <CCM ID="10" Name="Part Panpot" Color="#008080" Sync="Last">
                 <Value Min="-64" Max="63" Offset="64" />
                 <Memo>音の定位を設定します。</Memo>
                 <Data>@CC 10 #VL</Data>
             </CCM>
-
             <CCM ID="141" Name="MasterFineTuning">
                 <Value Min="-8192" Max="8191" Offset="8192" />
                 <Memo></Memo>
                 <Data>@RPN 00H 01H #VH #VL</Data>
             </CCM>
-            
             <CCM ID="142" Name="MasterCoarseTuning">
                 <Value Min="-24" Max="24" Offset="64" />
                 <Memo></Memo>
                 <Data>@RPN 00H 02H #VL #NONE</Data>
             </CCM>
-            
         </Folder>
-
         <Folder Name="Other">
-                
             <CCM ID="6" Name="DataEntryMSB">
                 <Value />
                 <Memo>データエントリMSBを設定します。</Memo>
                 <Data>@CC 6 #VL</Data>
             </CCM>
-            
             <CCM ID="38" Name="DataEntryLSB">
                 <Value />
                 <Memo>データエントリLSBを設定します。</Memo>
                 <Data>@CC 38 #VL</Data>
             </CCM>
-            
             <CCM ID="100" Name="RPN LSB">
                 <Value />
                 <Memo></Memo>
                 <Data>@CC 100 #VL</Data>
             </CCM>
-            
             <CCM ID="101" Name="RPN MSB">
                 <Value />
                 <Memo></Memo>
                 <Data>@CC 101 #VL</Data>
             </CCM>
-        
             <CCM ID="121" Name="ResetAllController">
                 <Memo></Memo>
                 <Data>@CC 121 0</Data>
             </CCM>
-            
             <CCM ID="123" Name="AllNoteOff">
                 <Memo></Memo>
                 <Data>@CC 123 0</Data>
             </CCM>
-            
             <CCM ID="132" Name="ChannelPressure">
                 <Value />
                 <Memo></Memo>
                 <Data>@CP #VL</Data>
             </CCM>
-            
             <CCM ID="200" Name="GM System ON">
                 <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
                 <Memo>GM音源を初期化します。</Memo>
             </CCM>
-
             <CCM ID="128" Name="Rest" Color="#aaaaaa">
                 <Memo>休符です。</Memo>
             </CCM>
         </Folder>
-
     </ControlChangeMacroList>
-
     <TemplateList>
         <Template ID="0" Name="トラック初期化">
             <Memo>トラック初期化用テンプレートです。</Memo>
@@ -128,7 +105,6 @@
             <CC ID="11" Value="127" />        
         </Template>
     </TemplateList>
-
     <DefaultData>
         <Track Mode="Conductor">
             <Mark Tick="0" Name="Setup" />
