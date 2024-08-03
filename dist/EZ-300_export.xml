@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="Shift_JIS"?>
-<ModuleData Name="EZ-J210" Folder="" Priority="1" FileCreator="ShimaRin" FileVersion="1.0" >
+<ModuleData Name="EZ-300" Folder="" Priority="1" FileCreator="ShimaRin" FileVersion="1.0" >
     <RhythmTrackDefault Gate="1" />
         <InstrumentList>
-            <Map Name="ÉsÉAÉm">
-                <PC Name="ÉâÉCÉuÅIÉRÉìÉTÅ[ÉgÉOÉâÉìÉhÉsÉAÉm" PC="1">
+            <Map Name="ÔøΩsÔøΩAÔøΩm">
+                <PC Name="ÔøΩÔøΩÔøΩCÔøΩuÔøΩIÔøΩRÔøΩÔøΩÔøΩTÔøΩ[ÔøΩgÔøΩOÔøΩÔøΩÔøΩÔøΩÔøΩhÔøΩsÔøΩAÔøΩm" PC="1">
                     <Bank Name="Live! Concert Grand Piano" MSB="0" LSB="115"/>
                     <Bank Name="Grand Piano" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉuÉâÉCÉgÉsÉAÉm" PC="2">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩCÔøΩgÔøΩsÔøΩAÔøΩm" PC="2">
                     <Bank Name="Bright Piano" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉnÅ[ÉvÉVÉRÅ[Éh" PC="7">
+                <PC Name="ÔøΩnÔøΩ[ÔøΩvÔøΩVÔøΩRÔøΩ[ÔøΩh" PC="7">
                     <Bank Name="Harpsichord" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉzÉìÉLÅ[ÉgÉìÉNÉsÉAÉm" PC="4">
+                <PC Name="ÔøΩzÔøΩÔøΩÔøΩLÔøΩ[ÔøΩgÔøΩÔøΩÔøΩNÔøΩsÔøΩAÔøΩm" PC="4">
                     <Bank Name="Honky Tonk Piano" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É~ÉfÉBÉOÉâÉìÉhÉsÉAÉm" PC="3">
+                <PC Name="ÔøΩ~ÔøΩfÔøΩBÔøΩOÔøΩÔøΩÔøΩÔøΩÔøΩhÔøΩsÔøΩAÔøΩm" PC="3">
                     <Bank Name="MIDI Grand Piano" MSB="0" LSB="112"/>
                     <Bank Name="CP80" MSB="0" LSB="113"/>
                 </PC>
             </Map>
-            <Map Name="ÉGÉåÉs">
-                <PC Name="ÉNÅ[ÉãÅIÉXÅ[ÉcÉPÅ[ÉXÉGÉåÉNÉgÉäÉbÉNÉsÉAÉm" PC="5">
+            <Map Name="ÔøΩGÔøΩÔøΩÔøΩs">
+                <PC Name="ÔøΩNÔøΩ[ÔøΩÔøΩÔøΩIÔøΩXÔøΩ[ÔøΩcÔøΩPÔøΩ[ÔøΩXÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩsÔøΩAÔøΩm" PC="5">
                     <Bank Name="Cool! SuitcaseEP" MSB="0" LSB="118"/>
                     <Bank Name="PhaseEP" MSB="0" LSB="120"/>
                     <Bank Name="Cool! TremoloEP" MSB="0" LSB="119"/>
@@ -31,19 +31,19 @@
                     <Bank Name="Cool! Galaxy Electric Piano" MSB="0" LSB="114"/>
                     <Bank Name="Funky Electric Piano" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉWÉÉÉYÉRÅ[ÉâÉXÉGÉåÉNÉgÉäÉbÉNÉsÉAÉm" PC="6">
+                <PC Name="ÔøΩWÔøΩÔøΩÔøΩYÔøΩRÔøΩ[ÔøΩÔøΩÔøΩXÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩsÔøΩAÔøΩm" PC="6">
                     <Bank Name="JazzChorusEP" MSB="0" LSB="118"/>
                     <Bank Name="Hyper Tines" MSB="0" LSB="113"/>
                     <Bank Name="DX Modern Electric Piano" MSB="0" LSB="112"/>
                     <Bank Name="Venus Electric Piano" MSB="0" LSB="114"/>
                 </PC>
-                <PC Name="ÉNÉâÉr" PC="8">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩr" PC="8">
                     <Bank Name="Clavi" MSB="0" LSB="112"/>
                     <Bank Name="WahClavi" MSB="0" LSB="113"/>
                 </PC>
             </Map>
-            <Map Name="ÉIÉãÉKÉì">
-                <PC Name="ÉNÅ[ÉãÅIÉIÉãÉKÉì" PC="19">
+            <Map Name="ÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ">
+                <PC Name="ÔøΩNÔøΩ[ÔøΩÔøΩÔøΩIÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="19">
                     <Bank Name="Cool! Organ" MSB="0" LSB="118"/>
                     <Bank Name="Cool! Rotor Organ" MSB="0" LSB="117"/>
                     <Bank Name="Rock Organ" MSB="0" LSB="112"/>
@@ -51,267 +51,267 @@
                     <Bank Name="Purple Organ" MSB="0" LSB="114"/>
                     <Bank Name="Theater Organ" MSB="0" LSB="127"/>
                 </PC>
-                <PC Name="ÉWÉÉÉYÉIÉãÉKÉì 1" PC="17">
+                <PC Name="ÔøΩWÔøΩÔøΩÔøΩYÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ 1" PC="17">
                     <Bank Name="Jazz Organ 1" MSB="0" LSB="112"/>
                     <Bank Name="Jazz Organ 1+RotaryFast" MSB="104" LSB="49"/>
                     <Bank Name="Jazz Organ 2" MSB="0" LSB="113"/>
                     <Bank Name="Jazz Organ 2+RotaryFast" MSB="104" LSB="50"/>
                     <Bank Name="Bright Organ" MSB="0" LSB="116"/>
                 </PC>
-                <PC Name="ÉNÉäÉbÉNÉIÉãÉKÉì" PC="18">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩbÔøΩNÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="18">
                     <Bank Name="Click Organ" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="16'+2'ÉIÉãÉKÉì" PC="20">
+                <PC Name="16'+2'ÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="20">
                     <Bank Name="16'+2' Organ" MSB="0" LSB="121"/>
                     <Bank Name="16'+4' Organ" MSB="0" LSB="120"/>
                     <Bank Name="Chapel Organ" MSB="0" LSB="113"/>
                     <Bank Name="Pipe Organ" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉäÅ[ÉhÉIÉãÉKÉì" PC="21">
+                <PC Name="ÔøΩÔøΩÔøΩ[ÔøΩhÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="21">
                     <Bank Name="Reed Organ" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉAÉRÅ[ÉfÉBÉIÉì">
-                <PC Name="É~ÉÖÉ[ÉbÉgÉAÉRÅ[ÉfÉBÉIÉì" PC="22">
+            <Map Name="ÔøΩAÔøΩRÔøΩ[ÔøΩfÔøΩBÔøΩIÔøΩÔøΩ">
+                <PC Name="ÔøΩ~ÔøΩÔøΩÔøΩ[ÔøΩbÔøΩgÔøΩAÔøΩRÔøΩ[ÔøΩfÔøΩBÔøΩIÔøΩÔøΩ" PC="22">
                     <Bank Name="Musette Accordion" MSB="0" LSB="112"/>
                     <Bank Name="Traditional Accordion" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="ÉoÉìÉhÉlÉIÉì" PC="24">
+                <PC Name="ÔøΩoÔøΩÔøΩÔøΩhÔøΩlÔøΩIÔøΩÔøΩ" PC="24">
                     <Bank Name="Bandoneon" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="ÉÇÉ_ÉìÉnÅ[Év" PC="23">
+                <PC Name="ÔøΩÔøΩÔøΩ_ÔøΩÔøΩÔøΩnÔøΩ[ÔøΩv" PC="23">
                     <Bank Name="Modern Harp" MSB="0" LSB="113"/>
                     <Bank Name="Blues Harp" MSB="0" LSB="114"/>
                     <Bank Name="Harmonica" MSB="0" LSB="115"/>
                 </PC>
             </Map>
-            <Map Name="ÉMÉ^Å[">
-                <PC Name="S.Art Lite ÉiÉCÉçÉìå∑ÉMÉ^Å[ ÉnÅ[ÉÇÉjÉNÉX" PC="1">
+            <Map Name="ÔøΩMÔøΩ^ÔøΩ[">
+                <PC Name="S.Art Lite ÔøΩiÔøΩCÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[ ÔøΩnÔøΩ[ÔøΩÔøΩÔøΩjÔøΩNÔøΩX" PC="1">
                     <Bank Name="S.Art Lite Nylon Guitar Harmonics" MSB="8" LSB="96"/>
                     <Bank Name="S.Art Lite Nylon Guitar Slide" MSB="8" LSB="97"/>
                 </PC>
-                <PC Name="S.Art Lite ÉXÉ`Å[Éãå∑ÉMÉ^Å[ ÉnÅ[ÉÇÉjÉNÉX" PC="2">
+                <PC Name="S.Art Lite ÔøΩXÔøΩ`ÔøΩ[ÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[ ÔøΩnÔøΩ[ÔøΩÔøΩÔøΩjÔøΩNÔøΩX" PC="2">
                     <Bank Name="S.Art Lite Steel Guitar Harmonics" MSB="8" LSB="96"/>
                     <Bank Name="S.Art Lite Steel Guitar Slide" MSB="8" LSB="97"/>
                 </PC>
-                <PC Name="S.Art Lite ÉfÉBÉXÉgÅ[ÉVÉáÉìÉMÉ^Å[" PC="6">
+                <PC Name="S.Art Lite ÔøΩfÔøΩBÔøΩXÔøΩgÔøΩ[ÔøΩVÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="6">
                     <Bank Name="S.Art Lite Distortion Guitar" MSB="8" LSB="96"/>
                 </PC>
-                <PC Name="É_ÉCÉiÉ~ÉbÉNÉiÉCÉçÉìå∑ÉMÉ^Å[" PC="25">
+                <PC Name="ÔøΩ_ÔøΩCÔøΩiÔøΩ~ÔøΩbÔøΩNÔøΩiÔøΩCÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="25">
                     <Bank Name="Dynamic Nylon Guitar" MSB="0" LSB="116"/>
                     <Bank Name="Nylon Guitar" MSB="0" LSB="122"/>
                     <Bank Name="Classical Guitar" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É_ÉCÉiÉ~ÉbÉNÉIÅ[ÉoÅ[ÉhÉâÉCÉuÉMÉ^Å[" PC="30">
+                <PC Name="ÔøΩ_ÔøΩCÔøΩiÔøΩ~ÔøΩbÔøΩNÔøΩIÔøΩ[ÔøΩoÔøΩ[ÔøΩhÔøΩÔøΩÔøΩCÔøΩuÔøΩMÔøΩ^ÔøΩ[" PC="30">
                     <Bank Name="Dynamic Overdriven" MSB="0" LSB="118"/>
                     <Bank Name="Overdriven Guitar" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É_ÉCÉiÉ~ÉbÉNÉfÉBÉXÉgÅ[ÉVÉáÉìÉMÉ^Å[" PC="31">
+                <PC Name="ÔøΩ_ÔøΩCÔøΩiÔøΩ~ÔøΩbÔøΩNÔøΩfÔøΩBÔøΩXÔøΩgÔøΩ[ÔøΩVÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="31">
                     <Bank Name="Dynamic Distortion Guitar" MSB="0" LSB="121"/>
                     <Bank Name="Distortion Guitar" MSB="0" LSB="112"/>
                     <Bank Name="Wah Distortion Guitar" MSB="0" LSB="127"/>
                 </PC>
-                <PC Name="ÉXÉ`Å[Éãå∑ÉMÉ^Å[" PC="26">
+                <PC Name="ÔøΩXÔøΩ`ÔøΩ[ÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="26">
                     <Bank Name="Steel Guitar" MSB="104" LSB="25"/>
                     <Bank Name="Folk Guitar" MSB="0" LSB="112"/>
                     <Bank Name="12Strings Guitar" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="ÉWÉÉÉYÉMÉ^Å[" PC="27">
+                <PC Name="ÔøΩWÔøΩÔøΩÔøΩYÔøΩMÔøΩ^ÔøΩ[" PC="27">
                     <Bank Name="Jazz Guitar" MSB="0" LSB="112"/>
                     <Bank Name="Octave Guitar" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="60sÉNÉäÅ[ÉìÉMÉ^Å[" PC="28">
+                <PC Name="60sÔøΩNÔøΩÔøΩÔøΩ[ÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="28">
                     <Bank Name="60s Clean Guitar" MSB="0" LSB="117"/>
                     <Bank Name="Clean Guitar" MSB="0" LSB="112"/>
                     <Bank Name="Wah Guitar" MSB="0" LSB="127"/>
                 </PC>
-                <PC Name="É~ÉÖÅ[ÉgÉMÉ^Å[" PC="29">
+                <PC Name="ÔøΩ~ÔøΩÔøΩÔøΩ[ÔøΩgÔøΩMÔøΩ^ÔøΩ[" PC="29">
                     <Bank Name="Muted Guitar" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉxÅ[ÉX">
-                <PC Name="S.Art Lite ÉXÉâÉbÉvÉxÅ[ÉX" PC="18">
+            <Map Name="ÔøΩxÔøΩ[ÔøΩX">
+                <PC Name="S.Art Lite ÔøΩXÔøΩÔøΩÔøΩbÔøΩvÔøΩxÔøΩ[ÔøΩX" PC="18">
                     <Bank Name="S.Art Lite Slap Bass" MSB="8" LSB="96"/>
                 </PC>
-                <PC Name="É_ÉCÉiÉ~ÉbÉNÉGÉåÉNÉgÉäÉbÉNÉxÅ[ÉX" PC="34">
+                <PC Name="ÔøΩ_ÔøΩCÔøΩiÔøΩ~ÔøΩbÔøΩNÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩxÔøΩ[ÔøΩX" PC="34">
                     <Bank Name="Dynamic Electric Bass" MSB="0" LSB="116"/>
                     <Bank Name="Finger Bass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉAÉRÅ[ÉXÉeÉBÉbÉNÉxÅ[ÉX" PC="33">
+                <PC Name="ÔøΩAÔøΩRÔøΩ[ÔøΩXÔøΩeÔøΩBÔøΩbÔøΩNÔøΩxÔøΩ[ÔøΩX" PC="33">
                     <Bank Name="Acoustic Bass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉsÉbÉNÉxÅ[ÉX" PC="35">
+                <PC Name="ÔøΩsÔøΩbÔøΩNÔøΩxÔøΩ[ÔøΩX" PC="35">
                     <Bank Name="Pick Bass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉtÉåÉbÉgÉåÉXÉxÅ[ÉX" PC="36">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩbÔøΩgÔøΩÔøΩÔøΩXÔøΩxÔøΩ[ÔøΩX" PC="36">
                     <Bank Name="Fretless Bass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉXÉâÉbÉvÉxÅ[ÉX" PC="37">
+                <PC Name="ÔøΩXÔøΩÔøΩÔøΩbÔøΩvÔøΩxÔøΩ[ÔøΩX" PC="37">
                     <Bank Name="Slap Bass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉtÉ@ÉìÉNÉxÅ[ÉX" PC="40">
+                <PC Name="ÔøΩtÔøΩ@ÔøΩÔøΩÔøΩNÔøΩxÔøΩ[ÔøΩX" PC="40">
                     <Bank Name="Funk Bass" MSB="0" LSB="121"/>
                     <Bank Name="Dance Bass" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉxÅ[ÉX" PC="39">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩxÔøΩ[ÔøΩX" PC="39">
                     <Bank Name="Synth Bass" MSB="0" LSB="112"/>
                     <Bank Name="Hi-Q Bass" MSB="0" LSB="113"/>
                 </PC>
             </Map>
-            <Map Name="ÉXÉgÉäÉìÉOÉX">
-                <PC Name="S.Art Lite ÉXÉgÉäÉìÉOÉX" PC="50">
+            <Map Name="ÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX">
+                <PC Name="S.Art Lite ÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="50">
                     <Bank Name="S.Art Lite Strings" MSB="8" LSB="96"/>
                     <Bank Name="Live! Strings" MSB="0" LSB="117"/>
                     <Bank Name="Chamber Strings" MSB="0" LSB="112"/>
                     <Bank Name="Marcato Strings" MSB="0" LSB="115"/>
                     <Bank Name="Slow Strings" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉWÉIÉXÉgÉäÉìÉOÉX" PC="49">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩWÔøΩIÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="49">
                     <Bank Name="Studio Strings" MSB="104" LSB="23"/>
                     <Bank Name="Strings" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉgÉåÉÇÉçÉXÉgÉäÉìÉOÉX" PC="45">
+                <PC Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="45">
                     <Bank Name="Tremolo Strings" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉXÉgÉäÉìÉOÉX" PC="51">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="51">
                     <Bank Name="Synth Strings" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉsÉ`ÉJÅ[ÉgÉXÉgÉäÉìÉOÉX" PC="46">
+                <PC Name="ÔøΩsÔøΩ`ÔøΩJÔøΩ[ÔøΩgÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="46">
                     <Bank Name="Pizzicato Strings" MSB="0" LSB="112"/>
                     <Bank Name="Orchestra Pizzicato Strings" MSB="0" LSB="116"/>
                 </PC>
-                <PC Name="ÉXÉCÅ[ÉgÅIÉoÉCÉIÉäÉì" PC="41">
+                <PC Name="ÔøΩXÔøΩCÔøΩ[ÔøΩgÔøΩIÔøΩoÔøΩCÔøΩIÔøΩÔøΩÔøΩÔøΩ" PC="41">
                     <Bank Name="Sweet! Violin" MSB="0" LSB="113"/>
                     <Bank Name="Violin" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É`ÉFÉç" PC="43">
+                <PC Name="ÔøΩ`ÔøΩFÔøΩÔøΩ" PC="43">
                     <Bank Name="Cello" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉRÉìÉgÉâÉoÉX" PC="44">
+                <PC Name="ÔøΩRÔøΩÔøΩÔøΩgÔøΩÔøΩÔøΩoÔøΩX" PC="44">
                     <Bank Name="Contrabass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉnÅ[Év" PC="47">
+                <PC Name="ÔøΩnÔøΩ[ÔøΩv" PC="47">
                     <Bank Name="Harp" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉIÅ[ÉPÉXÉgÉâÉqÉbÉg" PC="56">
+                <PC Name="ÔøΩIÔøΩ[ÔøΩPÔøΩXÔøΩgÔøΩÔøΩÔøΩqÔøΩbÔøΩg" PC="56">
                     <Bank Name="Orchestra Hit" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉRÅ[ÉâÉX">
-                <PC Name="S.Art Lite ÉSÉXÉyÉãÉRÅ[ÉâÉX" PC="55">
+            <Map Name="ÔøΩRÔøΩ[ÔøΩÔøΩÔøΩX">
+                <PC Name="S.Art Lite ÔøΩSÔøΩXÔøΩyÔøΩÔøΩÔøΩRÔøΩ[ÔøΩÔøΩÔøΩX" PC="55">
                     <Bank Name="S.Art Lite Gospel Choir" MSB="8" LSB="96"/>
                     <Bank Name="Air Choir" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉRÅ[ÉâÉX" PC="53">
+                <PC Name="ÔøΩRÔøΩ[ÔøΩÔøΩÔøΩX" PC="53">
                     <Bank Name="Choir" MSB="0" LSB="112"/>
                     <Bank Name="Vocal Ensemble" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="ÉSÉXÉyÉã Hmm" PC="54">
+                <PC Name="ÔøΩSÔøΩXÔøΩyÔøΩÔøΩ Hmm" PC="54">
                     <Bank Name="Gospel Hmm" MSB="104" LSB="12"/>
                     <Bank Name="Gospel Wow" MSB="104" LSB="13"/>
                     <Bank Name="Vox Humana" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉTÉbÉNÉX">
-                <PC Name="S.Art Lite ÉeÉiÅ[ÉTÉbÉNÉX" PC="83">
+            <Map Name="ÔøΩTÔøΩbÔøΩNÔøΩX">
+                <PC Name="S.Art Lite ÔøΩeÔøΩiÔøΩ[ÔøΩTÔøΩbÔøΩNÔøΩX" PC="83">
                     <Bank Name="S.Art Lite Tenor Sax" MSB="8" LSB="96"/>
                 </PC>
-                <PC Name="ÉTÉbÉNÉXÉZÉNÉVÉáÉì" PC="67">
+                <PC Name="ÔøΩTÔøΩbÔøΩNÔøΩXÔøΩZÔøΩNÔøΩVÔøΩÔøΩÔøΩÔøΩ" PC="67">
                     <Bank Name="Sax Section" MSB="0" LSB="122"/>
                     <Bank Name="Sweet! Tenor Sax" MSB="0" LSB="117"/>
                     <Bank Name="Tenor Sax" MSB="0" LSB="112"/>
                     <Bank Name="Breathy Tenor Sax" MSB="0" LSB="114"/>
                 </PC>
-                <PC Name="ÉAÉãÉgÉTÉbÉNÉX" PC="66">
+                <PC Name="ÔøΩAÔøΩÔøΩÔøΩgÔøΩTÔøΩbÔøΩNÔøΩX" PC="66">
                     <Bank Name="Alto Sax" MSB="0" LSB="112"/>
                     <Bank Name="Small Sax Section" MSB="0" LSB="116"/>
                 </PC>
-                <PC Name="É\ÉvÉâÉmÉTÉbÉNÉX" PC="65">
+                <PC Name="ÔøΩ\ÔøΩvÔøΩÔøΩÔøΩmÔøΩTÔøΩbÔøΩNÔøΩX" PC="65">
                     <Bank Name="Soprano Sax" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉoÉäÉgÉìÉTÉbÉNÉX" PC="68">
+                <PC Name="ÔøΩoÔøΩÔøΩÔøΩgÔøΩÔøΩÔøΩTÔøΩbÔøΩNÔøΩX" PC="68">
                     <Bank Name="Baritone Sax" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉNÉâÉäÉlÉbÉg" PC="72">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩÔøΩÔøΩlÔøΩbÔøΩg" PC="72">
                     <Bank Name="Clarinet" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉIÅ[É{ÉG" PC="69">
+                <PC Name="ÔøΩIÔøΩ[ÔøΩ{ÔøΩG" PC="69">
                     <Bank Name="Oboe" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉCÉìÉOÉäÉbÉVÉÖÉzÉãÉì" PC="70">
+                <PC Name="ÔøΩCÔøΩÔøΩÔøΩOÔøΩÔøΩÔøΩbÔøΩVÔøΩÔøΩÔøΩzÔøΩÔøΩÔøΩÔøΩ" PC="70">
                     <Bank Name="English Horn" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉoÉXÅ[Éì" PC="71">
+                <PC Name="ÔøΩoÔøΩXÔøΩ[ÔøΩÔøΩ" PC="71">
                     <Bank Name="Bassoon" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉgÉâÉìÉyÉbÉg">
-                <PC Name="ÉgÉâÉìÉyÉbÉg" PC="57">
+            <Map Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩyÔøΩbÔøΩg">
+                <PC Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩyÔøΩbÔøΩg" PC="57">
                     <Bank Name="Trumpet" MSB="0" LSB="112"/>
                     <Bank Name="Distortion Trumpet" MSB="0" LSB="127"/>
                 </PC>
-                <PC Name="ÉgÉçÉìÉ{Å[Éì" PC="58">
+                <PC Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩ{ÔøΩ[ÔøΩÔøΩ" PC="58">
                     <Bank Name="Trombone" MSB="0" LSB="112"/>
                     <Bank Name="Trombone Section" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="É~ÉÖÅ[ÉgÉgÉâÉìÉyÉbÉg" PC="60">
+                <PC Name="ÔøΩ~ÔøΩÔøΩÔøΩ[ÔøΩgÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩyÔøΩbÔøΩg" PC="60">
                     <Bank Name="Muted Trumpet" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉtÉåÉìÉ`ÉzÉãÉì" PC="61">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩÔøΩÔøΩ`ÔøΩzÔøΩÔøΩÔøΩÔøΩ" PC="61">
                     <Bank Name="French Horn" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É`ÉÖÅ[Éo" PC="59">
+                <PC Name="ÔøΩ`ÔøΩÔøΩÔøΩ[ÔøΩo" PC="59">
                     <Bank Name="Tuba" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉuÉâÉX">
-                <PC Name="S.Art Lite ÉuÉâÉXÉZÉNÉVÉáÉì" PC="57">
+            <Map Name="ÔøΩuÔøΩÔøΩÔøΩX">
+                <PC Name="S.Art Lite ÔøΩuÔøΩÔøΩÔøΩXÔøΩZÔøΩNÔøΩVÔøΩÔøΩÔøΩÔøΩ" PC="57">
                     <Bank Name="S.Art Lite Brass Section" MSB="8" LSB="96"/>
                 </PC>
-                <PC Name="ÉâÉCÉuÅIÉuÉâÉX" PC="63">
+                <PC Name="ÔøΩÔøΩÔøΩCÔøΩuÔøΩIÔøΩuÔøΩÔøΩÔøΩX" PC="63">
                     <Bank Name="Live! Brass" MSB="0" LSB="117"/>
                     <Bank Name="80s Brass" MSB="0" LSB="113"/>
                     <Bank Name="Funky Brass" MSB="0" LSB="115"/>
                     <Bank Name="Techno Brass" MSB="0" LSB="114"/>
                     <Bank Name="Synth Brass" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉuÉâÉXÉZÉNÉVÉáÉì" PC="62">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩXÔøΩZÔøΩNÔøΩVÔøΩÔøΩÔøΩÔøΩ" PC="62">
                     <Bank Name="Brass Section" MSB="0" LSB="112"/>
                     <Bank Name="Big Band Brass" MSB="0" LSB="113"/>
                     <Bank Name="Octave Brass" MSB="0" LSB="116"/>
                     <Bank Name="Mellow Horns" MSB="0" LSB="119"/>
                 </PC>
             </Map>
-            <Map Name="ÉtÉãÅ[Ég">
-                <PC Name="S.Art Lite ÉtÉãÅ[Ég" PC="74">
+            <Map Name="ÔøΩtÔøΩÔøΩÔøΩ[ÔøΩg">
+                <PC Name="S.Art Lite ÔøΩtÔøΩÔøΩÔøΩ[ÔøΩg" PC="74">
                     <Bank Name="S.Art Lite Flute" MSB="8" LSB="96"/>
                     <Bank Name="Sweet! Flute" MSB="0" LSB="114"/>
                     <Bank Name="Sweet! Classical Flute" MSB="0" LSB="115"/>
                     <Bank Name="Flute" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉsÉbÉRÉç" PC="73">
+                <PC Name="ÔøΩsÔøΩbÔøΩRÔøΩÔøΩ" PC="73">
                     <Bank Name="Piccolo" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉpÉìÉtÉãÅ[Ég" PC="76">
+                <PC Name="ÔøΩpÔøΩÔøΩÔøΩtÔøΩÔøΩÔøΩ[ÔøΩg" PC="76">
                     <Bank Name="Pan Flute" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉäÉRÅ[É_Å[" PC="75">
+                <PC Name="ÔøΩÔøΩÔøΩRÔøΩ[ÔøΩ_ÔøΩ[" PC="75">
                     <Bank Name="Recorder" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉIÉJÉäÉi" PC="80">
+                <PC Name="ÔøΩIÔøΩJÔøΩÔøΩÔøΩi" PC="80">
                     <Bank Name="Ocarina" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉVÉìÉZ">
-                <PC Name="ÉWÉFÉ~Éj" PC="91">
+            <Map Name="ÔøΩVÔøΩÔøΩÔøΩZ">
+                <PC Name="ÔøΩWÔøΩFÔøΩ~ÔøΩj" PC="91">
                     <Bank Name="Gemini" MSB="104" LSB="20"/>
                     <Bank Name="Hands Up!" MSB="104" LSB="21"/>
                     <Bank Name="RS Short Resonance" MSB="0" LSB="116"/>
                 </PC>
-                <PC Name="ÉXÉNÉGÉAÉäÅ[Éh" PC="81">
+                <PC Name="ÔøΩXÔøΩNÔøΩGÔøΩAÔøΩÔøΩÔøΩ[ÔøΩh" PC="81">
                     <Bank Name="Square Lead" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É\Å[ÉgÉDÅ[ÉXÉäÅ[Éh" PC="82">
+                <PC Name="ÔøΩ\ÔøΩ[ÔøΩgÔøΩDÔøΩ[ÔøΩXÔøΩÔøΩÔøΩ[ÔøΩh" PC="82">
                     <Bank Name="Sawtooth Lead" MSB="0" LSB="112"/>
                     <Bank Name="RS Tech Saw" MSB="0" LSB="108"/>
                     <Bank Name="Analogon 1" MSB="0" LSB="115"/>
@@ -320,290 +320,290 @@
                     <Bank Name="Fargo 2" MSB="104" LSB="54"/>
                     <Bank Name="Funky Lead" MSB="0" LSB="121"/>
                 </PC>
-                <PC Name="ÉAÉìÉ_Å[ÉnÉCÉÄ" PC="88">
+                <PC Name="ÔøΩAÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩnÔøΩCÔøΩÔøΩ" PC="88">
                     <Bank Name="Under Heim" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É|Å[É^ÉgÅ[Éì" PC="85">
+                <PC Name="ÔøΩ|ÔøΩ[ÔøΩ^ÔøΩgÔøΩ[ÔøΩÔøΩ" PC="85">
                     <Bank Name="Portatone" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É{ÉCÉXÉäÅ[Éh" PC="86">
+                <PC Name="ÔøΩ{ÔøΩCÔøΩXÔøΩÔøΩÔøΩ[ÔøΩh" PC="86">
                     <Bank Name="Voice Lead" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉXÉCÅ[ÉgÉwÉuÉì" PC="89">
+                <PC Name="ÔøΩXÔøΩCÔøΩ[ÔøΩgÔøΩwÔøΩuÔøΩÔøΩ" PC="89">
                     <Bank Name="Sweet Heaven" MSB="0" LSB="118"/>
                     <Bank Name="Dream Heaven" MSB="0" LSB="121"/>
                     <Bank Name="Symbiont" MSB="0" LSB="113"/>
                     <Bank Name="Fantasia" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉXÉ^Å[É_ÉXÉg" PC="99">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩ[ÔøΩ_ÔøΩXÔøΩg" PC="99">
                     <Bank Name="Stardust" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉuÉâÉCÉgÉlÉX" PC="101">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩCÔøΩgÔøΩlÔøΩX" PC="101">
                     <Bank Name="Brightness" MSB="0" LSB="112"/>
                     <Bank Name="Bell Pad" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="É[ÉmÉìÉpÉbÉh" PC="92">
+                <PC Name="ÔøΩ[ÔøΩmÔøΩÔøΩÔøΩpÔøΩbÔøΩh" PC="92">
                     <Bank Name="Xenon Pad" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉCÉNÉCÉmÉbÉNÉX" PC="95">
+                <PC Name="ÔøΩCÔøΩNÔøΩCÔøΩmÔøΩbÔøΩNÔøΩX" PC="95">
                     <Bank Name="Equinox" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É_Å[ÉNÉÄÅ[Éì" PC="90">
+                <PC Name="ÔøΩ_ÔøΩ[ÔøΩNÔøΩÔøΩÔøΩ[ÔøΩÔøΩ" PC="90">
                     <Bank Name="Dark Moon" MSB="0" LSB="113"/>
                     <Bank Name="RS Analog Pad" MSB="0" LSB="126"/>
                 </PC>
             </Map>
-            <Map Name="ÉpÅ[ÉJÉbÉVÉáÉì">
-                <PC Name="ÉrÉuÉâÉtÉHÉì" PC="12">
+            <Map Name="ÔøΩpÔøΩ[ÔøΩJÔøΩbÔøΩVÔøΩÔøΩÔøΩÔøΩ">
+                <PC Name="ÔøΩrÔøΩuÔøΩÔøΩÔøΩtÔøΩHÔøΩÔøΩ" PC="12">
                     <Bank Name="Vibraphone" MSB="0" LSB="112"/>
                     <Bank Name="Jazz Vibes" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="É}ÉäÉìÉo" PC="13">
+                <PC Name="ÔøΩ}ÔøΩÔøΩÔøΩÔøΩÔøΩo" PC="13">
                     <Bank Name="Marimba" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉVÉçÉtÉHÉì" PC="14">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩtÔøΩHÔøΩÔøΩ" PC="14">
                     <Bank Name="Xylophone" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉXÉ`Å[ÉãÉhÉâÉÄ" PC="115">
+                <PC Name="ÔøΩXÔøΩ`ÔøΩ[ÔøΩÔøΩÔøΩhÔøΩÔøΩÔøΩÔøΩ" PC="115">
                     <Bank Name="Steel Drums" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É`ÉFÉåÉXÉ^" PC="9">
+                <PC Name="ÔøΩ`ÔøΩFÔøΩÔøΩÔøΩXÔøΩ^" PC="9">
                     <Bank Name="Celesta" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉIÉãÉSÅ[Éã" PC="11">
+                <PC Name="ÔøΩIÔøΩÔøΩÔøΩSÔøΩ[ÔøΩÔøΩ" PC="11">
                     <Bank Name="Music Box" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="É`ÉÖÅ[ÉuÉâÅ[ÉxÉã" PC="15">
+                <PC Name="ÔøΩ`ÔøΩÔøΩÔøΩ[ÔøΩuÔøΩÔøΩÔøΩ[ÔøΩxÔøΩÔøΩ" PC="15">
                     <Bank Name="Tubular Bells" MSB="0" LSB="112"/>
                 </PC>
-                <PC Name="ÉeÉBÉìÉpÉj" PC="48">
+                <PC Name="ÔøΩeÔøΩBÔøΩÔøΩÔøΩpÔøΩj" PC="48">
                     <Bank Name="Timpani" MSB="0" LSB="112"/>
                 </PC>
             </Map>
-            <Map Name="ÉèÅ[ÉãÉh">
-                <PC Name="ÉoÉìÉWÉáÅ[" PC="106">
+            <Map Name="ÔøΩÔøΩÔøΩ[ÔøΩÔøΩÔøΩh">
+                <PC Name="ÔøΩoÔøΩÔøΩÔøΩWÔøΩÔøΩÔøΩ[" PC="106">
                     <Bank Name="Banjo" MSB="0" LSB="112"/>
                     <Bank Name="Oud" MSB="0" LSB="98"/>
                     <Bank Name="Rabab" MSB="0" LSB="96"/>
                     <Bank Name="Gopichant" MSB="0" LSB="97"/>
                     <Bank Name="Pi Pa" MSB="0" LSB="116"/>
                 </PC>
-                <PC Name="ÉtÉBÉhÉã" PC="111">
+                <PC Name="ÔøΩtÔøΩBÔøΩhÔøΩÔøΩ" PC="111">
                     <Bank Name="Fiddle" MSB="0" LSB="0"/>
                     <Bank Name="Er Hu" MSB="0" LSB="115"/>
                     <Bank Name="Morin Khuur" MSB="0" LSB="120"/>
                 </PC>
-                <PC Name="ÉoÉOÉpÉCÉv" PC="110">
+                <PC Name="ÔøΩoÔøΩOÔøΩpÔøΩCÔøΩv" PC="110">
                     <Bank Name="Bagpipe" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É_ÉãÉVÉ}Å[ 1" PC="16">
+                <PC Name="ÔøΩ_ÔøΩÔøΩÔøΩVÔøΩ}ÔøΩ[ 1" PC="16">
                     <Bank Name="Dulcimer 1" MSB="0" LSB="0"/>
                     <Bank Name="Dulcimer 2" MSB="0" LSB="35"/>
                     <Bank Name="Cimbalom" MSB="0" LSB="96"/>
                     <Bank Name="Santur" MSB="0" LSB="121"/>
                 </PC>
-                <PC Name="ÉJÉkÅ[Éì" PC="108">
+                <PC Name="ÔøΩJÔøΩkÔøΩ[ÔøΩÔøΩ" PC="108">
                     <Bank Name="Kanoon" MSB="0" LSB="97"/>
                     <Bank Name="Gu Zheng" MSB="0" LSB="113"/>
                     <Bank Name="Koto" MSB="0" LSB="0"/>
                     <Bank Name="Taisho-kin" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="ÉJÉäÉìÉo" PC="109">
+                <PC Name="ÔøΩJÔøΩÔøΩÔøΩÔøΩÔøΩo" PC="109">
                     <Bank Name="Kalimba" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉnÉãÉÇÉjÉEÉÄ 1ÅiíPâπÅj" PC="21">
+                <PC Name="ÔøΩnÔøΩÔøΩÔøΩÔøΩÔøΩjÔøΩEÔøΩÔøΩ 1ÔøΩiÔøΩPÔøΩÔøΩÔøΩj" PC="21">
                     <Bank Name="Harmonium 1 (Single Reed)" MSB="0" LSB="113"/>
                     <Bank Name="Harmonium 2 (Double Reed)" MSB="0" LSB="114"/>
                     <Bank Name="Harmonium 3 (Triple Reed)" MSB="0" LSB="115"/>
                 </PC>
-                <PC Name="É^ÉìÉvÅ[Éâ" PC="105">
+                <PC Name="ÔøΩ^ÔøΩÔøΩÔøΩvÔøΩ[ÔøΩÔøΩ" PC="105">
                     <Bank Name="Tanpura" MSB="0" LSB="114"/>
                     <Bank Name="Sitar 1" MSB="0" LSB="0"/>
                     <Bank Name="Detuned Sitar" MSB="0" LSB="32"/>
                     <Bank Name="Sitar 2" MSB="0" LSB="35"/>
                 </PC>
-                <PC Name="ÉvÅ[ÉìÉM" PC="112">
+                <PC Name="ÔøΩvÔøΩ[ÔøΩÔøΩÔøΩM" PC="112">
                     <Bank Name="Pungi" MSB="0" LSB="96"/>
                     <Bank Name="Shehnai" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉoÉìÉXÉä" PC="74">
+                <PC Name="ÔøΩoÔøΩÔøΩÔøΩXÔøΩÔøΩ" PC="74">
                     <Bank Name="Bansuri" MSB="0" LSB="117"/>
                     <Bank Name="Di Zi" MSB="0" LSB="118"/>
                     <Bank Name="Suling" MSB="0" LSB="124"/>
                 </PC>
-                <PC Name="É^ÉuÉâ" PC="117">
+                <PC Name="ÔøΩ^ÔøΩuÔøΩÔøΩ" PC="117">
                     <Bank Name="Tabla" MSB="0" LSB="116"/>
                 </PC>
-                <PC Name="ókã’ÅiÉÑÉìÉ`ÉìÅj" PC="47">
+                <PC Name="ÔøΩkÔøΩ’ÅiÔøΩÔøΩÔøΩÔøΩÔøΩ`ÔøΩÔøΩÔøΩj" PC="47">
                     <Bank Name="Yang Qin" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="éOñ°ê¸" PC="107">
+                <PC Name="ÔøΩOÔøΩÔøΩÔøΩÔøΩ" PC="107">
                     <Bank Name="Shamisen" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="ÉTÉEÉìÉhÉGÉtÉFÉNÉg">
-                <PC Name="ÉtÉåÉbÉgÉmÉCÉY" PC="121">
+            <Map Name="ÔøΩTÔøΩEÔøΩÔøΩÔøΩhÔøΩGÔøΩtÔøΩFÔøΩNÔøΩg">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩbÔøΩgÔøΩmÔøΩCÔøΩY" PC="121">
                     <Bank Name="Fret Noise" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉuÉåÉXÉmÉCÉY" PC="122">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩXÔøΩmÔøΩCÔøΩY" PC="122">
                     <Bank Name="Breath Noise" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="äCï”" PC="123">
+                <PC Name="ÔøΩCÔøΩÔøΩ" PC="123">
                     <Bank Name="Seashore" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="íπÇÃÇ≥Ç¶Ç∏ÇË" PC="124">
+                <PC Name="ÔøΩÔøΩÔøΩÃÇÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ" PC="124">
                     <Bank Name="Bird Tweet" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ìdòb" PC="125">
+                <PC Name="ÔøΩdÔøΩb" PC="125">
                     <Bank Name="Telephone Ring" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉwÉäÉRÉvÉ^Å[" PC="126">
+                <PC Name="ÔøΩwÔøΩÔøΩÔøΩRÔøΩvÔøΩ^ÔøΩ[" PC="126">
                     <Bank Name="Helicopter" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="îèéË" PC="127">
+                <PC Name="ÔøΩÔøΩÔøΩÔøΩ" PC="127">
                     <Bank Name="Applause" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="éËîèéq" PC="116">
+                <PC Name="ÔøΩËîèÔøΩq" PC="116">
                     <Bank Name="Hand Clap" MSB="0" LSB="113"/>
                 </PC>
-                <PC Name="èeê∫" PC="128">
+                <PC Name="ÔøΩeÔøΩÔøΩ" PC="128">
                     <Bank Name="Gunshot" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="ÉhÉâÉÄÉLÉbÉg">
-                <PC Name="ÉpÉèÅ[ÉLÉbÉg" PC="88">
+            <Map Name="ÔøΩhÔøΩÔøΩÔøΩÔøΩÔøΩLÔøΩbÔøΩg">
+                <PC Name="ÔøΩpÔøΩÔøΩÔøΩ[ÔøΩLÔøΩbÔøΩg" PC="88">
                     <Bank Name="Power Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉìÉ_Å[ÉhÉLÉbÉg 1" PC="1">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩhÔøΩLÔøΩbÔøΩg 1" PC="1">
                     <Bank Name="Standard Kit 1" MSB="127" LSB="0"/>
                     <Bank Name="SFX Kit 1" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉìÉ_Å[ÉhÉLÉbÉg 2" PC="2">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩhÔøΩLÔøΩbÔøΩg 2" PC="2">
                     <Bank Name="Standard Kit 2" MSB="127" LSB="0"/>
                     <Bank Name="SFX Kit 2" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉãÅ[ÉÄÉLÉbÉg" PC="9">
+                <PC Name="ÔøΩÔøΩÔøΩ[ÔøΩÔøΩÔøΩLÔøΩbÔøΩg" PC="9">
                     <Bank Name="Room Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="ÉçÉbÉNÉLÉbÉg" PC="17">
+                <PC Name="ÔøΩÔøΩÔøΩbÔøΩNÔøΩLÔøΩbÔøΩg" PC="17">
                     <Bank Name="Rock Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="ÉGÉåÉNÉgÉçÉjÉbÉNÉLÉbÉg" PC="25">
+                <PC Name="ÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩjÔøΩbÔøΩNÔøΩLÔøΩbÔøΩg" PC="25">
                     <Bank Name="Electronic Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="ÉAÉiÉçÉOÉLÉbÉg" PC="26">
+                <PC Name="ÔøΩAÔøΩiÔøΩÔøΩÔøΩOÔøΩLÔøΩbÔøΩg" PC="26">
                     <Bank Name="Analog Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="É_ÉìÉXÉLÉbÉg" PC="113">
+                <PC Name="ÔøΩ_ÔøΩÔøΩÔøΩXÔøΩLÔøΩbÔøΩg" PC="113">
                     <Bank Name="Dance Kit" MSB="127" LSB="0"/>
                     <Bank Name="Sound Effect Kit" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉWÉÉÉYÉLÉbÉg" PC="33">
+                <PC Name="ÔøΩWÔøΩÔøΩÔøΩYÔøΩLÔøΩbÔøΩg" PC="33">
                     <Bank Name="Jazz Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="ÉuÉâÉbÉVÉÖÉLÉbÉg" PC="41">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩbÔøΩVÔøΩÔøΩÔøΩLÔøΩbÔøΩg" PC="41">
                     <Bank Name="Brush Kit" MSB="127" LSB="0"/>
                     <Bank Name="Cuban Kit" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉVÉìÉtÉHÉjÅ[ÉLÉbÉg" PC="49">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩtÔøΩHÔøΩjÔøΩ[ÔøΩLÔøΩbÔøΩg" PC="49">
                     <Bank Name="Symphony Kit" MSB="127" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉìÉ_Å[ÉhÉLÉbÉg 1 + íÜçëë≈äyäÌ" PC="128">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩhÔøΩLÔøΩbÔøΩg 1 + ÔøΩÔøΩÔøΩÔøΩÔøΩ≈äyÔøΩÔøΩ" PC="128">
                     <Bank Name="StdKit 1 + Chinese Perc." MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉCÉìÉhÉLÉbÉg 1" PC="40">
+                <PC Name="ÔøΩCÔøΩÔøΩÔøΩhÔøΩLÔøΩbÔøΩg 1" PC="40">
                     <Bank Name="Indian Kit 1" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉCÉìÉhÉLÉbÉg 2" PC="115">
+                <PC Name="ÔøΩCÔøΩÔøΩÔøΩhÔøΩLÔøΩbÔøΩg 2" PC="115">
                     <Bank Name="Indian Kit 2" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉìÉ_Å[ÉhÉLÉbÉg 1 + ÉCÉìÉhÉlÉVÉAë≈äyäÌ 1" PC="55">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩhÔøΩLÔøΩbÔøΩg 1 + ÔøΩCÔøΩÔøΩÔøΩhÔøΩlÔøΩVÔøΩAÔøΩ≈äyÔøΩÔøΩ 1" PC="55">
                     <Bank Name="StdKit 1 + Indonesian Perc. 1" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉìÉ_Å[ÉhÉLÉbÉg 1 + ÉCÉìÉhÉlÉVÉAë≈äyäÌ 2" PC="56">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩhÔøΩLÔøΩbÔøΩg 1 + ÔøΩCÔøΩÔøΩÔøΩhÔøΩlÔøΩVÔøΩAÔøΩ≈äyÔøΩÔøΩ 2" PC="56">
                     <Bank Name="StdKit 1 + Indonesian Perc. 2" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^ÉìÉ_Å[ÉhÉLÉbÉg 1 + ÉCÉìÉhÉlÉVÉAë≈äyäÌ 3" PC="57">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩÔøΩÔøΩ_ÔøΩ[ÔøΩhÔøΩLÔøΩbÔøΩg 1 + ÔøΩCÔøΩÔøΩÔøΩhÔøΩlÔøΩVÔøΩAÔøΩ≈äyÔøΩÔøΩ 3" PC="57">
                     <Bank Name="StdKit 1 + Indonesian Perc. 3" MSB="126" LSB="0"/>
                 </PC>
-                <PC Name="ÉAÉâÉrÉbÉNÉLÉbÉg" PC="37">
+                <PC Name="ÔøΩAÔøΩÔøΩÔøΩrÔøΩbÔøΩNÔøΩLÔøΩbÔøΩg" PC="37">
                     <Bank Name="Arabic Kit" MSB="126" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉsÉAÉm">
-                <PC Name="ÉOÉâÉìÉhÉsÉAÉm" PC="1">
+            <Map Name="XGÔøΩsÔøΩAÔøΩm">
+                <PC Name="ÔøΩOÔøΩÔøΩÔøΩÔøΩÔøΩhÔøΩsÔøΩAÔøΩm" PC="1">
                     <Bank Name="Grand Piano" MSB="0" LSB="0"/>
                     <Bank Name="Grand Piano KSP" MSB="0" LSB="1"/>
                     <Bank Name="Piano Strings" MSB="0" LSB="40"/>
                     <Bank Name="Dream" MSB="0" LSB="41"/>
                 </PC>
-                <PC Name="ÉuÉâÉCÉgÉsÉAÉm" PC="2">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩCÔøΩgÔøΩsÔøΩAÔøΩm" PC="2">
                     <Bank Name="Bright Piano" MSB="0" LSB="0"/>
                     <Bank Name="Bright Piano KSP" MSB="0" LSB="1"/>
                 </PC>
-                <PC Name="ÉGÉåÉNÉgÉäÉbÉNÉOÉâÉìÉhÉsÉAÉm" PC="3">
+                <PC Name="ÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩOÔøΩÔøΩÔøΩÔøΩÔøΩhÔøΩsÔøΩAÔøΩm" PC="3">
                     <Bank Name="Electric Grand Piano" MSB="0" LSB="0"/>
                     <Bank Name="Electric Grand Piano KSP" MSB="0" LSB="1"/>
                     <Bank Name="Detuned CP80" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="ÉzÉìÉLÅ[ÉgÉìÉNÉsÉAÉm" PC="4">
+                <PC Name="ÔøΩzÔøΩÔøΩÔøΩLÔøΩ[ÔøΩgÔøΩÔøΩÔøΩNÔøΩsÔøΩAÔøΩm" PC="4">
                     <Bank Name="Honky Tonk Piano" MSB="0" LSB="0"/>
                     <Bank Name="Honky Tonk Piano KSP" MSB="0" LSB="1"/>
                 </PC>
-                <PC Name="ÉGÉåÉNÉgÉäÉbÉNÉsÉAÉm 1" PC="5">
+                <PC Name="ÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩsÔøΩAÔøΩm 1" PC="5">
                     <Bank Name="Electric Piano 1" MSB="0" LSB="0"/>
                     <Bank Name="Electric Piano 1 KSP" MSB="0" LSB="1"/>
                     <Bank Name="Chorus Electric Piano 1" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="ÉGÉåÉNÉgÉäÉbÉNÉsÉAÉm 2" PC="6">
+                <PC Name="ÔøΩGÔøΩÔøΩÔøΩNÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩsÔøΩAÔøΩm 2" PC="6">
                     <Bank Name="Electric Piano 2" MSB="0" LSB="0"/>
                     <Bank Name="Electric Piano 2 KSP" MSB="0" LSB="1"/>
                     <Bank Name="Chorus Electric Piano 2" MSB="0" LSB="32"/>
                     <Bank Name="DX + Analog Electric Piano" MSB="0" LSB="41"/>
                 </PC>
-                <PC Name="ÉnÅ[ÉvÉVÉRÅ[Éh 1" PC="7">
+                <PC Name="ÔøΩnÔøΩ[ÔøΩvÔøΩVÔøΩRÔøΩ[ÔøΩh 1" PC="7">
                     <Bank Name="Harpsichord 1" MSB="0" LSB="0"/>
                     <Bank Name="Harpsichord KSP" MSB="0" LSB="1"/>
                     <Bank Name="Harpsichord 2" MSB="0" LSB="35"/>
                 </PC>
-                <PC Name="ÉNÉâÉr" PC="8">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩr" PC="8">
                     <Bank Name="Clavi" MSB="0" LSB="0"/>
                     <Bank Name="Clavi KSP" MSB="0" LSB="1"/>
                 </PC>
             </Map>
-            <Map Name="XGÉNÉçÉ}ÉeÉBÉbÉN">
-                <PC Name="É`ÉFÉåÉXÉ^" PC="9">
+            <Map Name="XGÔøΩNÔøΩÔøΩÔøΩ}ÔøΩeÔøΩBÔøΩbÔøΩN">
+                <PC Name="ÔøΩ`ÔøΩFÔøΩÔøΩÔøΩXÔøΩ^" PC="9">
                     <Bank Name="Celesta" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉOÉçÉbÉPÉìÉVÉÖÉsÅ[Éã" PC="10">
+                <PC Name="ÔøΩOÔøΩÔøΩÔøΩbÔøΩPÔøΩÔøΩÔøΩVÔøΩÔøΩÔøΩsÔøΩ[ÔøΩÔøΩ" PC="10">
                     <Bank Name="Glockenspiel" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉIÉãÉSÅ[Éã 1" PC="11">
+                <PC Name="ÔøΩIÔøΩÔøΩÔøΩSÔøΩ[ÔøΩÔøΩ 1" PC="11">
                     <Bank Name="Music Box 1" MSB="0" LSB="0"/>
                     <Bank Name="Music Box 2" MSB="0" LSB="64"/>
                 </PC>
-                <PC Name="ÉrÉuÉâÉtÉHÉì" PC="12">
+                <PC Name="ÔøΩrÔøΩuÔøΩÔøΩÔøΩtÔøΩHÔøΩÔøΩ" PC="12">
                     <Bank Name="Vibraphone" MSB="0" LSB="0"/>
                     <Bank Name="Vibraphone KSP" MSB="0" LSB="1"/>
                 </PC>
-                <PC Name="É}ÉäÉìÉo" PC="13">
+                <PC Name="ÔøΩ}ÔøΩÔøΩÔøΩÔøΩÔøΩo" PC="13">
                     <Bank Name="Marimba" MSB="0" LSB="0"/>
                     <Bank Name="Marimba KSP" MSB="0" LSB="1"/>
                     <Bank Name="Sine Marimba" MSB="0" LSB="64"/>
                     <Bank Name="Balimba" MSB="0" LSB="97"/>
                     <Bank Name="Log Drums" MSB="0" LSB="98"/>
                 </PC>
-                <PC Name="ÉVÉçÉtÉHÉì" PC="14">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩtÔøΩHÔøΩÔøΩ" PC="14">
                     <Bank Name="Xylophone" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É`ÉÖÅ[ÉuÉâÅ[ÉxÉã" PC="15">
+                <PC Name="ÔøΩ`ÔøΩÔøΩÔøΩ[ÔøΩuÔøΩÔøΩÔøΩ[ÔøΩxÔøΩÔøΩ" PC="15">
                     <Bank Name="Tubular Bells" MSB="0" LSB="0"/>
                     <Bank Name="Church Bells" MSB="0" LSB="96"/>
                     <Bank Name="Carillon" MSB="0" LSB="97"/>
                 </PC>
             </Map>
-            <Map Name="XGÉIÉãÉKÉì">
-                <PC Name="ÉhÉçÅ[ÉoÅ[ÉIÉãÉKÉì 1" PC="17">
+            <Map Name="XGÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ">
+                <PC Name="ÔøΩhÔøΩÔøΩÔøΩ[ÔøΩoÔøΩ[ÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ 1" PC="17">
                     <Bank Name="Drawbar Organ 1" MSB="0" LSB="0"/>
                     <Bank Name="Detuned Drawbar Organ" MSB="0" LSB="32"/>
                     <Bank Name="60s Drawbar Organ 1" MSB="0" LSB="33"/>
@@ -616,20 +616,20 @@
                     <Bank Name="Cheezy Organ" MSB="0" LSB="66"/>
                     <Bank Name="Drawbar Organ 2" MSB="0" LSB="67"/>
                 </PC>
-                <PC Name="ÉpÅ[ÉJÉbÉVÉuÉIÉãÉKÉì 1" PC="18">
+                <PC Name="ÔøΩpÔøΩ[ÔøΩJÔøΩbÔøΩVÔøΩuÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ 1" PC="18">
                     <Bank Name="Percussive Organ 1" MSB="0" LSB="0"/>
                     <Bank Name="70s Percussive Organ" MSB="0" LSB="24"/>
                     <Bank Name="Detuned Percussive Organ" MSB="0" LSB="32"/>
                     <Bank Name="Light Organ" MSB="0" LSB="33"/>
                     <Bank Name="Percussive Organ 2" MSB="0" LSB="37"/>
                 </PC>
-                <PC Name="ÉçÉbÉNÉIÉãÉKÉì" PC="19">
+                <PC Name="ÔøΩÔøΩÔøΩbÔøΩNÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="19">
                     <Bank Name="Rock Organ" MSB="0" LSB="0"/>
                     <Bank Name="Rotary Organ" MSB="0" LSB="64"/>
                     <Bank Name="Slow Rotary Organ" MSB="0" LSB="65"/>
                     <Bank Name="Fast Rotary Organ" MSB="0" LSB="66"/>
                 </PC>
-                <PC Name="É`ÉÉÅ[É`ÉIÉãÉKÉì 1" PC="20">
+                <PC Name="ÔøΩ`ÔøΩÔøΩÔøΩ[ÔøΩ`ÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ 1" PC="20">
                     <Bank Name="Church Organ 1" MSB="0" LSB="0"/>
                     <Bank Name="Church Organ 3" MSB="0" LSB="32"/>
                     <Bank Name="Church Organ 2" MSB="0" LSB="35"/>
@@ -637,72 +637,72 @@
                     <Bank Name="Organ Flute" MSB="0" LSB="64"/>
                     <Bank Name="Tremolo Organ Flute" MSB="0" LSB="65"/>
                 </PC>
-                <PC Name="ÉäÅ[ÉhÉIÉãÉKÉì" PC="21">
+                <PC Name="ÔøΩÔøΩÔøΩ[ÔøΩhÔøΩIÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="21">
                     <Bank Name="Reed Organ" MSB="0" LSB="0"/>
                     <Bank Name="Puff Organ" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="ÉAÉRÅ[ÉfÉBÉIÉì" PC="22">
+                <PC Name="ÔøΩAÔøΩRÔøΩ[ÔøΩfÔøΩBÔøΩIÔøΩÔøΩ" PC="22">
                     <Bank Name="Accordion" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉnÅ[ÉÇÉjÉJ 1" PC="23">
+                <PC Name="ÔøΩnÔøΩ[ÔøΩÔøΩÔøΩjÔøΩJ 1" PC="23">
                     <Bank Name="Harmonica 1" MSB="0" LSB="0"/>
                     <Bank Name="Harmonica 2" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="É^ÉìÉSÉAÉRÅ[ÉfÉBÉIÉì 1" PC="24">
+                <PC Name="ÔøΩ^ÔøΩÔøΩÔøΩSÔøΩAÔøΩRÔøΩ[ÔøΩfÔøΩBÔøΩIÔøΩÔøΩ 1" PC="24">
                     <Bank Name="Tango Accordion 1" MSB="0" LSB="0"/>
                     <Bank Name="Tango Accordion 2" MSB="0" LSB="64"/>
                 </PC>
             </Map>
-            <Map Name="XGÉMÉ^Å[">
-                <PC Name="ÉiÉCÉçÉìå∑ÉMÉ^Å[ 1" PC="25">
+            <Map Name="XGÔøΩMÔøΩ^ÔøΩ[">
+                <PC Name="ÔøΩiÔøΩCÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[ 1" PC="25">
                     <Bank Name="Nylon Guitar 1" MSB="0" LSB="0"/>
                     <Bank Name="Nylon Guitar 3" MSB="0" LSB="25"/>
                     <Bank Name="Velocity Guitar Harmonics" MSB="0" LSB="43"/>
                     <Bank Name="Ukulele" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="ÉXÉ`Å[Éãå∑ÉMÉ^Å[" PC="26">
+                <PC Name="ÔøΩXÔøΩ`ÔøΩ[ÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="26">
                     <Bank Name="Steel Guitar" MSB="0" LSB="0"/>
                     <Bank Name="12-string Guitar" MSB="0" LSB="35"/>
                     <Bank Name="Nylon &amp; Steel Guitar" MSB="0" LSB="40"/>
                     <Bank Name="Steel Guitar with Body Sound" MSB="0" LSB="41"/>
                     <Bank Name="Mandolin" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="ÉWÉÉÉYÉMÉ^Å[" PC="27">
+                <PC Name="ÔøΩWÔøΩÔøΩÔøΩYÔøΩMÔøΩ^ÔøΩ[" PC="27">
                     <Bank Name="Jazz Guitar" MSB="0" LSB="0"/>
                     <Bank Name="Jazz Amp" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="ÉNÉäÅ[ÉìÉMÉ^Å[" PC="28">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩ[ÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="28">
                     <Bank Name="Clean Guitar" MSB="0" LSB="0"/>
                     <Bank Name="Chorus Guitar" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="É~ÉÖÅ[ÉgÉMÉ^Å[" PC="29">
+                <PC Name="ÔøΩ~ÔøΩÔøΩÔøΩ[ÔøΩgÔøΩMÔøΩ^ÔøΩ[" PC="29">
                     <Bank Name="Muted Guitar" MSB="0" LSB="0"/>
                     <Bank Name="Funk Guitar" MSB="0" LSB="40"/>
                     <Bank Name="Muted Steel Guitar" MSB="0" LSB="41"/>
                     <Bank Name="Jazz Man" MSB="0" LSB="45"/>
                 </PC>
-                <PC Name="ÉIÅ[ÉoÅ[ÉhÉâÉCÉuÉMÉ^Å[" PC="30">
+                <PC Name="ÔøΩIÔøΩ[ÔøΩoÔøΩ[ÔøΩhÔøΩÔøΩÔøΩCÔøΩuÔøΩMÔøΩ^ÔøΩ[" PC="30">
                     <Bank Name="Overdriven Guitar" MSB="0" LSB="0"/>
                     <Bank Name="Guitar Pinch" MSB="0" LSB="43"/>
                 </PC>
-                <PC Name="ÉfÉBÉXÉgÅ[ÉVÉáÉìÉMÉ^Å[" PC="31">
+                <PC Name="ÔøΩfÔøΩBÔøΩXÔøΩgÔøΩ[ÔøΩVÔøΩÔøΩÔøΩÔøΩÔøΩMÔøΩ^ÔøΩ[" PC="31">
                     <Bank Name="Distortion Guitar" MSB="0" LSB="0"/>
                     <Bank Name="Feedback Guitar 1" MSB="0" LSB="40"/>
                     <Bank Name="Feedback Guitar 2" MSB="0" LSB="41"/>
                 </PC>
-                <PC Name="ÉMÉ^Å[ÉnÅ[ÉÇÉjÉNÉX 1" PC="32">
+                <PC Name="ÔøΩMÔøΩ^ÔøΩ[ÔøΩnÔøΩ[ÔøΩÔøΩÔøΩjÔøΩNÔøΩX 1" PC="32">
                     <Bank Name="Guitar Harmonics 1" MSB="0" LSB="0"/>
                     <Bank Name="Guitar Feedback" MSB="0" LSB="65"/>
                     <Bank Name="Guitar Harmonics 2" MSB="0" LSB="66"/>
                 </PC>
             </Map>
-            <Map Name="XGÉxÅ[ÉX">
-                <PC Name="ÉAÉRÅ[ÉXÉeÉBÉbÉNÉxÅ[ÉX" PC="33">
+            <Map Name="XGÔøΩxÔøΩ[ÔøΩX">
+                <PC Name="ÔøΩAÔøΩRÔøΩ[ÔøΩXÔøΩeÔøΩBÔøΩbÔøΩNÔøΩxÔøΩ[ÔøΩX" PC="33">
                     <Bank Name="Acoustic Bass" MSB="0" LSB="0"/>
                     <Bank Name="Jazz Rhythm" MSB="0" LSB="40"/>
                     <Bank Name="Velocity Crossfade Upright Bass" MSB="0" LSB="45"/>
                 </PC>
-                <PC Name="ÉtÉBÉìÉKÅ[ÉxÅ[ÉX 1" PC="34">
+                <PC Name="ÔøΩtÔøΩBÔøΩÔøΩÔøΩKÔøΩ[ÔøΩxÔøΩ[ÔøΩX 1" PC="34">
                     <Bank Name="Finger Bass 1" MSB="0" LSB="0"/>
                     <Bank Name="Finger Bass Dark" MSB="0" LSB="18"/>
                     <Bank Name="Bass &amp; Distorted Electric Guitar" MSB="0" LSB="40"/>
@@ -710,29 +710,29 @@
                     <Bank Name="Finger Bass 2" MSB="0" LSB="45"/>
                     <Bank Name="Modulated Bass" MSB="0" LSB="65"/>
                 </PC>
-                <PC Name="ÉsÉbÉNÉxÅ[ÉX" PC="35">
+                <PC Name="ÔøΩsÔøΩbÔøΩNÔøΩxÔøΩ[ÔøΩX" PC="35">
                     <Bank Name="Pick Bass" MSB="0" LSB="0"/>
                     <Bank Name="Muted Pick Bass" MSB="0" LSB="28"/>
                 </PC>
-                <PC Name="ÉtÉåÉbÉgÉåÉXÉxÅ[ÉX 1" PC="36">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩbÔøΩgÔøΩÔøΩÔøΩXÔøΩxÔøΩ[ÔøΩX 1" PC="36">
                     <Bank Name="Fretless Bass 1" MSB="0" LSB="0"/>
                     <Bank Name="Fretless Bass 2" MSB="0" LSB="32"/>
                     <Bank Name="Fretless Bass 3" MSB="0" LSB="33"/>
                     <Bank Name="Fretless Bass 4" MSB="0" LSB="34"/>
                 </PC>
-                <PC Name="ÉXÉâÉbÉvÉxÅ[ÉX 1" PC="37">
+                <PC Name="ÔøΩXÔøΩÔøΩÔøΩbÔøΩvÔøΩxÔøΩ[ÔøΩX 1" PC="37">
                     <Bank Name="Slap Bass 1" MSB="0" LSB="0"/>
                     <Bank Name="Punch Thumb Bass" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="ÉXÉâÉbÉvÉxÅ[ÉX 2" PC="38">
+                <PC Name="ÔøΩXÔøΩÔøΩÔøΩbÔøΩvÔøΩxÔøΩ[ÔøΩX 2" PC="38">
                     <Bank Name="Slap Bass 2" MSB="0" LSB="0"/>
                     <Bank Name="Velocity Switch Slap" MSB="0" LSB="43"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉxÅ[ÉX 1" PC="39">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩxÔøΩ[ÔøΩX 1" PC="39">
                     <Bank Name="Synth Bass 1" MSB="0" LSB="0"/>
                     <Bank Name="Techno Synth Bass" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉxÅ[ÉX 2" PC="40">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩxÔøΩ[ÔøΩX 2" PC="40">
                     <Bank Name="Synth Bass 2" MSB="0" LSB="0"/>
                     <Bank Name="Mellow Synth Bass" MSB="0" LSB="6"/>
                     <Bank Name="Sequenced Bass" MSB="0" LSB="12"/>
@@ -742,37 +742,37 @@
                     <Bank Name="DX Bass" MSB="0" LSB="41"/>
                 </PC>
             </Map>
-            <Map Name="XGÉXÉgÉäÉìÉOÉX">
-                <PC Name="ÉoÉCÉIÉäÉì" PC="41">
+            <Map Name="XGÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX">
+                <PC Name="ÔøΩoÔøΩCÔøΩIÔøΩÔøΩÔøΩÔøΩ" PC="41">
                     <Bank Name="Violin" MSB="0" LSB="0"/>
                     <Bank Name="Slow Violin" MSB="0" LSB="8"/>
                 </PC>
-                <PC Name="ÉrÉIÉâ" PC="42">
+                <PC Name="ÔøΩrÔøΩIÔøΩÔøΩ" PC="42">
                     <Bank Name="Viola" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É`ÉFÉç" PC="43">
+                <PC Name="ÔøΩ`ÔøΩFÔøΩÔøΩ" PC="43">
                     <Bank Name="Cello" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉRÉìÉgÉâÉoÉX" PC="44">
+                <PC Name="ÔøΩRÔøΩÔøΩÔøΩgÔøΩÔøΩÔøΩoÔøΩX" PC="44">
                     <Bank Name="Contrabass" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉgÉåÉÇÉçÉXÉgÉäÉìÉOÉX" PC="45">
+                <PC Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="45">
                     <Bank Name="Tremolo Strings" MSB="0" LSB="0"/>
                     <Bank Name="Slow Tremolo Strings" MSB="0" LSB="8"/>
                     <Bank Name="Suspense Strings" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="ÉsÉ`ÉJÅ[ÉgÉXÉgÉäÉìÉOÉX" PC="46">
+                <PC Name="ÔøΩsÔøΩ`ÔøΩJÔøΩ[ÔøΩgÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX" PC="46">
                     <Bank Name="Pizzicato Strings" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉIÅ[ÉPÉXÉgÉâÉãÉnÅ[Év" PC="47">
+                <PC Name="ÔøΩIÔøΩ[ÔøΩPÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩnÔøΩ[ÔøΩv" PC="47">
                     <Bank Name="Orchestral Harp" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉeÉBÉìÉpÉj" PC="48">
+                <PC Name="ÔøΩeÔøΩBÔøΩÔøΩÔøΩpÔøΩj" PC="48">
                     <Bank Name="Timpani" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉAÉìÉTÉìÉuÉã">
-                <PC Name="ÉXÉgÉäÉìÉOÉX 1" PC="49">
+            <Map Name="XGÔøΩAÔøΩÔøΩÔøΩTÔøΩÔøΩÔøΩuÔøΩÔøΩ">
+                <PC Name="ÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX 1" PC="49">
                     <Bank Name="Strings 1" MSB="0" LSB="0"/>
                     <Bank Name="Stereo Strings" MSB="0" LSB="3"/>
                     <Bank Name="Slow Strings" MSB="0" LSB="8"/>
@@ -782,129 +782,129 @@
                     <Bank Name="Tremolo Orchestra" MSB="0" LSB="42"/>
                     <Bank Name="Velocity Strings" MSB="0" LSB="45"/>
                 </PC>
-                <PC Name="ÉXÉgÉäÉìÉOÉX 2" PC="50">
+                <PC Name="ÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX 2" PC="50">
                     <Bank Name="Strings 2" MSB="0" LSB="0"/>
                     <Bank Name="Stereo Slow Strings" MSB="0" LSB="3"/>
                     <Bank Name="Legato Strings" MSB="0" LSB="8"/>
                     <Bank Name="Warm Strings" MSB="0" LSB="40"/>
                     <Bank Name="Kingdom" MSB="0" LSB="41"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉXÉgÉäÉìÉOÉX 1" PC="51">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX 1" PC="51">
                     <Bank Name="Synth Strings 1" MSB="0" LSB="0"/>
                     <Bank Name="Synth Strings 4" MSB="0" LSB="64"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉXÉgÉäÉìÉOÉX 2" PC="52">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩX 2" PC="52">
                     <Bank Name="Synth Strings 2" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉNÉèÉCÉAÉAÅ[" PC="53">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩCÔøΩAÔøΩAÔøΩ[" PC="53">
                     <Bank Name="Choir Aahs" MSB="0" LSB="0"/>
                     <Bank Name="Stereo Choir" MSB="0" LSB="3"/>
                     <Bank Name="Mellow Choir" MSB="0" LSB="32"/>
                     <Bank Name="Choir Strings" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="É{ÉCÉXÉEÅ[" PC="54">
+                <PC Name="ÔøΩ{ÔøΩCÔøΩXÔøΩEÔøΩ[" PC="54">
                     <Bank Name="Voice Oohs" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉ{ÉCÉX 1" PC="55">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩ{ÔøΩCÔøΩX 1" PC="55">
                     <Bank Name="Synth Voice 1" MSB="0" LSB="0"/>
                     <Bank Name="Synth Voice 2" MSB="0" LSB="40"/>
                     <Bank Name="Choral" MSB="0" LSB="41"/>
                     <Bank Name="Analog Voice" MSB="0" LSB="64"/>
                 </PC>
-                <PC Name="ÉIÅ[ÉPÉXÉgÉâÉqÉbÉg 1" PC="56">
+                <PC Name="ÔøΩIÔøΩ[ÔøΩPÔøΩXÔøΩgÔøΩÔøΩÔøΩqÔøΩbÔøΩg 1" PC="56">
                     <Bank Name="Orchestra Hit 1" MSB="0" LSB="0"/>
                     <Bank Name="Orchestra Hit 2" MSB="0" LSB="35"/>
                     <Bank Name="Impact" MSB="0" LSB="64"/>
                 </PC>
             </Map>
-            <Map Name="XGÉuÉâÉX">
-                <PC Name="ÉgÉâÉìÉyÉbÉg" PC="57">
+            <Map Name="XGÔøΩuÔøΩÔøΩÔøΩX">
+                <PC Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩyÔøΩbÔøΩg" PC="57">
                     <Bank Name="Trumpet" MSB="0" LSB="0"/>
                     <Bank Name="Warm Trumpet" MSB="0" LSB="32"/>
                 </PC>
-                <PC Name="ÉgÉçÉìÉ{Å[Éì 1" PC="58">
+                <PC Name="ÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩ{ÔøΩ[ÔøΩÔøΩ 1" PC="58">
                     <Bank Name="Trombone 1" MSB="0" LSB="0"/>
                     <Bank Name="Trombone 2" MSB="0" LSB="18"/>
                 </PC>
-                <PC Name="É`ÉÖÅ[Éo" PC="59">
+                <PC Name="ÔøΩ`ÔøΩÔøΩÔøΩ[ÔøΩo" PC="59">
                     <Bank Name="Tuba" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É~ÉÖÅ[ÉgÉgÉâÉìÉyÉbÉg" PC="60">
+                <PC Name="ÔøΩ~ÔøΩÔøΩÔøΩ[ÔøΩgÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩyÔøΩbÔøΩg" PC="60">
                     <Bank Name="Muted Trumpet" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉtÉåÉìÉ`ÉzÉãÉì 1" PC="61">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩÔøΩÔøΩ`ÔøΩzÔøΩÔøΩÔøΩÔøΩ 1" PC="61">
                     <Bank Name="French Horn 1" MSB="0" LSB="0"/>
                     <Bank Name="French Horn Solo" MSB="0" LSB="6"/>
                     <Bank Name="French Horn 2" MSB="0" LSB="32"/>
                     <Bank Name="Horn Orchestra" MSB="0" LSB="37"/>
                 </PC>
-                <PC Name="ÉuÉâÉXÉZÉNÉVÉáÉì" PC="62">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩXÔøΩZÔøΩNÔøΩVÔøΩÔøΩÔøΩÔøΩ" PC="62">
                     <Bank Name="Brass Section" MSB="0" LSB="0"/>
                     <Bank Name="Trumpet &amp; Trombone Section" MSB="0" LSB="35"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉuÉâÉX 1" PC="63">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩuÔøΩÔøΩÔøΩX 1" PC="63">
                     <Bank Name="Synth Brass 1" MSB="0" LSB="0"/>
                     <Bank Name="Resonant Synth Brass" MSB="0" LSB="20"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉuÉâÉX 2" PC="64">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩuÔøΩÔøΩÔøΩX 2" PC="64">
                     <Bank Name="Synth Brass 2" MSB="0" LSB="0"/>
                     <Bank Name="Soft Brass" MSB="0" LSB="18"/>
                     <Bank Name="Choir Brass" MSB="0" LSB="41"/>
                 </PC>
             </Map>
-            <Map Name="XGÉäÅ[Éh">
-                <PC Name="É\ÉvÉâÉmÉTÉbÉNÉX" PC="65">
+            <Map Name="XGÔøΩÔøΩÔøΩ[ÔøΩh">
+                <PC Name="ÔøΩ\ÔøΩvÔøΩÔøΩÔøΩmÔøΩTÔøΩbÔøΩNÔøΩX" PC="65">
                     <Bank Name="Soprano Sax" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉAÉãÉgÉTÉbÉNÉX" PC="66">
+                <PC Name="ÔøΩAÔøΩÔøΩÔøΩgÔøΩTÔøΩbÔøΩNÔøΩX" PC="66">
                     <Bank Name="Alto Sax" MSB="0" LSB="0"/>
                     <Bank Name="Sax Section" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="ÉeÉiÅ[ÉTÉbÉNÉX" PC="67">
+                <PC Name="ÔøΩeÔøΩiÔøΩ[ÔøΩTÔøΩbÔøΩNÔøΩX" PC="67">
                     <Bank Name="Tenor Sax" MSB="0" LSB="0"/>
                     <Bank Name="Breathy Tenor Sax" MSB="0" LSB="40"/>
                 </PC>
-                <PC Name="ÉoÉäÉgÉìÉTÉbÉNÉX" PC="68">
+                <PC Name="ÔøΩoÔøΩÔøΩÔøΩgÔøΩÔøΩÔøΩTÔøΩbÔøΩNÔøΩX" PC="68">
                     <Bank Name="Baritone Sax" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉIÅ[É{ÉG" PC="69">
+                <PC Name="ÔøΩIÔøΩ[ÔøΩ{ÔøΩG" PC="69">
                     <Bank Name="Oboe" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉCÉìÉOÉäÉbÉVÉÖÉzÉãÉì" PC="70">
+                <PC Name="ÔøΩCÔøΩÔøΩÔøΩOÔøΩÔøΩÔøΩbÔøΩVÔøΩÔøΩÔøΩzÔøΩÔøΩÔøΩÔøΩ" PC="70">
                     <Bank Name="English Horn" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉoÉXÅ[Éì" PC="71">
+                <PC Name="ÔøΩoÔøΩXÔøΩ[ÔøΩÔøΩ" PC="71">
                     <Bank Name="Bassoon" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉNÉâÉäÉlÉbÉg" PC="72">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩÔøΩÔøΩlÔøΩbÔøΩg" PC="72">
                     <Bank Name="Clarinet" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉpÉCÉv">
-                <PC Name="ÉsÉbÉRÉç" PC="73">
+            <Map Name="XGÔøΩpÔøΩCÔøΩv">
+                <PC Name="ÔøΩsÔøΩbÔøΩRÔøΩÔøΩ" PC="73">
                     <Bank Name="Piccolo" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉtÉãÅ[Ég" PC="74">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩ[ÔøΩg" PC="74">
                     <Bank Name="Flute" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉäÉRÅ[É_Å[" PC="75">
+                <PC Name="ÔøΩÔøΩÔøΩRÔøΩ[ÔøΩ_ÔøΩ[" PC="75">
                     <Bank Name="Recorder" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉpÉìÉtÉãÅ[Ég" PC="76">
+                <PC Name="ÔøΩpÔøΩÔøΩÔøΩtÔøΩÔøΩÔøΩ[ÔøΩg" PC="76">
                     <Bank Name="Pan Flute" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É{ÉgÉã" PC="77">
+                <PC Name="ÔøΩ{ÔøΩgÔøΩÔøΩ" PC="77">
                     <Bank Name="Blown Bottle" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="å˚ìJ" PC="79">
+                <PC Name="ÔøΩÔøΩÔøΩJ" PC="79">
                     <Bank Name="Whistle" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉIÉJÉäÉi" PC="80">
+                <PC Name="ÔøΩIÔøΩJÔøΩÔøΩÔøΩi" PC="80">
                     <Bank Name="Ocarina" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉVÉìÉZÉäÅ[Éh">
-                <PC Name="ÉXÉNÉGÉAÉäÅ[Éh 1" PC="81">
+            <Map Name="XGÔøΩVÔøΩÔøΩÔøΩZÔøΩÔøΩÔøΩ[ÔøΩh">
+                <PC Name="ÔøΩXÔøΩNÔøΩGÔøΩAÔøΩÔøΩÔøΩ[ÔøΩh 1" PC="81">
                     <Bank Name="Square Lead 1" MSB="0" LSB="0"/>
                     <Bank Name="Square Lead 2" MSB="0" LSB="6"/>
                     <Bank Name="LM Square" MSB="0" LSB="8"/>
@@ -914,7 +914,7 @@
                     <Bank Name="Solo Sine" MSB="0" LSB="65"/>
                     <Bank Name="Sine Lead" MSB="0" LSB="66"/>
                 </PC>
-                <PC Name="É\Å[ÉgÉDÅ[ÉXÉäÅ[Éh 1" PC="82">
+                <PC Name="ÔøΩ\ÔøΩ[ÔøΩgÔøΩDÔøΩ[ÔøΩXÔøΩÔøΩÔøΩ[ÔøΩh 1" PC="82">
                     <Bank Name="Sawtooth Lead 1" MSB="0" LSB="0"/>
                     <Bank Name="Sawtooth Lead 2" MSB="0" LSB="6"/>
                     <Bank Name="Thick Sawtooth" MSB="0" LSB="8"/>
@@ -924,71 +924,71 @@
                     <Bank Name="Heavy Synth" MSB="0" LSB="24"/>
                     <Bank Name="Sequenced Analog" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="ÉJÉäÉIÉyÉäÅ[Éh" PC="83">
+                <PC Name="ÔøΩJÔøΩÔøΩÔøΩIÔøΩyÔøΩÔøΩÔøΩ[ÔøΩh" PC="83">
                     <Bank Name="Calliope Lead" MSB="0" LSB="0"/>
                     <Bank Name="Pure Lead" MSB="0" LSB="65"/>
                 </PC>
-                <PC Name="É`ÉtÉäÅ[Éh" PC="84">
+                <PC Name="ÔøΩ`ÔøΩtÔøΩÔøΩÔøΩ[ÔøΩh" PC="84">
                     <Bank Name="Chiff Lead" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É`ÉÉÉâÉìÉäÅ[Éh" PC="85">
+                <PC Name="ÔøΩ`ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ[ÔøΩh" PC="85">
                     <Bank Name="Charang Lead" MSB="0" LSB="0"/>
                     <Bank Name="Distorted Lead" MSB="0" LSB="64"/>
                 </PC>
-                <PC Name="É{ÉCÉXÉäÅ[Éh" PC="86">
+                <PC Name="ÔøΩ{ÔøΩCÔøΩXÔøΩÔøΩÔøΩ[ÔøΩh" PC="86">
                     <Bank Name="Voice Lead" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="5ìxÉäÅ[Éh" PC="87">
+                <PC Name="5ÔøΩxÔøΩÔøΩÔøΩ[ÔøΩh" PC="87">
                     <Bank Name="Fifths Lead" MSB="0" LSB="0"/>
                     <Bank Name="Big Five" MSB="0" LSB="35"/>
                 </PC>
-                <PC Name="ÉxÅ[ÉXÅïÉäÅ[Éh" PC="88">
+                <PC Name="ÔøΩxÔøΩ[ÔøΩXÔøΩÔøΩÔøΩÔøΩÔøΩ[ÔøΩh" PC="88">
                     <Bank Name="Bass &amp; Lead" MSB="0" LSB="0"/>
                     <Bank Name="Big &amp; Low" MSB="0" LSB="16"/>
                     <Bank Name="Fat &amp; Perky" MSB="0" LSB="64"/>
                     <Bank Name="Soft Whirl" MSB="0" LSB="65"/>
                 </PC>
             </Map>
-            <Map Name="XGÉVÉìÉZÉpÉbÉh">
-                <PC Name="ÉjÉÖÅ[ÉGÉCÉWÉpÉbÉh" PC="89">
+            <Map Name="XGÔøΩVÔøΩÔøΩÔøΩZÔøΩpÔøΩbÔøΩh">
+                <PC Name="ÔøΩjÔøΩÔøΩÔøΩ[ÔøΩGÔøΩCÔøΩWÔøΩpÔøΩbÔøΩh" PC="89">
                     <Bank Name="New Age Pad" MSB="0" LSB="0"/>
                     <Bank Name="Fantasy" MSB="0" LSB="64"/>
                 </PC>
-                <PC Name="ÉEÉHÅ[ÉÄÉpÉbÉh" PC="90">
+                <PC Name="ÔøΩEÔøΩHÔøΩ[ÔøΩÔøΩÔøΩpÔøΩbÔøΩh" PC="90">
                     <Bank Name="Warm Pad" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É|ÉäÉVÉìÉZÉpÉbÉh" PC="91">
+                <PC Name="ÔøΩ|ÔøΩÔøΩÔøΩVÔøΩÔøΩÔøΩZÔøΩpÔøΩbÔøΩh" PC="91">
                     <Bank Name="Poly Synth Pad" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉNÉèÉCÉAÉpÉbÉh" PC="92">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩCÔøΩAÔøΩpÔøΩbÔøΩh" PC="92">
                     <Bank Name="Choir Pad" MSB="0" LSB="0"/>
                     <Bank Name="Itopia" MSB="0" LSB="66"/>
                 </PC>
-                <PC Name="É{ÉEÉhÉpÉbÉh" PC="93">
+                <PC Name="ÔøΩ{ÔøΩEÔøΩhÔøΩpÔøΩbÔøΩh" PC="93">
                     <Bank Name="Bowed Pad" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉÅÉ^ÉäÉbÉNÉpÉbÉh" PC="94">
+                <PC Name="ÔøΩÔøΩÔøΩ^ÔøΩÔøΩÔøΩbÔøΩNÔøΩpÔøΩbÔøΩh" PC="94">
                     <Bank Name="Metallic Pad" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉnÉçÅ[ÉpÉbÉh" PC="95">
+                <PC Name="ÔøΩnÔøΩÔøΩÔøΩ[ÔøΩpÔøΩbÔøΩh" PC="95">
                     <Bank Name="Halo Pad" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉCÅ[ÉvÉpÉbÉh" PC="96">
+                <PC Name="ÔøΩXÔøΩCÔøΩ[ÔøΩvÔøΩpÔøΩbÔøΩh" PC="96">
                     <Bank Name="Sweep Pad" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉVÉìÉZÉGÉtÉFÉNÉg">
-                <PC Name="ÉåÉCÉì" PC="97">
+            <Map Name="XGÔøΩVÔøΩÔøΩÔøΩZÔøΩGÔøΩtÔøΩFÔøΩNÔøΩg">
+                <PC Name="ÔøΩÔøΩÔøΩCÔøΩÔøΩ" PC="97">
                     <Bank Name="Rain" MSB="0" LSB="0"/>
                     <Bank Name="Harmo Rain" MSB="0" LSB="64"/>
                     <Bank Name="African Wind" MSB="0" LSB="65"/>
                     <Bank Name="Carib" MSB="0" LSB="66"/>
                 </PC>
-                <PC Name="ÉTÉEÉìÉhÉgÉâÉbÉN" PC="98">
+                <PC Name="ÔøΩTÔøΩEÔøΩÔøΩÔøΩhÔøΩgÔøΩÔøΩÔøΩbÔøΩN" PC="98">
                     <Bank Name="Sound Track" MSB="0" LSB="0"/>
                     <Bank Name="Prologue" MSB="0" LSB="27"/>
                 </PC>
-                <PC Name="ÉNÉäÉXÉ^Éã" PC="99">
+                <PC Name="ÔøΩNÔøΩÔøΩÔøΩXÔøΩ^ÔøΩÔøΩ" PC="99">
                     <Bank Name="Crystal" MSB="0" LSB="0"/>
                     <Bank Name="Synth Drum Comp" MSB="0" LSB="12"/>
                     <Bank Name="Popcorn" MSB="0" LSB="14"/>
@@ -1002,7 +1002,7 @@
                     <Bank Name="Bell Harp" MSB="0" LSB="71"/>
                     <Bank Name="Gamelimba" MSB="0" LSB="72"/>
                 </PC>
-                <PC Name="ÉAÉgÉÇÉXÉtÉBÉA" PC="100">
+                <PC Name="ÔøΩAÔøΩgÔøΩÔøΩÔøΩXÔøΩtÔøΩBÔøΩA" PC="100">
                     <Bank Name="Atmosphere" MSB="0" LSB="0"/>
                     <Bank Name="Warm Atmosphere" MSB="0" LSB="18"/>
                     <Bank Name="Hollow Release" MSB="0" LSB="19"/>
@@ -1011,10 +1011,10 @@
                     <Bank Name="Harp Vox" MSB="0" LSB="65"/>
                     <Bank Name="Atmosphere Pad" MSB="0" LSB="66"/>
                 </PC>
-                <PC Name="ÉuÉâÉCÉgÉlÉX" PC="101">
+                <PC Name="ÔøΩuÔøΩÔøΩÔøΩCÔøΩgÔøΩlÔøΩX" PC="101">
                     <Bank Name="Brightness" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉSÉuÉäÉì" PC="102">
+                <PC Name="ÔøΩSÔøΩuÔøΩÔøΩÔøΩÔøΩ" PC="102">
                     <Bank Name="Goblins" MSB="0" LSB="0"/>
                     <Bank Name="Goblins Synth" MSB="0" LSB="64"/>
                     <Bank Name="Creeper" MSB="0" LSB="65"/>
@@ -1024,28 +1024,28 @@
                     <Bank Name="Glisten" MSB="0" LSB="71"/>
                     <Bank Name="Bell Choir" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="ÉGÉRÅ[" PC="103">
+                <PC Name="ÔøΩGÔøΩRÔøΩ[" PC="103">
                     <Bank Name="Echoes" MSB="0" LSB="0"/>
                     <Bank Name="Big Pan" MSB="0" LSB="65"/>
                 </PC>
-                <PC Name="ÉTÉCÉGÉìÉXÉtÉBÉNÉVÉáÉì" PC="104">
+                <PC Name="ÔøΩTÔøΩCÔøΩGÔøΩÔøΩÔøΩXÔøΩtÔøΩBÔøΩNÔøΩVÔøΩÔøΩÔøΩÔøΩ" PC="104">
                     <Bank Name="Sci-Fi" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉèÅ[ÉãÉh">
-                <PC Name="é⁄î™" PC="78">
+            <Map Name="XGÔøΩÔøΩÔøΩ[ÔøΩÔøΩÔøΩh">
+                <PC Name="ÔøΩ⁄îÔøΩ" PC="78">
                     <Bank Name="Shakuhachi" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="É^ÉìÉuÅ[Éâ" PC="105">
+                <PC Name="ÔøΩ^ÔøΩÔøΩÔøΩuÔøΩ[ÔøΩÔøΩ" PC="105">
                     <Bank Name="Tamboura" MSB="0" LSB="97"/>
                 </PC>
-                <PC Name="ÉoÉìÉWÉáÅ[" PC="106">
+                <PC Name="ÔøΩoÔøΩÔøΩÔøΩWÔøΩÔøΩÔøΩ[" PC="106">
                     <Bank Name="Banjo" MSB="0" LSB="0"/>
                     <Bank Name="Muted Banjo" MSB="0" LSB="28"/>
                 </PC>
             </Map>
-            <Map Name="XGÉpÅ[ÉJÉbÉVÉu">
-                <PC Name="ÉeÉBÉìÉNÉãÉxÉã" PC="113">
+            <Map Name="XGÔøΩpÔøΩ[ÔøΩJÔøΩbÔøΩVÔøΩu">
+                <PC Name="ÔøΩeÔøΩBÔøΩÔøΩÔøΩNÔøΩÔøΩÔøΩxÔøΩÔøΩ" PC="113">
                     <Bank Name="Tinkle Bell" MSB="0" LSB="0"/>
                     <Bank Name="Bonang" MSB="0" LSB="96"/>
                     <Bank Name="Altair" MSB="0" LSB="97"/>
@@ -1053,156 +1053,156 @@
                     <Bank Name="Stereo Gamelan Gongs" MSB="0" LSB="99"/>
                     <Bank Name="Rama Cymbal" MSB="0" LSB="100"/>
                 </PC>
-                <PC Name="ÉAÉSÉS" PC="114">
+                <PC Name="ÔøΩAÔøΩSÔøΩS" PC="114">
                     <Bank Name="Agogo" MSB="0" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ`Å[ÉãÉhÉâÉÄ" PC="115">
+                <PC Name="ÔøΩXÔøΩ`ÔøΩ[ÔøΩÔøΩÔøΩhÔøΩÔøΩÔøΩÔøΩ" PC="115">
                     <Bank Name="Steel Drums" MSB="0" LSB="0"/>
                     <Bank Name="Glass Percussion" MSB="0" LSB="97"/>
                     <Bank Name="Thai Bells" MSB="0" LSB="98"/>
                 </PC>
-                <PC Name="ÉEÉbÉhÉuÉçÉbÉN" PC="116">
+                <PC Name="ÔøΩEÔøΩbÔøΩhÔøΩuÔøΩÔøΩÔøΩbÔøΩN" PC="116">
                     <Bank Name="Woodblock" MSB="0" LSB="0"/>
                     <Bank Name="Castanets" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="òaëæå€" PC="117">
+                <PC Name="ÔøΩaÔøΩÔøΩÔøΩÔøΩ" PC="117">
                     <Bank Name="Taiko Drum" MSB="0" LSB="0"/>
                     <Bank Name="Gran Cassa" MSB="0" LSB="96"/>
                 </PC>
-                <PC Name="ÉÅÉçÉfÉBÉbÉNÉ^ÉÄ 1" PC="118">
+                <PC Name="ÔøΩÔøΩÔøΩÔøΩÔøΩfÔøΩBÔøΩbÔøΩNÔøΩ^ÔøΩÔøΩ 1" PC="118">
                     <Bank Name="Melodic Tom 1" MSB="0" LSB="0"/>
                     <Bank Name="Melodic Tom 2" MSB="0" LSB="64"/>
                     <Bank Name="Real Tom" MSB="0" LSB="65"/>
                     <Bank Name="Rock Tom" MSB="0" LSB="66"/>
                 </PC>
-                <PC Name="ÉVÉìÉZÉhÉâÉÄ" PC="119">
+                <PC Name="ÔøΩVÔøΩÔøΩÔøΩZÔøΩhÔøΩÔøΩÔøΩÔøΩ" PC="119">
                     <Bank Name="Synth Drum" MSB="0" LSB="0"/>
                     <Bank Name="Analog Tom" MSB="0" LSB="64"/>
                     <Bank Name="Electronic Percussion" MSB="0" LSB="65"/>
                 </PC>
-                <PC Name="ÉäÉoÅ[ÉXÉVÉìÉoÉã" PC="120">
+                <PC Name="ÔøΩÔøΩÔøΩoÔøΩ[ÔøΩXÔøΩVÔøΩÔøΩÔøΩoÔøΩÔøΩ" PC="120">
                     <Bank Name="Reverse Cymbal" MSB="0" LSB="0"/>
                 </PC>
             </Map>
-            <Map Name="XGÉTÉEÉìÉhÉGÉtÉFÉNÉg">
-                <PC Name="ÉJÉbÉeÉBÉìÉOÉmÉCÉY 1" PC="1">
+            <Map Name="XGÔøΩTÔøΩEÔøΩÔøΩÔøΩhÔøΩGÔøΩtÔøΩFÔøΩNÔøΩg">
+                <PC Name="ÔøΩJÔøΩbÔøΩeÔøΩBÔøΩÔøΩÔøΩOÔøΩmÔøΩCÔøΩY 1" PC="1">
                     <Bank Name="Cutting Noise 1" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉJÉbÉeÉBÉìÉOÉmÉCÉY 2" PC="2">
+                <PC Name="ÔøΩJÔøΩbÔøΩeÔøΩBÔøΩÔøΩÔøΩOÔøΩmÔøΩCÔøΩY 2" PC="2">
                     <Bank Name="Cutting Noise 2" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉgÉäÉìÉOÉXÉâÉbÉv" PC="4">
+                <PC Name="ÔøΩXÔøΩgÔøΩÔøΩÔøΩÔøΩÔøΩOÔøΩXÔøΩÔøΩÔøΩbÔøΩv" PC="4">
                     <Bank Name="String Slap" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉtÉãÅ[ÉgÉLÅ[ÉNÉäÉbÉN" PC="17">
+                <PC Name="ÔøΩtÔøΩÔøΩÔøΩ[ÔøΩgÔøΩLÔøΩ[ÔøΩNÔøΩÔøΩÔøΩbÔøΩN" PC="17">
                     <Bank Name="Flute Key Click" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="âJ" PC="33">
+                <PC Name="ÔøΩJ" PC="33">
                     <Bank Name="Shower" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="óã" PC="34">
+                <PC Name="ÔøΩÔøΩ" PC="34">
                     <Bank Name="Thunder" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ïó" PC="35">
+                <PC Name="ÔøΩÔøΩ" PC="35">
                     <Bank Name="Wind" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÇπÇπÇÁÇ¨" PC="36">
+                <PC Name="ÔøΩÔøΩÔøΩÔøΩÔøΩÁÇ¨" PC="36">
                     <Bank Name="Stream" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ñA" PC="37">
+                <PC Name="ÔøΩA" PC="37">
                     <Bank Name="Bubble" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉtÉBÅ[Éh" PC="38">
+                <PC Name="ÔøΩtÔøΩBÔøΩ[ÔøΩh" PC="38">
                     <Bank Name="Feed" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="å¢" PC="49">
+                <PC Name="ÔøΩÔøΩ" PC="49">
                     <Bank Name="Dog" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="în" PC="50">
+                <PC Name="ÔøΩn" PC="50">
                     <Bank Name="Horse" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="íπÇÃÇ≥Ç¶Ç∏ÇË 2" PC="51">
+                <PC Name="ÔøΩÔøΩÔøΩÃÇÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ 2" PC="51">
                     <Bank Name="Bird Tweet 2" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="É}ÉIÉE" PC="56">
+                <PC Name="ÔøΩ}ÔøΩIÔøΩE" PC="56">
                     <Bank Name="Maou" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉtÉHÅ[ÉìÉRÅ[Éã" PC="65">
+                <PC Name="ÔøΩtÔøΩHÔøΩ[ÔøΩÔøΩÔøΩRÔøΩ[ÔøΩÔøΩ" PC="65">
                     <Bank Name="Phone Call" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉhÉAÇÃÇ´ÇµÇ›" PC="66">
+                <PC Name="ÔøΩhÔøΩAÔøΩÃÇÔøΩÔøΩÔøΩÔøΩÔøΩ" PC="66">
                     <Bank Name="Door Squeak" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉhÉAÇï¬ÇﬂÇÈ" PC="67">
+                <PC Name="ÔøΩhÔøΩAÔøΩÔøΩ¬ÇﬂÇÔøΩ" PC="67">
                     <Bank Name="Door Slam" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉNÉâÉbÉ`ÉJÉbÉg" PC="68">
+                <PC Name="ÔøΩXÔøΩNÔøΩÔøΩÔøΩbÔøΩ`ÔøΩJÔøΩbÔøΩg" PC="68">
                     <Bank Name="Scratch Cut" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉNÉâÉbÉ`ÉXÉvÉäÉbÉg" PC="69">
+                <PC Name="ÔøΩXÔøΩNÔøΩÔøΩÔøΩbÔøΩ`ÔøΩXÔøΩvÔøΩÔøΩÔøΩbÔøΩg" PC="69">
                     <Bank Name="Scratch Split" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉEÉBÉìÉhÉ`ÉÉÉCÉÄ" PC="70">
+                <PC Name="ÔøΩEÔøΩBÔøΩÔøΩÔøΩhÔøΩ`ÔøΩÔøΩÔøΩCÔøΩÔøΩ" PC="70">
                     <Bank Name="Wind Chime" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ìdòb 2" PC="71">
+                <PC Name="ÔøΩdÔøΩb 2" PC="71">
                     <Bank Name="Telephone Ring 2" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉCÉOÉjÉbÉVÉáÉì" PC="81">
+                <PC Name="ÔøΩCÔøΩOÔøΩjÔøΩbÔøΩVÔøΩÔøΩÔøΩÔøΩ" PC="81">
                     <Bank Name="Car Engine Ignition" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="É^ÉCÉÑ" PC="82">
+                <PC Name="ÔøΩ^ÔøΩCÔøΩÔøΩ" PC="82">
                     <Bank Name="Car Tires Squeal" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉåÅ[ÉVÉìÉOÉJÅ[" PC="83">
+                <PC Name="ÔøΩÔøΩÔøΩ[ÔøΩVÔøΩÔøΩÔøΩOÔøΩJÔøΩ[" PC="83">
                     <Bank Name="Car Passing" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="è’ìÀ" PC="84">
+                <PC Name="ÔøΩ’ìÔøΩ" PC="84">
                     <Bank Name="Car Crash" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉTÉCÉåÉì" PC="85">
+                <PC Name="ÔøΩTÔøΩCÔøΩÔøΩÔøΩÔøΩ" PC="85">
                     <Bank Name="Siren" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="óÒé‘" PC="86">
+                <PC Name="ÔøΩÔøΩÔøΩ" PC="86">
                     <Bank Name="Train" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉWÉFÉbÉgã@" PC="87">
+                <PC Name="ÔøΩWÔøΩFÔøΩbÔøΩgÔøΩ@" PC="87">
                     <Bank Name="Jet Plane" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉXÉ^Å[ÉVÉbÉv" PC="88">
+                <PC Name="ÔøΩXÔøΩ^ÔøΩ[ÔøΩVÔøΩbÔøΩv" PC="88">
                     <Bank Name="Starship" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉoÅ[ÉXÉg" PC="89">
+                <PC Name="ÔøΩoÔøΩ[ÔøΩXÔøΩg" PC="89">
                     <Bank Name="Burst" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉçÅ[ÉâÅ[ÉRÅ[ÉXÉ^Å[" PC="90">
+                <PC Name="ÔøΩÔøΩÔøΩ[ÔøΩÔøΩÔøΩ[ÔøΩRÔøΩ[ÔøΩXÔøΩ^ÔøΩ[" PC="90">
                     <Bank Name="Roller Coaster" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉTÉuÉ}ÉäÉì" PC="91">
+                <PC Name="ÔøΩTÔøΩuÔøΩ}ÔøΩÔøΩÔøΩÔøΩ" PC="91">
                     <Bank Name="Submarine" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="èŒÇ¢ê∫" PC="97">
+                <PC Name="ÔøΩŒÇÔøΩÔøΩÔøΩ" PC="97">
                     <Bank Name="Laugh" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="îﬂñ¬" PC="98">
+                <PC Name="ÔøΩﬂñÔøΩ" PC="98">
                     <Bank Name="Scream" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉpÉìÉ`" PC="99">
+                <PC Name="ÔøΩpÔøΩÔøΩÔøΩ`" PC="99">
                     <Bank Name="Punch" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="êSâπ" PC="100">
+                <PC Name="ÔøΩSÔøΩÔøΩ" PC="100">
                     <Bank Name="Heartbeat" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ë´âπ" PC="101">
+                <PC Name="ÔøΩÔøΩÔøΩÔøΩ" PC="101">
                     <Bank Name="Footsteps" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="É}ÉVÉìÉKÉì" PC="113">
+                <PC Name="ÔøΩ}ÔøΩVÔøΩÔøΩÔøΩKÔøΩÔøΩ" PC="113">
                     <Bank Name="Machine Gun" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="ÉåÅ[ÉUÅ[ÉKÉì" PC="114">
+                <PC Name="ÔøΩÔøΩÔøΩ[ÔøΩUÔøΩ[ÔøΩKÔøΩÔøΩ" PC="114">
                     <Bank Name="Laser Gun" MSB="64" LSB="0"/>
                 </PC>
-                <PC Name="îöî≠" PC="115">
+                <PC Name="ÔøΩÔøΩÔøΩÔøΩ" PC="115">
                     <Bank Name="Explosion" MSB="64" LSB="0"/>
                 </PC>
             </Map>
@@ -2752,22 +2752,22 @@
         <Folder Name="PerformEdit">
             <CCM ID="130" Name="PitchBend" Color="#0fa806" Sync="Last">
                 <Value Min="-8192" Max="8191" Offset="8192" />
-                <Memo>âπíˆÇïœâªÇ≥ÇπÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩœâÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@PB #VH #VL</Data>
             </CCM>
             <CCM ID="140" Name="PitchBend Range" Sync="Last">
                 <Value Default="2" Min="0" Max="24" />
-                <Memo>ÉsÉbÉ`ÉxÉìÉhÇ≈ïœÇÌÇÈâπíˆÇÃç≈ëÂílÇê›íËÇµÇ‹Ç∑ÅB12Ç≈1ÉIÉNÉ^Å[ÉuÇ≈Ç∑ÅB</Memo>
+                <Memo>ÔøΩsÔøΩbÔøΩ`ÔøΩxÔøΩÔøΩÔøΩhÔøΩ≈ïœÇÔøΩÈâπÔøΩÔøΩÔøΩÃç≈ëÔøΩlÔøΩÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB12ÔøΩÔøΩ1ÔøΩIÔøΩNÔøΩ^ÔøΩ[ÔøΩuÔøΩ≈ÇÔøΩÔøΩB</Memo>
                 <Data>@RPN 00H 00H #VL #NONE</Data>
             </CCM>
             <CCM ID="1" Name="Modulation" Color="#1c1cfb" Sync="Last">
                 <Value />
-                <Memo>âπÇÃóhÇÁÇÆê[Ç≥Çê›íËÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩÔøΩÔøΩÃóhÔøΩÁÇÆÔøΩ[ÔøΩÔøΩÔøΩÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 1 #VL</Data>
             </CCM>
             <CCM ID="11" Name="Expression" Color="#CA0000" Sync="Last">
                 <Value />
-                <Memo>ÉpÅ[ÉgÇÃâπó Çê›íËÇµÇ‹Ç∑ÅBéÂÇ…ââëtíÜÇÃó}ógï\åªÇ…égópÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩpÔøΩ[ÔøΩgÔøΩÃâÔøΩÔøΩ ÇÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩBÔøΩÔøΩ…âÔøΩÔøΩtÔøΩÔøΩÔøΩÃó}ÔøΩgÔøΩ\ÔøΩÔøΩÔøΩ…égÔøΩpÔøΩÔøΩÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 11 #VL</Data>
             </CCM>
             <CCM ID="64" Name="Hold1">
@@ -2775,19 +2775,19 @@
                     <Entry Label="Off" Value="0" />
                     <Entry Label="On" Value="127" />
                 </Value>
-                <Memo>âπÇéùë±Ç≥ÇπÇÈÇ©Ç«Ç§Ç©Çê›íËÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÈÇ©ÔøΩ«ÇÔøΩÔøΩÔøΩÔøΩÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 64 #VL</Data>
             </CCM>
         </Folder>
         <Folder Name="PartEdit">
             <CCM ID="7" Name="Part Level" Color="#CA0000" Sync="Last">
                 <Value Default="100" />
-                <Memo>ÉpÅ[ÉgÇÃâπó ÉoÉâÉìÉXÇê›íËÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩpÔøΩ[ÔøΩgÔøΩÃâÔøΩÔøΩ ÉoÔøΩÔøΩÔøΩÔøΩÔøΩXÔøΩÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 7 #VL</Data>
             </CCM>
             <CCM ID="10" Name="Part Panpot" Color="#008080" Sync="Last">
                 <Value Min="-64" Max="63" Offset="64" />
-                <Memo>âπÇÃíËà Çê›íËÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩÔøΩÔøΩÃíÔøΩ ÇÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 10 #VL</Data>
             </CCM>
             <CCM ID="141" Name="MasterFineTuning">
@@ -2804,12 +2804,12 @@
         <Folder Name="Other">
             <CCM ID="6" Name="DataEntryMSB">
                 <Value />
-                <Memo>ÉfÅ[É^ÉGÉìÉgÉäMSBÇê›íËÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩfÔøΩ[ÔøΩ^ÔøΩGÔøΩÔøΩÔøΩgÔøΩÔøΩMSBÔøΩÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 6 #VL</Data>
             </CCM>
             <CCM ID="38" Name="DataEntryLSB">
                 <Value />
-                <Memo>ÉfÅ[É^ÉGÉìÉgÉäLSBÇê›íËÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>ÔøΩfÔøΩ[ÔøΩ^ÔøΩGÔøΩÔøΩÔøΩgÔøΩÔøΩLSBÔøΩÔøΩ›íËÇµÔøΩ‹ÇÔøΩÔøΩB</Memo>
                 <Data>@CC 38 #VL</Data>
             </CCM>
             <CCM ID="100" Name="RPN LSB">
@@ -2837,16 +2837,16 @@
             </CCM>
             <CCM ID="200" Name="GM System ON">
                 <Data>@SYSEX F0H 7EH 7FH 09H 01H F7H</Data>
-                <Memo>GMâπåπÇèâä˙âªÇµÇ‹Ç∑ÅB</Memo>
+                <Memo>GMÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ‹ÇÔøΩÔøΩB</Memo>
             </CCM>
             <CCM ID="128" Name="Rest" Color="#aaaaaa">
-                <Memo>ãxïÑÇ≈Ç∑ÅB</Memo>
+                <Memo>ÔøΩxÔøΩÔøΩÔøΩ≈ÇÔøΩÔøΩB</Memo>
             </CCM>
         </Folder>
     </ControlChangeMacroList>
     <TemplateList>
-        <Template ID="0" Name="ÉgÉâÉbÉNèâä˙âª">
-            <Memo>ÉgÉâÉbÉNèâä˙âªópÉeÉìÉvÉåÅ[ÉgÇ≈Ç∑ÅB</Memo>
+        <Template ID="0" Name="ÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ">
+            <Memo>ÔøΩgÔøΩÔøΩÔøΩbÔøΩNÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩpÔøΩeÔøΩÔøΩÔøΩvÔøΩÔøΩÔøΩ[ÔøΩgÔøΩ≈ÇÔøΩÔøΩB</Memo>
             <CC ID="7" Value="100" />
             <CC ID="10" Value="0" />
             <PC Mode="Auto" />

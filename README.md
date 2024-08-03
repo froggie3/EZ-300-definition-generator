@@ -5,7 +5,7 @@ owners manual ([ja](https://jp.yamaha.com/files/download/other_assets/4/1350754/
 The drumset list was extracted from another document which are available in [japanese](https://jp.yamaha.com/files/download/other_assets/4/1353124/ez300_ja_dkl_a0.pdf) or [english](https://jp.yamaha.com/files/download/other_assets/3/1353133/ez300_en_fr_es_de_dkl_a0.pdf).
 
 Execute the pre-processing script `./script.sh`.
-The finished product is in `dist/EZ-J210_export.xml`.
+The finished product is in `dist/EZ-300_export.xml`.
 
 # Note
 

@@ -198,8 +198,8 @@ cat \
     $WORKDIR/xml_content \
     $TEMPLATES_DIR/footer.txt | \
     iconv -f utf-8 -t shift-jis \
-    > $DIST_DIR/EZ-J210_export.xml
-    # tee $DIST_DIR/EZ-J210_export.xml
+    > $DIST_DIR/EZ-300_export.xml
+    # tee $DIST_DIR/EZ-300_export.xml
 
 popd > /dev/null
 
