@@ -1,5 +1,6 @@
 import sys
 import xml.etree.ElementTree as ET
+from pprint import pprint
 from xml.dom import minidom
 
 
@@ -16,6 +17,7 @@ def print_pretty_xml(root):
         end=""
     )
 
+
 def print_xml(root):
     rough_string = ET.tostring(root, 'utf-8').decode()
     print(
@@ -24,6 +26,16 @@ def print_xml(root):
         end=""
     )
 
+
+def get_key_name_debug(iter):
+    for key, name in map(lambda x: x.strip().split("\t"), iter):
+        debug_print(key, name)
+        yield key, name
+
+
+def debug_print(*obj):
+    # pprint(*obj, stream=sys.stderr)
+    pass
 
 
 # 音が出ないノート

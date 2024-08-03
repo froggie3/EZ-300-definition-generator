@@ -1,19 +1,10 @@
 #!/usr/bin/env python3
 
 import argparse
-import sys
 import xml.etree.ElementTree as ET
 
 from library import common
-
-
-def get_key_name_debug(iter):
-    for key, name in map(lambda x: x.strip().split("\t"), iter):
-        print(
-            key, name,
-            file=sys.stderr
-        )
-        yield key, name
+from library.common import debug_print
 
 
 def build_tree(args, iterator):
@@ -39,7 +30,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='プログラムチェンジに対応する Tone リストから XML ファイルを生成します。',
     )
-    parser.add_argument('tonefile', type=str,
+    parser.add_argument('tonefile', type=argparse.FileType(),
                         help='Tone リスト （`-` を指定すると標準入力を受け付けます）')
     parser.add_argument('msb', type=str, help='MSB')
     parser.add_argument('lsb', type=str, help='LSB')
@@ -47,18 +38,11 @@ def main():
     parser.add_argument('name', type=str, help='プログラムチェンジ名')
     args = parser.parse_args()
 
-    print(
-        args,
-        file=sys.stderr  # sys.stderr
-    )
+    debug_print(args)
 
-    file = args.tonefile if args.tonefile != "-" else "/dev/stdin"
-
-    with open(file, mode='r', encoding='utf-8') as file:
-        # iterator = get_key_name_debug(file) # for debugging
-        iterator = (x.strip().split("\t") for x in file)
-        root = build_tree(args, iterator)
-        common.print_xml(root)
+    iterator = (x.strip().split("\t") for x in args.tonefile)
+    root = build_tree(args, iterator)
+    common.print_xml(root)
 
 
 if __name__ == '__main__':

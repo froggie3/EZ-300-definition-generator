@@ -1,27 +1,30 @@
 #!/usr/bin/env python3
 
-import sys
+import argparse
 import itertools
 
 
-def readlines_wrapper(lines):
+def calc_line_diff(current: list, next: list):
     """
-    >>> "\\n".join(readlines_wrapper(['9999 aaa\\n']))
-    ''
-    >>> "\\n".join(readlines_wrapper(['9999 aaa\\n', '19998 bbb\\n', '29997 ccc\\n']))
-    '9999\\t19998\\taaa\\n19998\\t29997\\tbbb'
+    >>> "\\n".join(calc_line_diff(['1', 'ピアノ', 'PIANO'], ['8', 'エレピ', 'E.PIANO']))
+    '1\\t8\\tピアノ\\tPIANO'
     """
-    for couple_lines in itertools.pairwise(lines):
-        current, next = couple_lines
-        current_start, *ret = current.split()
-        next_start, *_ = next.split()
-        # print(current_start)
-        yield "\t".join([current_start, next_start, *ret])
+    current_start, *ret = current
+    next_start, *_ = next
+    yield "\t".join([current_start, next_start, *ret])
 
 
 def main():
-    lines = sys.stdin.readlines()
-    print("\n".join(readlines_wrapper(lines)))
+    parser = argparse.ArgumentParser(
+        description='マップファイルの 2 つのレコードの通し番号から、 '
+        '1 レコードに相当する範囲を計算します。',
+    )
+    parser.add_argument('mapfile', type=argparse.FileType(),
+                        help='マップファイル （`-` を指定すると標準入力を受け付けます）')
+    args = parser.parse_args()
+    for current, next in itertools.pairwise(
+            x.strip().split("\t") for x in args.mapfile):
+        print("\n".join(calc_line_diff(current, next)))
 
 
 if __name__ == "__main__":

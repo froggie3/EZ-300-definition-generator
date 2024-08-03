@@ -3,32 +3,28 @@
 import argparse
 import xml.etree.ElementTree as ET
 
-from library import common
+from library.common import debug_print, print_pretty_xml
 
 
-def read_mapfile(filename):
+def read_mapfile(file):
     """マップデータの読み込み"""
     maps = []
-    with open(filename, 'r', encoding='utf-8') as file:
-        for line in file:
-            parts = line.strip().split('\t')
-            maps.append((int(parts[0]), int(parts[1]), parts[2], parts[3]))
+    for parts in (line.strip().split('\t') for line in file):
+        maps.append((int(parts[0]), int(parts[1]), parts[2], parts[3]))
     return maps
 
 
-def read_elements(filename):
+def read_elements(file):
     """要素データの読み込み"""
     elements = []
-    with open(filename, 'r', encoding='utf-8') as file:
-        for line in file:
-            parts = line.strip().split()
-            index = int(parts[0])
-            msb = int(parts[1])
-            lsb = int(parts[2])
-            pc = int(parts[3])
-            bank_name_en = parts[4].replace("_", " ")
-            bank_name_ja = parts[5].replace("_", " ")
-            elements.append((index, msb, lsb, pc, bank_name_en, bank_name_ja))
+    for parts in (line.strip().split() for line in file):
+        index = int(parts[0])
+        msb = int(parts[1])
+        lsb = int(parts[2])
+        pc = int(parts[3])
+        bank_name_en = parts[4].replace("_", " ")
+        bank_name_ja = parts[5].replace("_", " ")
+        elements.append((index, msb, lsb, pc, bank_name_en, bank_name_ja))
     return elements
 
 
@@ -64,14 +60,16 @@ def create_xml(maps, elements):
 def main():
     """メイン処理"""
     parser = argparse.ArgumentParser(description='Mapと要素のデータからXMLを生成します。')
-    parser.add_argument('mapfile', type=str, help='マップファイルのパス')
-    parser.add_argument('elementsfile', type=str, help='要素ファイルのパス')
+    parser.add_argument('mapfile', type=argparse.FileType(), help='マップファイルのパス')
+    parser.add_argument(
+        'elementsfile', type=argparse.FileType(), help='要素ファイルのパス')
     args = parser.parse_args()
+    debug_print(args)
 
     maps = read_mapfile(args.mapfile)
     elements = read_elements(args.elementsfile)
     xml_root = create_xml(maps, elements)
-    common.print_pretty_xml(xml_root)
+    print_pretty_xml(xml_root)
 
 
 if __name__ == '__main__':
