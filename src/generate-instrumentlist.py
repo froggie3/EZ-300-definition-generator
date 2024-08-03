@@ -22,9 +22,9 @@ def read_elements(iterator):
         msb = int(parts[1])
         lsb = int(parts[2])
         pc = int(parts[3])
-        bank_name_en = parts[4].replace("_", " ")
-        bank_name_ja = parts[5].replace("_", " ")
-        elements.append((index, msb, lsb, pc, bank_name_en, bank_name_ja))
+        bank_name_ja = parts[4].replace("_", " ")
+        bank_name_en = parts[5].replace("_", " ")
+        elements.append((index, msb, lsb, pc, bank_name_ja, bank_name_en))
     return elements
 
 
@@ -37,7 +37,7 @@ def create_xml(maps, elements):
         map_elem = ET.SubElement(root, "Map", Name=map_jp)
 
         for elem in elements:
-            index, msb, lsb, pc, bank_name_en, bank_name_ja = elem
+            index, msb, lsb, pc, bank_name_ja, bank_name_en = elem
             if map_start <= index < map_end:
                 pc_elem = None
                 for child in map_elem:

@@ -28,7 +28,7 @@ def print_xml(root):
 
 
 def debug_print(*obj):
-    # pprint(*obj, stream=sys.stderr)
+    pprint(*obj, stream=sys.stderr)
     pass
 
 

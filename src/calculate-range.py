@@ -17,10 +17,7 @@ def calc_line_diff(current_line: list, next_line: list):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description='マップファイルの 2 つのレコードの通し番号から、 '
-        '1 レコードに相当する範囲を計算します。',
-    )
+    parser = argparse.ArgumentParser(description='各マップの始点と終点を計算します。')
     parser.add_argument('mapfile', type=argparse.FileType(),
                         help='マップファイル （`-` を指定すると標準入力を受け付けます）')
     args = parser.parse_args()

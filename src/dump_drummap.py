@@ -12,6 +12,7 @@ def build_tree(args, iterator):
     bank = ET.SubElement(root, "Bank", Name=args.name, MSB=args.msb,
                          LSB=args.lsb)
 
+    # debug_print(list(iterator))
     for key, name in iterator:
         if name != common.MASK_STRING:
             ET.SubElement(bank, "Tone", Name=name, Key=key)
