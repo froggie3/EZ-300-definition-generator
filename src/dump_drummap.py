@@ -36,11 +36,12 @@ def main():
     parser.add_argument('lsb', type=str, help='LSB')
     parser.add_argument('pc', type=str, help='プログラムチェンジ番号')
     parser.add_argument('name', type=str, help='プログラムチェンジ名')
-    args = parser.parse_args()
 
+    args = parser.parse_args()
     debug_print(args)
 
     iterator = (x.strip().split("\t") for x in args.tonefile)
+
     root = build_tree(args, iterator)
     common.print_xml(root)
 

@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 
 import argparse
-import itertools
+from itertools import pairwise
+
+from library.common import debug_print
 
 
-def calc_line_diff(current: list, next: list):
+def calc_line_diff(current_line: list, next_line: list):
     """
     >>> "\\n".join(calc_line_diff(['1', 'ピアノ', 'PIANO'], ['8', 'エレピ', 'E.PIANO']))
     '1\\t8\\tピアノ\\tPIANO'
     """
-    current_start, *ret = current
-    next_start, *_ = next
+    current_start, *ret = current_line
+    next_start, *_ = next_line
     yield "\t".join([current_start, next_start, *ret])
 
 
@@ -22,9 +24,12 @@ def main():
     parser.add_argument('mapfile', type=argparse.FileType(),
                         help='マップファイル （`-` を指定すると標準入力を受け付けます）')
     args = parser.parse_args()
-    for current, next in itertools.pairwise(
-            x.strip().split("\t") for x in args.mapfile):
-        print("\n".join(calc_line_diff(current, next)))
+    debug_print(args)
+
+    iterator = (x.strip().split("\t") for x in args.mapfile)
+
+    for first, second in pairwise(iterator):
+        print("\n".join(calc_line_diff(first, second)))
 
 
 if __name__ == "__main__":

@@ -27,12 +27,6 @@ def print_xml(root):
     )
 
 
-def get_key_name_debug(iter):
-    for key, name in map(lambda x: x.strip().split("\t"), iter):
-        debug_print(key, name)
-        yield key, name
-
-
 def debug_print(*obj):
     # pprint(*obj, stream=sys.stderr)
     pass

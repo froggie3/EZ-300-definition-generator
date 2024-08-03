@@ -6,18 +6,18 @@ import xml.etree.ElementTree as ET
 from library.common import debug_print, print_pretty_xml
 
 
-def read_mapfile(file):
+def read_mapfile(iterator):
     """マップデータの読み込み"""
     maps = []
-    for parts in (line.strip().split('\t') for line in file):
+    for parts in iterator:
         maps.append((int(parts[0]), int(parts[1]), parts[2], parts[3]))
     return maps
 
 
-def read_elements(file):
+def read_elements(iterator):
     """要素データの読み込み"""
     elements = []
-    for parts in (line.strip().split() for line in file):
+    for parts in iterator:
         index = int(parts[0])
         msb = int(parts[1])
         lsb = int(parts[2])
@@ -60,14 +60,19 @@ def create_xml(maps, elements):
 def main():
     """メイン処理"""
     parser = argparse.ArgumentParser(description='Mapと要素のデータからXMLを生成します。')
-    parser.add_argument('mapfile', type=argparse.FileType(), help='マップファイルのパス')
-    parser.add_argument(
-        'elementsfile', type=argparse.FileType(), help='要素ファイルのパス')
+    parser.add_argument('mapfile', type=argparse.FileType(),
+                        help='マップファイルのパス')
+    parser.add_argument('elementsfile', type=argparse.FileType(),
+                        help='要素ファイルのパス')
     args = parser.parse_args()
     debug_print(args)
 
-    maps = read_mapfile(args.mapfile)
-    elements = read_elements(args.elementsfile)
+    iterator_maps = (x.strip().split('\t') for x in args.mapfile)
+    iterator_elements = (x.strip().split() for x in args.elementsfile)
+
+    maps = read_mapfile(iterator_maps)
+    elements = read_elements(iterator_elements)
+
     xml_root = create_xml(maps, elements)
     print_pretty_xml(xml_root)
 
