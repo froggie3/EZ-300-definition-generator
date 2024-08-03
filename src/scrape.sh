@@ -3,11 +3,6 @@
 # 現在のスクリプトのディレクトリを取得
 export SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-# 前処理スクリプト
-# 表はPDFから全部コピペして貼り付ける
-# プログラムチェンジが割り当てられてないやつは作業しないので貼り付けないこと
-# （デュアルとかアルペジオとか）
-
 # 作業ディレクトリに移動
 cd "$SCRIPT_DIR/.."
 
@@ -15,7 +10,6 @@ cd "$SCRIPT_DIR/.."
 export WORKDIR=`mktemp -d`
 export ORIGINAL_DIR="$SCRIPT_DIR/../original/voices"
 export DIST_DIR="$SCRIPT_DIR/../dist"
-export DIST_DIR_TMP=`mktemp -d`
 export TEMPLATES_DIR="$SCRIPT_DIR/../templates"
 
 
@@ -25,11 +19,11 @@ mkdir -p $DIST_DIR
 # 大事な元ファイルをバックアップ
 cp -f $ORIGINAL_DIR/* $WORKDIR
 
-
-
-
-
-# InstrumentList を変換
+# ---------------- #
+#                  #
+#  InstrumentList  #
+#                  #
+# ---------------- #
 
 #
 # データをクリーニング
@@ -62,21 +56,21 @@ paste \
     <( grep -A 1 -E '^[^0-9]*$' ./ja.txt | grep -E '[0-9]+' | awk '{ print $1 }' ) \
     <( grep -E '^[^0-9]*$'      ./ja.txt ) \
     <( grep -E '^[^0-9]*$'      ./en.txt | tr ' ' '_' ) \
-    > $DIST_DIR_TMP/mapfile.txt
+    > $WORKDIR/mapfile.txt
 
 
 #
 # 各マップの始点と終点を適切に計算させるため、番兵を置く
 #
 
-tail -1 ./en.txt | awk '{ print $1"\tNil\tNil" }' >> "$DIST_DIR_TMP/mapfile.txt"
+tail -1 ./en.txt | awk '{ print $1"\tNil\tNil" }' >> "$WORKDIR/mapfile.txt"
 
 
 #
 # 各マップの始点と終点を計算する
 #
 
-"$SCRIPT_DIR/calculate-range.py" "$DIST_DIR_TMP/mapfile.txt" > "$DIST_DIR_TMP/mapfile_ranged.txt"
+"$SCRIPT_DIR/calculate-range.py" "$WORKDIR/mapfile.txt" > "$WORKDIR/mapfile_ranged.txt"
 
 # 
 # データが存在しない行を削除し、ソートしてユニーク化
@@ -111,16 +105,15 @@ paste <( awk 'BEGIN { OFS="@" } { print $1, $2, $3, $4 }' "./en.txt.cleaned" ) <
 
 join -t $'\t' ./{ja,en}.txt.joined | \
 tr '@' '\t' | \
-sort -n -k1 > $DIST_DIR_TMP/elementsfile.txt
+sort -n -k1 > $WORKDIR/elementsfile.txt
 
 
 
-
-
-
-#
-# DrumSetList の生成
-#
+# --------------- #
+#                 #
+#   DrumSetList   #
+#                 #
+# --------------- #
 
 export DRUM_VOICES_START=`head -n1 "$SCRIPT_DIR/../original/drums/drum-voices.txt" | awk '{ print $1 }'`  # 242
 
@@ -188,7 +181,7 @@ xargs -0 -l echo $SCRIPT_DIR/dump_drummap.py | bash - >> $WORKDIR/dr_bucket
 #
 
 cat \
-    <( $SCRIPT_DIR/generate-instrumentlist.py $DIST_DIR_TMP/mapfile_ranged.txt $DIST_DIR_TMP/elementsfile.txt | tail -n +2 ) \
+    <( $SCRIPT_DIR/generate-instrumentlist.py $WORKDIR/mapfile_ranged.txt $WORKDIR/elementsfile.txt | tail -n +2 ) \
     <( $SCRIPT_DIR/drumlist_from_bucket.py $WORKDIR/dr_bucket | tail -n +2 ) | \
     sed -E 's/^/        /g' \
     > $WORKDIR/xml_content
@@ -198,8 +191,8 @@ cat \
     $WORKDIR/xml_content \
     $TEMPLATES_DIR/footer.txt | \
     iconv -f utf-8 -t shift-jis \
-    > $DIST_DIR/EZ-300_export.xml
-    # tee $DIST_DIR/EZ-300_export.xml
+    > $DIST_DIR/EZ-J210_export.xml
+    # tee $DIST_DIR/EZ-J210_export.xml
 
 popd > /dev/null
 
