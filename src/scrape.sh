@@ -41,8 +41,13 @@ cp "$WORKDIR/ja.txt" "$WORKDIR/ja.txt.old"
 sed -E 's/ \*+//g' "$WORKDIR/en.txt.old" | perl -pe 's/S\.Art Lite\n/S.Art Lite /g' > "$WORKDIR/en.txt"
 sed -E 's/ \*+//g' "$WORKDIR/ja.txt.old" | perl -pe 's/S\.Art Lite\n/S.Art Lite /g' > "$WORKDIR/ja.txt"
 
+# 
+# 日本語だけの処理
+#
 # 'perl -0pe' に関しては 'Using Perl regex over multiple lines' を参照
 # https://superuser.com/questions/887578/using-perl-regex-over-multiple-lines
+#
+
 cp "$WORKDIR/ja.txt" "$WORKDIR/ja.txt.old"
 perl -0pe 's/スタンダードキット 1\n\+ インド/スタンダードキット 1 + インド/g' "$WORKDIR/ja.txt.old" > "$WORKDIR/ja.txt"
 
@@ -70,23 +75,31 @@ tail -1 ./en.txt | awk '{ print $1"\tNil\tNil" }' >> "$DIST_DIR_TMP/mapfile.txt"
 #
 # 各マップの始点と終点を計算する
 #
+
 "$SCRIPT_DIR/calculate-range.py" "$DIST_DIR_TMP/mapfile.txt" > "$DIST_DIR_TMP/mapfile_ranged.txt"
 
-for f in ./{ja,en}.txt; do
-    # E.PIANO  // このようなデータが存在しない行を削除し、ソートしてユニーク化
-    # 8 0 118 5 Cool! SuitcaseEP
-    perl -pe 's/^[^0-9]+//g' "$f" | \
-    sort -nk1 | \
-    uniq > "$f.cleaned"
+# 
+# データが存在しない行を削除し、ソートしてユニーク化
+#
+# E.PIANO // この行を削除 
+# 8 0 118 5 Cool! SuitcaseEP
+#
 
-    # 日本語と英語で同じフィールドを結合
-    # Joining multiple fields in text files on Unix
-    # https://stackoverflow.com/questions/2619562/
-    paste \
-        <( awk 'BEGIN { OFS="@" } { print $1, $2, $3, $4 }' "$f.cleaned" ) \
-        <( cut -d ' ' -f 5- "$f.cleaned" | sed -E 's/ /_/g' ) \
-        > "$f.joined"
-done
+perl -pe 's/^[^0-9]+//g' "./ja.txt" | sort -nk1 | uniq > "./ja.txt.cleaned"
+perl -pe 's/^[^0-9]+//g' "./en.txt" | sort -nk1 | uniq > "./en.txt.cleaned"
+
+
+#
+# 日本語と英語で同じフィールドを結合
+#
+# Joining multiple fields in text files on Unix
+# https://stackoverflow.com/questions/2619562/
+#
+
+paste <( awk 'BEGIN { OFS="@" } { print $1, $2, $3, $4 }' "./ja.txt.cleaned" ) <( cut -d ' ' -f 5- "./ja.txt.cleaned" | sed -E 's/ /_/g' ) > "./ja.txt.joined"
+paste <( awk 'BEGIN { OFS="@" } { print $1, $2, $3, $4 }' "./en.txt.cleaned" ) <( cut -d ' ' -f 5- "./en.txt.cleaned" | sed -E 's/ /_/g' ) > "./en.txt.joined"
+
+
 
 #
 # '@' で圧縮していたフィールドを展開
@@ -151,7 +164,7 @@ join \
 
 
 #
-# Tone リストから動的に dump_drummap.py への引数を生成して実行（例）。
+# Tone リストから動的に dump_drummap.py への引数を生成して実行（例）
 #
 # $SCRIPT_DIR/dump_drummap.py $WORKDIR/242.txt 127 0 88 'Power Kit' >> $WORKDIR/dr_bucket
 # $SCRIPT_DIR/dump_drummap.py $WORKDIR/243.txt 127 0 1 'Standard Kit 1' >> $WORKDIR/dr_bucket
